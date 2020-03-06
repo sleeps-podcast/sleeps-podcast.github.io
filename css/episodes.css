@@ -37,16 +37,6 @@ img.logo:hover {
   transform:rotate(-75deg);
 }
 
-/*-- EPISODE DESCRIPTION --*/
-
-h2 {
-  padding:0 0 .7em;
-  font-size:1.1em;
-  line-height:1.4;
-  font-weight:400;
-  width:50%;
-}
-
 /*-- EPISODE TITLE --*/
 
 h3 {
@@ -65,7 +55,7 @@ h4 {
   font-weight:400;
   font-size:2em;
   padding:0;
-  margin:.2em 0 1em;
+  margin:.2em 0 .8em;
 }
 
 /*-- PERFORMED BY --*/
@@ -74,9 +64,19 @@ h5 {
   font-weight:400;
   font-size:.8em;
   letter-spacing:.2pt;
-  padding:0 0 2.3em;
+  padding:0 0 4em;
   margin:0;
   color:#5c6bb1;
+}
+
+/*-- EPISODE DESCRIPTION --*/
+
+h2 {
+  padding:0 0 .7em;
+  font-size:1.1em;
+  line-height:1.4;
+  font-weight:400;
+  width:50%;
 }
 
 img.share {
