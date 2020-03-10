@@ -35,53 +35,27 @@ a {
 img.logo {
   padding:3vw;
   margin:0;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 img.logo:hover {
   transform:rotate(-75deg);
 }
 
-/*-- INTRO --*/
+/*-- HEADER --*/
 
-h1 {
-  color:#617bff;
-  text-align:center;
-  font-weight:400;
-  font-size:2.5em;
-  line-height:1.2;
-  width:100%;
-  padding:2em 20vw 0;
+.header {
+  font-size:4.5vw;
+  font-weight:700;
+  color:#34d070;
+  padding:5vw 0 3vw 7vw;
+  margin:0;
 }
 
-/*-- AUDIO --*/
-
-.play {
-  background-color:black;
-  border-radius:25px;
-  width:0;
-  padding:0;
-  margin:0 0 0 30px;
-}
-
-/*-- EPISODES --*/
+/*-- BOXES CONTAINER --*/
 
 .episodes {
   margin:0;
-  z-index:99999;
-}
-
-.intro {
-  padding:0 11em 0;
-  margin:0;
-  width:100%;
-}
-
-.intro h1 {
-  font-size:4.5vw;
-  font-weight:bold;
-  color:#34d070;
-  margin:3em 0 0;
   padding:0;
 }
 
@@ -135,7 +109,6 @@ h1 {
   color:black;
   border-bottom:2.5px solid black;
 }
-
 
 .episode-box {
   z-index:99999;
