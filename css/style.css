@@ -52,13 +52,6 @@ img.logo:hover {
   margin:0;
 }
 
-/*-- BOXES CONTAINER --*/
-
-.episodes {
-  margin:0;
-  padding:0 2vw 0;
-}
-
 /*-- INTRO BOX --*/
 
 .intro-box {
@@ -104,6 +97,13 @@ img.logo:hover {
   border-bottom:2.5px solid black;
 }
 
+/*-- EPISODE BOXES CONTAINER --*/
+
+.episodes {
+  margin:0;
+  padding:0 2vw 0;
+}
+
 /*-- EPISODE BOX --*/
 
 .episode-box {
@@ -137,7 +137,6 @@ img.logo:hover {
   padding:0;
   margin:0 0 .35em;
   line-height:1;
-  overflow:hidden;
 }
 
 /*-- EPISODE AUTHOR --*/
@@ -158,7 +157,6 @@ img.logo:hover {
   font-size:.8em;
   padding:0;
   margin:0;
-  line-height:1.7;
 }
 
 .episode-box h6 {
