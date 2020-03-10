@@ -45,9 +45,9 @@ img.logo:hover {
 /*-- HEADER --*/
 
 .header {
+  color:#34d070;
   font-size:4.5vw;
   font-weight:700;
-  color:#34d070;
   padding:5vw 0 3vw 7vw;
   margin:0;
 }
@@ -56,73 +56,69 @@ img.logo:hover {
 
 .episodes {
   margin:0;
-  padding:0;
+  padding:0 2vw 0;
 }
 
-.special-box {
-  z-index:99999;
+/*-- INTRO BOX --*/
+
+.intro-box {
   background-color:#e5e5ec;
   width:auto;
-  min-height:500px;
-  max-height:500px;
-  border-radius:0;
-  color:#00025d;
-  font-weight:400;
-  font-size:.8em;
-  line-height:1.5;
+  overflow:hidden;
+  height:500px;
   margin:30px 15px;
   padding:30px;
-  overflow:auto;
   background-position: top right;
-  background-size:10%;
+  background-size:8%;
   background-repeat:no-repeat;
 }
 
-.special-box h1 {
+.intro-box p {
   color:#00025d;
-  font-weight:500;
-  font-size:1.6em;
-  line-height:1.3;
-  margin:0;
-  padding:0;
-  text-align:left;
+  font-weight:400;
+  font-size:18px;
+  line-height:1.5;
 }
 
-.special-box h2 {
+.intro-box h1 {
   color:#00025d;
   font-weight:700;
-  font-size:1em;
+  font-size:12px;
+  text-align:left;
   line-height:1.3;
   margin:0 0 1em;
   padding:0;
-  text-align:left;
 }
 
-.special-box a {
+/*-- INTRO BOX - LINK TO STUDY --*/
+
+.intro-box a {
   color:#00025d;
   font-weight:bold;
   transition: .3s ease-in-out;
   border-bottom:2.5px solid transparent;
 }
 
-.special-box a:hover {
+.intro-box a:hover {
   color:black;
   border-bottom:2.5px solid black;
 }
 
+/*-- EPISODE BOX --*/
+
 .episode-box {
-  z-index:99999;
+  color:#617bff;
   background-color:#00025d;
   width:auto;
   height:500px;
   border-radius:20px;
-  color:#617bff;
   padding:0;
   margin:30px 15px;
   background-position: bottom right;
   background-size:60%;
   background-repeat:no-repeat;
   transition: .1s ease-in-out;
+  z-index:99999;
 }
 
 .episode-box:hover {
