@@ -26,11 +26,19 @@ a:hover {
   color:grey;
 }
 
+.logo {
+  width:14vw;
+  height:14vw;
+  position:fixed;
+  top:3vw;
+  right:3vw;
+  z-index:999999;
+}
+
 img.logo {
-  width:50px;
-  padding:5em 0 3em;
+  padding:3vw;
   margin:0;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 img.logo:hover {
@@ -88,14 +96,14 @@ img.share {
 
 h6 a {
   color:#00025d;
-  top:6em;
-  right:6em;
+  top:9vw;
+  left:9vw;
   position:fixed;
   text-align:center;
   font-weight:bold;
-  font-size:1.2em;
+  font-size:10px;
   letter-spacing:.2pt;
-  padding:15px 25px;
+  padding:15px 20px;
   background-color:#617bff;
   border-radius:50px;
   line-height:1;
@@ -125,7 +133,7 @@ h6 a:hover {
   background-size:45%;
   background-repeat:no-repeat;
   margin:0;
-  padding:0 0 0 6.9em;
+  padding:13em 0 0 6.9em;
 }
 
 ul.box {
