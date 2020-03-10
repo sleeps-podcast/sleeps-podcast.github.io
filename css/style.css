@@ -256,7 +256,7 @@ td, th {
   padding: 1vw;
 }
 
-/* Create 3 equal columns that sits next to each other */
+/* 3 Columns Layout */
 .column {
   -ms-flex: 33%; /* IE10 */
   flex: 33%;
@@ -264,7 +264,7 @@ td, th {
   padding: 0;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Medium Responsive layout - makes a 2 column-layout instead of four columns */
 @media screen and (max-width: 1000px) {
   .column {
     -ms-flex: 50%;
@@ -273,7 +273,6 @@ td, th {
   }
 
   /*-- EPISODE BOX --*/
-
 
 .episode-box {
   padding:4vw;
@@ -285,13 +284,22 @@ td, th {
 
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Mobile Responsive layout - makes the 2 columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .column {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
   }
+
+  .episode-box {
+  padding:7vw;
+}
+
+.episode-box h1 {
+  font-size:9vw;
+}
+
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
