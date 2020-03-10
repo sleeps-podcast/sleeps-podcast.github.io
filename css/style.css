@@ -4,42 +4,42 @@
   box-sizing: border-box;
 }
 
+/*-- UNIVERSAL - STYLE --*/
+
 body {
   background-color: black;
-  background-size:40%;
-  background-attachment:fixed;
-  background-repeat:repeat;
   font-family: 'DM Sans', 'Avenir', Helvetica Neue, sans-serif;
-  letter-spacing:0.008em;
+  letter-spacing:0.01em;
+  overflow-x:hidden;
   margin:0;
   padding:0;
-  overflow-x:hidden;
-  color:white;
-  letter-spacing:-.2pt;
 }
+
+/*-- UNIVERSAL - LINKS --*/
 
 a {
   text-decoration:none;
 }
 
+/*-- LOGO --*/
+
 .logo {
-  width:140px;
-  height:140px;
+  width:14vw;
+  height:14vw;
   position:fixed;
-  top:2em;
-  right:5.5em;
+  top:3vw;
+  right:3vw;
   z-index:999999;
 }
 
 img.logo {
-  padding:20px;
+  padding:3vw;
   margin:0;
   transition: .6s ease-in-out;
 }
 
 img.logo:hover {
   transform:rotate(-75deg);
-    text-decoration:none;
 }
 
 /*-- INTRO --*/
@@ -52,40 +52,6 @@ h1 {
   line-height:1.2;
   width:100%;
   padding:2em 20vw 0;
-}
-
-/*-- EPISODE TITLE --*/
-
-h3 {
-  font-weight:400;
-  font-size:2.4em;
-  font-weight:bold;
-  padding:0 30px 0;
-  margin:0;
-  line-height:1;
-}
-
-/*-- EPISODE AUTHOR --*/
-
-h4 {
-  font-weight:400;
-  font-size:2em;
-  padding:15 30px 0;
-  margin:0;
-}
-
-/*-- PERFORMED BY --*/
-
-h5 {
-  bottom:0;
-  left:0;
-  font-weight:400;
-  font-size:.8em;
-  letter-spacing:.2pt;
-  padding:0 30px 35px;
-  margin:1em 0 0;
-  line-height:1.7;
-  color:#5c6bb1;
 }
 
 /*-- AUDIO --*/
@@ -114,7 +80,6 @@ h5 {
 .intro h1 {
   font-size:4.5vw;
   font-weight:bold;
-  letter-spacing:.2pt;
   color:#34d070;
   margin:3em 0 0;
   padding:0;
@@ -130,7 +95,6 @@ h5 {
   color:#00025d;
   font-weight:400;
   font-size:.8em;
-  letter-spacing:.15pt;
   line-height:1.5;
   margin:30px 15px;
   padding:30px;
@@ -193,6 +157,40 @@ h5 {
   background-size:65%;
 }
 
+/*-- EPISODE TITLE --*/
+
+.episode-box h3 {
+  font-weight:400;
+  font-size:3.2vw;
+  font-weight:bold;
+  padding:0 30px 0;
+  margin:0;
+  line-height:1;
+  overflow:hidden;
+}
+
+/*-- EPISODE AUTHOR --*/
+
+.episode-box h4 {
+  font-weight:400;
+  font-size:1.9vw;
+  padding:15 30px 0;
+  margin:0;
+}
+
+/*-- PERFORMED BY --*/
+
+.episode-box h5 {
+  bottom:0;
+  left:0;
+  font-weight:400;
+  font-size:.8em;
+  padding:0 30px 35px;
+  margin:1em 0 0;
+  line-height:1.7;
+  color:#5c6bb1;
+}
+
 .episode-box h6 {
   padding:50% 4vw 0;
   font-weight:400;
@@ -252,7 +250,7 @@ ul.footer {
 
 .credit-category {
   text-transform:uppercase;
-  letter-spacing:2px;
+  letter-spacing:0.1em;
   font-size:.7em;
   color:#617bff;
 }
@@ -285,10 +283,10 @@ td, th {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 4em;
+  padding: 1vw;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create 3 equal columns that sits next to each other */
 .column {
   -ms-flex: 33%; /* IE10 */
   flex: 33%;
