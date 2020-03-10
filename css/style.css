@@ -111,8 +111,9 @@ img.logo:hover {
   background-color:#00025d;
   width:auto;
   height:500px;
-  border-radius:20px;
-  padding:0;
+  border-radius:10px;
+  border:1px solid black;
+  padding:3vw;
   margin:30px 15px;
   background-position: bottom right;
   background-size:60%;
@@ -124,40 +125,40 @@ img.logo:hover {
 .episode-box:hover {
   color:#a0b1ff;
   background-size:65%;
+  border:1px solid #617bff;
 }
 
 /*-- EPISODE TITLE --*/
 
-.episode-box h3 {
+.episode-box h1 {
   font-weight:400;
-  font-size:3.2vw;
+  font-size:3.5vw;
   font-weight:bold;
-  padding:0 30px 0;
-  margin:0;
+  padding:0;
+  margin:0 0 .35em;
   line-height:1;
   overflow:hidden;
 }
 
 /*-- EPISODE AUTHOR --*/
 
-.episode-box h4 {
+.episode-box h2 {
   font-weight:400;
   font-size:1.9vw;
-  padding:15 30px 0;
-  margin:0;
+  padding:0;
+  margin:0 0 1.7em;
 }
 
 /*-- PERFORMED BY --*/
 
-.episode-box h5 {
+.episode-box h3 {
   bottom:0;
   left:0;
   font-weight:400;
   font-size:.8em;
-  padding:0 30px 35px;
-  margin:1em 0 0;
+  padding:0;
+  margin:0;
   line-height:1.7;
-  color:#5c6bb1;
 }
 
 .episode-box h6 {
@@ -264,16 +265,28 @@ td, th {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
+
+  /*-- EPISODE BOX --*/
+
+
+.episode-box {
+  padding:4vw;
+}
+
+.episode-box h1 {
+  font-size:5.5vw;
+}
+
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
   .column {
     -ms-flex: 100%;
     flex: 100%;
