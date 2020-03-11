@@ -21,6 +21,17 @@ a {
   text-decoration:none;
 }
 
+/*-- HEADER --*/
+
+.header {
+  color:#34d070;
+  font-size:4.5vw;
+  font-weight:700;
+  padding:5vw 0 3vw 7vw;
+  margin:0;
+  line-height:1.2;
+}
+
 /*-- LOGO --*/
 
 .logo {
@@ -28,7 +39,7 @@ a {
   height:14vw;
   position:fixed;
   top:3vw;
-  right:3vw;
+  right:5vw;
   z-index:999999;
 }
 
@@ -42,21 +53,11 @@ img.logo:hover {
   transform:rotate(-75deg);
 }
 
-/*-- HEADER --*/
-
-.header {
-  color:#34d070;
-  font-size:4.5vw;
-  font-weight:700;
-  padding:5vw 0 3vw 7vw;
-  margin:0;
-}
-
 /*-- INTRO BOX --*/
 
 .intro-box {
   background-color:#e5e5ec;
-  width:auto;
+  width:33%;
   overflow:hidden;
   height:500px;
   margin:30px 15px;
@@ -64,6 +65,8 @@ img.logo:hover {
   background-position: top right;
   background-size:8%;
   background-repeat:no-repeat;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .intro-box p {
@@ -100,16 +103,18 @@ img.logo:hover {
 /*-- EPISODE BOXES CONTAINER --*/
 
 .episodes {
-  margin:0;
-  padding:0 2vw 0;
+	border-spacing: 15px;
+	margin:0;
+	padding:0 4vw 4vw;
 }
 
 /*-- EPISODE BOX --*/
 
 .episode-box {
+  display: table-cell;
   color:#617bff;
   background-color:#00025d;
-  width:auto;
+  width:33%;
   height:500px;
   border-radius:10px;
   border:1px solid black;
@@ -132,7 +137,7 @@ img.logo:hover {
 
 .episode-box h1 {
   font-weight:400;
-  font-size:3.5vw;
+  font-size:3.3vw;
   font-weight:bold;
   padding:0;
   margin:0 0 .35em;
