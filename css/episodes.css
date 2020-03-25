@@ -87,11 +87,6 @@ h2 {
   width:50%;
 }
 
-img.share {
-  padding:0 10px 0 0;
-  width:50px;
-}
-
 /*-- BACK BUTTON --*/
 
 h6 a {
@@ -146,6 +141,11 @@ ul.box {
 ul.share-buttons{
   list-style: none;
   padding: 0;
+}
+
+ul.share-buttons img {
+  width:30px;
+  margin-right:5px;
 }
 
 ul.share-buttons li{
