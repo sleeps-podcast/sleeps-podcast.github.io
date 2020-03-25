@@ -138,14 +138,28 @@ ul.box {
 
 /*-- SHARE BUTTONS --*/
 
+.share {
+  position:fixed;
+  bottom:3vw;
+  right:3vw;
+  z-index:999999;
+}
+
 ul.share-buttons{
   list-style: none;
   padding: 0;
+  margin:3vw 0 0;
 }
 
 ul.share-buttons img {
   width:30px;
   margin-right:5px;
+  transition: .1s ease-in-out;
+  opacity:.5;
+}
+
+ul.share-buttons img:hover {
+  opacity:1;
 }
 
 ul.share-buttons li{
