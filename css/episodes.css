@@ -72,8 +72,7 @@ h5 {
   font-weight:400;
   font-size:.8em;
   letter-spacing:.2pt;
-  padding:2em 0 0;
-  margin:0;
+  padding:1vw 0 0 0;
   color:#5c6bb1;
 }
 
@@ -116,10 +115,7 @@ h6 a:hover {
   background-size:45%;
   background-repeat:no-repeat;
   margin:0;
-  padding-top:4vw;
-  padding-left:8vw;
-  padding-right:0;
-  padding-bottom:0;
+  padding:4vw 0 8vw 8vw;
 }
 
 /*-- SCROLLBAR --*/
