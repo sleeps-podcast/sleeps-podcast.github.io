@@ -9,7 +9,7 @@
 body {
   background-color: black;
   font-family: 'DM Sans', 'Avenir', Helvetica Neue, sans-serif;
-  letter-spacing:0.01em;
+  letter-spacing:-.1pt;
   overflow-x:hidden;
   margin:0;
   padding:0;
