@@ -217,7 +217,7 @@ ul.box {
   padding:0;
 }
 
-/*-- FOOTER LINKS --*/
+/*-- CREDITS --*/
 
 
 .category {
@@ -225,23 +225,12 @@ ul.box {
   font-weight:400;
   font-size:12px;
   letter-spacing:.2;
-  text-align:left;
+  float:left;
   line-height:1.3;
   margin:0 1em 1em 0;
   padding:0;
-}
-
-.outro-box a {
-  color:white;
-  background-color:black;
-  font-weight:700;
-  font-size:12px;
-  width:120px;
-  padding:5px 10px;
-  margin:0 .3em 1em 0;
-  border:0;
-  border-radius:100px;
-  transition: .2s ease-in-out;
+  border-bottom:1px solid black;
+  width:100%;
 }
 
 ul.footer {
