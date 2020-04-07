@@ -120,8 +120,8 @@ img.logo:hover {
   border:1px solid black;
   padding:3vw;
   margin:30px 15px;
-  background-position: 90% 90%;
-  background-size:190px;
+  background-position: 105% 105%;
+  background-size:220px;
   background-repeat:no-repeat;
   transition: .1s ease-in-out;
   z-index:99999;
@@ -129,7 +129,7 @@ img.logo:hover {
 
 .episode-box:hover {
   color:#a0b1ff;
-  background-size:140px;
+  background-size:230px;
   border:1px solid #617bff;
 }
 
