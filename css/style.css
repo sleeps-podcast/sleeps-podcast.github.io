@@ -9,7 +9,7 @@
 body {
   background-color: black;
   font-family: 'DM Sans', 'Avenir', Helvetica Neue, sans-serif;
-  letter-spacing:-.1pt;
+  letter-spacing:0pt;
   overflow-x:hidden;
   margin:0;
   padding:0;
@@ -24,9 +24,9 @@ a {
 /*-- HEADER --*/
 
 .header {
-  color:#34d070;
+  color:white;
   font-size:4.5vw;
-  font-weight:700;
+  font-weight:400;
   padding:5vw 0 3vw 7vw;
   margin:0;
   line-height:1.2;
@@ -59,7 +59,7 @@ img.logo:hover {
   background-color:#e5e5ec;
   width:33%;
   overflow:hidden;
-  height:500px;
+  height:450px;
   margin:30px 15px;
   padding:30px;
   background-position: top right;
@@ -103,25 +103,25 @@ img.logo:hover {
 /*-- EPISODE BOXES CONTAINER --*/
 
 .episodes {
-	border-spacing: 15px;
-	margin:0;
-	padding:0 4vw 4vw;
+  border-spacing: 15px;
+  margin:0;
+  padding:0 4vw 4vw;
 }
 
 /*-- EPISODE BOX --*/
 
 .episode-box {
   display: table-cell;
-  color:#617bff;
+  color:white;
   background-color:#00025d;
   width:33%;
-  height:500px;
+  height:450px;
   border-radius:10px;
   border:1px solid black;
   padding:3vw;
   margin:30px 15px;
-  background-position: 105% 105%;
-  background-size:220px;
+  background-position: 0% 105%;
+  background-size:200px;
   background-repeat:no-repeat;
   transition: .1s ease-in-out;
   z-index:99999;
@@ -129,7 +129,7 @@ img.logo:hover {
 
 .episode-box:hover {
   color:#a0b1ff;
-  background-size:230px;
+  background-size:210px;
   border:1px solid #617bff;
 }
 
@@ -137,7 +137,7 @@ img.logo:hover {
 
 .episode-box h1 {
   font-weight:400;
-  font-size:3.3vw;
+  font-size:2.7vw;
   font-weight:bold;
   padding:0;
   margin:0 0 .35em;
@@ -150,16 +150,17 @@ img.logo:hover {
   font-weight:400;
   font-size:1.9vw;
   padding:0;
-  margin:0 0 1.7em;
+  margin:0 0 1em;
 }
 
 /*-- PERFORMED BY --*/
 
 .episode-box h3 {
+  color:rgba(255,255,255,.3);
   bottom:0;
   left:0;
   font-weight:400;
-  font-size:.8em;
+  font-size:12px;
   padding:0;
   margin:0;
 }
