@@ -36,7 +36,7 @@ background: linear-gradient(180deg, rgba(186,130,115,1) 0%, rgba(186,115,115,1) 
 
 /*-- BLACK TEXT --*/
 a, .listen a:hover, .intro-box p, .episode-box:hover {
-  color:#07101a;
+  color:rgb(186,130,115);
 }
 
 /*-- WHITE TEXT --*/
@@ -49,7 +49,7 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
   background-color:#f5c8a9;
 }
 
-/*-- MAIN PINK COLOUR - TEXT --*/
+/*-- LIGHT COLOUR - TEXT --*/
 .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a, .category {
   color:#f5c8a9;
 }
@@ -210,7 +210,7 @@ img.logo {
 }
 
 .episode-box:hover {
-  background-color:#f8aab6;
+  background-color:#ffdac1;
   background-position: bottom right;
   background-size:190px;
   background-repeat:no-repeat;
