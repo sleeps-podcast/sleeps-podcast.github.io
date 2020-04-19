@@ -36,8 +36,8 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 }
 
 /*-- WHITE TEXT --*/
-.header{
-  color:white;
+.header {
+  color:#ffecef;
 }
 
 /*-- MAIN COLOUR - ELEMENT BACKGROUNDS --*/
@@ -46,12 +46,12 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 }
 
 /*-- MAIN COLOUR - TEXT --*/
-.bar, .listen a, .cta-box p, .outro-box, .outro-box h1, .outro-box a, .category {
+.bar, .listen a, .cta-box p, .credits-box, .credits-box h1, .credits-box a, .category {
   color:#a65e6a;
 }
 
 /*-- MAIN COLOUR - ELEMENT BORDERS --*/
-.listen a, .cta-box, .outro-box {
+.listen a, .cta-box, .credits-box {
     border:2px solid #a65e6a;
 }
 
@@ -67,13 +67,20 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 }
 
 .logo {
-  height:100px;
+  height:120px;
   width:auto;
   position:fixed;
   top:5vw;
   left:7vw;
   z-index:999999;
+  background-color:black;
+  border-radius:50%;
 }
+
+img.logo {
+  padding:20px;
+}
+
 /*-- LISTEN BUTTONS --*/
 
 .bar {
@@ -96,7 +103,7 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
   text-align:center;
   font-size:12px;
   letter-spacing:.2pt;
-  padding:5px 10px;
+  padding:5px 15px;
   margin-left:10px;
   border-radius:50px;
   transition: .2s ease-in-out;
@@ -142,7 +149,7 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 
 .intro-box p {
   font-weight:400;
-  font-size:16px;
+  font-size:18px;
   line-height:1.3;
 }
 
@@ -161,7 +168,7 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 .intro-box a {
 
   font-weight:700;
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
   border-bottom:2.2px solid transparent;
 }
 
@@ -174,7 +181,7 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 .episodes {
   border-spacing: 15px;
   margin:0;
-  padding:0 4vw 4vw;
+  padding:0 4vw 6vw;
 }
 
 /*-- EPISODE BOX --*/
@@ -186,17 +193,24 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
   border-radius:10px;
   padding:3vw;
   margin:0;
-  background-position: bottom right;
-  background-size:190px;
-  background-repeat:no-repeat;
-  transition: .1s ease-in-out;
+  height:400px;
+  color:rgba(0,0,0,0);
+  background-size:210px;
   border:2px solid transparent;
-  z-index:99999;
+  background-size:70px;
+  background-repeat:space;
+  transition: .2s ease-in-out;
+  background-position: bottom right;
+
 }
 
 .episode-box:hover {
-  background-size:210px;
-  border:2px solid white;
+  background-color:#f8aab6;
+  background-position: bottom right;
+  background-size:190px;
+  background-repeat:no-repeat;
+  border:2px solid transparent;
+  z-index:99999;
 }
 
 /*-- EPISODE TITLE --*/
@@ -228,10 +242,23 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
   letter-spacing:1;
 }
 
-/*-- OUTRO BOX --*/
+/*-- FOOTER --*/
 
-.outro-box {
-  background-color:transparent;
+.footer {
+  font-weight:500;
+  color:#07101a;
+  background-color:rgba(255,255,255,.15);
+  margin:0;
+  padding:15px 0 0;
+  bottom:0;
+  height:50px;
+  text-align:center;
+  width:100%;
+}
+
+/*-- CREDITS BOX --*/
+
+.credits-box {
   width:33%;
   overflow:hidden;
   height:400px;
@@ -240,28 +267,30 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
   border-radius:10px;
   display: table-cell;
   vertical-align: middle;
-  text-align:center;
+  text-align:left;
 }
 
-.outro-box h1 {
+.credits-box h1 {
   font-weight:700;
   font-size:12px;
   letter-spacing:.2;
-  text-align:left;
   margin:0 0 .5em;
   padding:0;
 }
 
-.outro-box a {
-  color:white;
+.credits-box a {
+  color:#f8aab6;
   font-weight:700;
   font-size:12px;
   letter-spacing:.2;
-  line-height:1.8;
+  line-height:1.3;
+  transition: .2s ease-in-out;
+  padding:5px;
 }
 
-.outro-box a:hover {
-  color:white;
+.credits-box a:hover {
+  color:#ffecef;
+  padding-left:10px;
 }
 
 /*-- CREDITS --*/
@@ -273,6 +302,7 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
   margin:0 0 .5em;
   padding:0;
   width:100%;
+  border-left:6px solid transparent;
 }
 
 /*-- SCROLLBAR --*/
