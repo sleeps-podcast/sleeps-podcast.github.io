@@ -9,6 +9,7 @@
 
 body {
   background-color: black;
+  background-image:url('images/bg.gif');
   font-family: 'DM Sans', 'Avenir', Helvetica Neue, sans-serif;
   letter-spacing:0pt;
   overflow-x:hidden;
@@ -180,46 +181,47 @@ img.logo {
 /*-- OUTRO BOX --*/
 
 .outro-box {
-  background-color:#e9e9e9;
+  color:#FE3702;
+  background-color:transparent;
   width:33%;
   overflow:hidden;
   height:400px;
   margin:0;
-  padding:30px;
-  background-position: top right;
-  background-size:8%;
-  background-repeat:no-repeat;
+  padding:0 30px;
+  border-radius:10px;
   display: table-cell;
   vertical-align: middle;
+  text-align:center;
+  border:2px solid #FE3702;
 }
 
 .outro-box h1 {
-  color:black;
+  color:#FE3702;
   font-weight:700;
   font-size:12px;
   letter-spacing:.2;
   text-align:left;
-  line-height:1.5;
   margin:0 0 .5em;
   padding:0;
 }
 
 .outro-box a {
-  color:black;
+  color:#FE3702;
   font-weight:700;
   font-size:12px;
   letter-spacing:.2;
-  transition: .2s ease-in-out;
+  border-bottom:1.2px dashed #FE3702;
+  line-height:1.8;
 }
 
 .outro-box a:hover {
-border-bottom:2px solid black;
+
 }
 
 /*-- CREDITS --*/
 
 .category {
-  color:black;
+  color:#FE3702;
   font-weight:400;
   font-size:12px;
   letter-spacing:.2;
