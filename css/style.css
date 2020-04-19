@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');*/
 
 * {
   box-sizing: border-box;
@@ -272,7 +271,7 @@ img.logo {
 
 .credits-box h1 {
   font-weight:700;
-  font-size:12px;
+  font-size:10px;
   letter-spacing:.2;
   margin:0 0 .5em;
   padding:0;
@@ -281,7 +280,7 @@ img.logo {
 .credits-box a {
   color:#f8aab6;
   font-weight:700;
-  font-size:12px;
+  font-size:10px;
   letter-spacing:.2;
   line-height:1.4;
   transition: .2s ease-in-out;
@@ -296,7 +295,7 @@ img.logo {
 
 .category {
   font-weight:400;
-  font-size:12px;
+  font-size:10px;
   letter-spacing:.2;
   margin:0 0 .5em;
   padding:0;
