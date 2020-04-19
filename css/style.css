@@ -29,10 +29,16 @@ a {
 
 /*-- BACKGROUND COLOUR --*/
 
-body {
-background: rgb(186,130,115);
-background: linear-gradient(180deg, rgba(186,130,115,1) 0%, rgba(186,115,115,1) 100%);
+body, .logo {
+  background: rgb(186,130,115);
 }
+
+/*-- BACKGROUND GRADIENT 
+
+body {
+background: linear-gradient(180deg, rgba(186,130,115,1) 0%, rgba(186,115,115,1) 100%);
+}--*/
+
 
 /*-- PINK TEXT --*/
 a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box:hover, .footer {
@@ -72,7 +78,6 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box:hover, .footer {
   top:5vw;
   left:7vw;
   z-index:999999;
-  background-color:black;
   border-radius:50%;
 }
 
