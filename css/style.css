@@ -33,12 +33,6 @@ body, .logo, .mode {
   background: #bf8776;
 }
 
-/*-- DARK BACKGROUND --*/
-
-.episode-box {
-  background-color: #f5c8a9;
-}
-
 /*-- NIGHT BUTTON --*/
 
 .mode {
@@ -57,13 +51,17 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
 }
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.intro-box, .episode-box:hover, .listen a:hover, .footer {
+.intro-box, .episode-box, .listen a:hover, .footer {
   background-color:#d0cab9;
 }
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box {
     border:2px solid #d0cab9;
+}
+
+.episode-box:hover {
+  background-color:#f5c8a9;
 }
 
 /*-- HEADER --*/
