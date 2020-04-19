@@ -8,7 +8,6 @@
 /*-- UNIVERSAL - STYLE --*/
 
 body {
-  background-color: black;
   background-image:url('images/bg.gif');
   font-family: 'DM Sans', 'Avenir', Helvetica Neue, sans-serif;
   letter-spacing:0pt;
@@ -25,6 +24,12 @@ a {
 
 /*-- COLOURS --*/
 
+/*-- BACKGROUND COLOUR --*/
+
+body {
+  background-color: #07101a;
+}
+
 /*-- BLACK TEXT --*/
 a, .listen a:hover, .intro-box p, .episode-box:hover {
   color:black;
@@ -37,17 +42,17 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 
 /*-- MAIN COLOUR - ELEMENT BACKGROUNDS --*/
 .episode-box, .listen a:hover {
-  background-color:#FE3702;
+  background-color:#a65e6a;
 }
 
 /*-- MAIN COLOUR - TEXT --*/
 .bar, .listen a, .cta-box p, .outro-box, .outro-box h1, .outro-box a, .category {
-  color:#FE3702;
+  color:#a65e6a;
 }
 
 /*-- MAIN COLOUR - ELEMENT BORDERS --*/
 .listen a, .cta-box, .outro-box {
-    border:2px solid #FE3702;
+    border:2px solid #a65e6a;
 }
 
 /*-- HEADER --*/
@@ -248,15 +253,15 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 }
 
 .outro-box a {
+  color:white;
   font-weight:700;
   font-size:12px;
   letter-spacing:.2;
-  border-bottom:1.2px solid #FE3702;
   line-height:1.8;
 }
 
 .outro-box a:hover {
-
+  color:white;
 }
 
 /*-- CREDITS --*/
