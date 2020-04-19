@@ -198,7 +198,6 @@ img.logo {
   background-repeat:space;
   transition: .2s ease-in-out;
   background-position: bottom right;
-
 }
 
 .episode-box:hover {
@@ -363,11 +362,97 @@ img.logo {
 /* ----------- MOBILE LAYOUT - 1 COLUMNS ----------- */
 
 @media screen and (max-width: 640px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
+
+  .disappear {
+    display:none;
   }
+
+.logo {
+  height:80px;
+  width:auto;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:999999;
+  background-color:transparent;
+  border-radius:50%;
+}
+
+img.logo {
+  padding:20px;
+}
+
+/*-- LISTEN BUTTONS --*/
+
+.bar {
+  height:75px;
+  position:fixed;
+  background-color:black;
+}
+
+.listen {
+  padding:5.8vw;
+}
+
+.listen a {
+  font-weight:700;
+  text-align:center;
+  font-size:12px;
+  letter-spacing:.2pt;
+  padding:5px 15px;
+  margin-left:10px;
+  border-radius:50px;
+  transition: .2s ease-in-out;
+}
+
+.header {
+  font-size:7vw;
+  padding:35vw 0 12vw;
+}
+
+/*-- INTRO BOX --*/
+
+.intro-box p {
+  font-size:24px;
+}
+
+.intro-box h1 {
+  font-size:18px;
+}
+
+/*-- EPISODE TITLE --*/
+
+.episode-box h1 {
+  font-size:28px;
+}
+
+/*-- EPISODE AUTHOR --*/
+
+.episode-box h2 {
+  font-size:26px;
+}
+
+/*-- JOB TITLE --*/
+
+.episode-box h3 {
+  font-size:16px;
+}
+
+/*-- CREDITS BOX --*/
+
+.credits-box {
+  padding-top:5vw;
+  padding-bottom:5vw;
+}
+
+.credits-box a, .category {
+  font-size:18px;}
+
+.column {
+  -ms-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
+}
 
   .episode-box {
   padding:7vw;
