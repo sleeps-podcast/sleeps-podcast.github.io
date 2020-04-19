@@ -34,27 +34,22 @@ background: rgb(186,130,115);
 background: linear-gradient(180deg, rgba(186,130,115,1) 0%, rgba(186,115,115,1) 100%);
 }
 
-/*-- BLACK TEXT --*/
-a, .listen a:hover, .intro-box p, .episode-box:hover {
+/*-- PINK TEXT --*/
+a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box:hover, .footer {
   color:rgb(186,130,115);
 }
 
-/*-- WHITE TEXT --*/
-.header {
+/*-- LIGHT COLOUR - TEXT --*/
+.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a, .category {
   color:#f5c8a9;
 }
 
-/*-- MAIN PINK COLOUR - ELEMENT BACKGROUNDS --*/
+/*-- LIGHT COLOUR - BACKGROUNDS --*/
 .episode-box, .listen a:hover {
   background-color:#f5c8a9;
 }
 
-/*-- LIGHT COLOUR - TEXT --*/
-.bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a, .category {
-  color:#f5c8a9;
-}
-
-/*-- MAIN COLOUR - ELEMENT BORDERS --*/
+/*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box {
     border:2px solid #f5c8a9;
 }
@@ -140,7 +135,7 @@ img.logo {
 /*-- INTRO BOX --*/
 
 .intro-box {
-  background-color:rgb(186,130,115);
+  background-color:#f5c8a9;
   width:33%;
   overflow:hidden;
   height:400px;
@@ -251,8 +246,7 @@ img.logo {
 
 .footer {
   font-weight:500;
-  color:#07101a;
-  background-color:rgba(255,255,255,.15);
+  background-color:rgba(0,0,0,.15);
   margin:0;
   padding:15px 0 0;
   bottom:0;
