@@ -30,7 +30,8 @@ a {
 /*-- BACKGROUND COLOUR --*/
 
 body {
-  background-color: #ba8273;
+background: rgb(186,130,115);
+background: linear-gradient(180deg, rgba(186,130,115,1) 0%, rgba(186,115,115,1) 100%);
 }
 
 /*-- BLACK TEXT --*/
