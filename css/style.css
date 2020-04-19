@@ -31,7 +31,7 @@ body {
 
 /*-- BLACK TEXT --*/
 a, .listen a:hover, .intro-box p, .episode-box:hover {
-  color:black;
+  color:#07101a;
 }
 
 /*-- WHITE TEXT --*/
@@ -98,7 +98,6 @@ img.logo {
 
 .listen a {
   font-weight:700;
-  background-color;black
   text-align:center;
   font-size:12px;
   letter-spacing:.2pt;
@@ -107,7 +106,6 @@ img.logo {
   border-radius:50px;
   transition: .2s ease-in-out;
 }
-
 
 /*-- CTA --*/
 
@@ -168,11 +166,11 @@ img.logo {
 
   font-weight:700;
   transition: .2s ease-in-out;
-  border-bottom:2.2px solid transparent;
+  border-bottom:2px solid transparent;
 }
 
 .intro-box a:hover {
-  border-bottom:2.2px solid black;
+  border-bottom:2px solid #07101a;
 }
 
 /*-- EPISODE BOXES CONTAINER --*/

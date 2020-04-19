@@ -6,7 +6,6 @@
 
 body {
   font-family: 'DM Sans', 'Avenir', Helvetica Neue, sans-serif;
-  background-color:#FE3702;
   overflow-x:hidden;
   letter-spacing:-.1pt;
   margin:0;
@@ -17,32 +16,98 @@ a {
   text-decoration:none;
 }
 
+/*-- COLOURS --*/
+
+/*-- BACKGROUND COLOUR --*/
+
+body {
+  background-color: #07101a;
+}
+
+/*-- MAIN COLOUR - TEXT --*/
+body, .bar, .listen a {
+  color:#a65e6a;
+}
+
+/*-- BUTTON BORDERS --*/
+.listen a {
+    border:2px solid #a65e6a;
+}
+
+/*-- BUTTON HOVER TEXT --*/
+.listen a:hover {
+  color:#07101a;
+}
+
+/*-- BUTTON HOVER BACKGROUND --*/
+.listen a:hover {
+  background-color:#a65e6a;
+}
+
+/*-- GREY BUTTON TEXT --*/
+.back-button a {
+  color:rgba(255,255,255,.3);
+  background-color:#07101a;
+  border:2px solid rgba(255,255,255,.3);
+}
+
+/*-- GREY BUTTON TEXT HOVER --*/
+.back-button a:hover {
+  color:#07101a;
+  background-color:rgba(255,255,255,.3);
+  border:2px solid transparent;
+}
+
+/*-- LOGO --*/
+
 .logo {
-  width:14vw;
-  height:14vw;
+  height:100px;
+  width:auto;
   position:fixed;
-  top:2vw;
-  right:2vw;
+  top:5vw;
+  left:7vw;
   z-index:999999;
+  background-color:transparent;
+  border-radius:50%;
 }
 
 img.logo {
-  padding:3vw;
-  margin:0;
-  transition: .3s ease-in-out;
+  padding:20px;
 }
 
-img.logo:hover {
-  transform:rotate(-75deg);
+/*-- LISTEN BUTTONS --*/
+
+.bar {
+  font-size:12px;
+  top:0;
+  width:100%;
+  margin:0;
+  padding:0;
+  /*text-align:center;*/
+}
+
+.listen {
+  padding:5vw;
+  float:right;
+}
+
+.listen a {
+  font-weight:700;
+  text-align:center;
+  font-size:12px;
+  letter-spacing:.2pt;
+  padding:5px 15px;
+  margin-left:10px;
+  border-radius:50px;
+  transition: .2s ease-in-out;
 }
 
 /*-- EPISODE TITLE --*/
 
 h3 {
   font-weight:400;
-  font-size:3.4em;
-  padding:2.5vw 0 0 0;
-  margin:0;
+  font-size:40px;
+  margin:10vw 0 20px;
   line-height:1;
   width:60%;
 }
@@ -51,9 +116,9 @@ h3 {
 
 h4 {
   font-weight:400;
-  font-size:2em;
+  font-size:22px;
   padding:0;
-  margin:.2em 0 .8em;
+  margin:0 0 20px
 }
 
 /*-- PERFORMED BY --*/
@@ -69,30 +134,23 @@ h5 {
 
 h2 {
   padding:0 0 1em;
-  font-size:1.1em;
+  font-size:14px;
   line-height:1.4;
   font-weight:400;
-  width:30%;
+  width:50%;
 }
 
 /*-- BACK BUTTON --*/
 
-h6 a {
-  color:black;
+.back-button a {
+  font-weight:700;
   text-align:center;
-  font-weight:bold;
   font-size:12px;
   letter-spacing:.2pt;
-  padding:10px 20px;
-  background-color:transparent;
-  border:2px solid black;
+  padding:5px 15px;
   border-radius:50px;
   transition: .2s ease-in-out;
-}
-
-h6 a:hover {
-  color:#FE3702;
-  background-color:black;
+  float:right;
 }
 
 /*-- EPISODES --*/
@@ -155,8 +213,17 @@ ul.share-buttons .sr-only{
   overflow: hidden;
 }
 
-/* ----------- MOBILE LAYOUT - 1 COLUMNS ----------- */
+/*-- FOOTER --*/
 
-@media screen and (max-width: 1000px) {
-
+.footer {
+  font-weight:500;
+  position:fixed;
+  color:#07101a;
+  background-color:rgba(255,255,255,.15);
+  margin:0;
+  padding:15px 0 0;
+  bottom:0;
+  height:50px;
+  text-align:center;
+  width:100%;
 }
