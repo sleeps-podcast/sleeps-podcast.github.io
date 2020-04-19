@@ -1,0 +1,50 @@
+/*-- COLOURS --*/
+
+/*-- BEIGE BACKGROUND COLOUR --*/
+
+body, .logo, .mode {
+  background: #bf8776;
+}
+
+/*-- NIGHT BUTTON --*/
+
+.mode {
+  color:#36333c;
+  border:2px solid #36333c;
+}
+
+/*-- BEIGE TEXT --*/
+a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hover, .footer {
+  color:#bf8776;
+}
+
+/*-- LIGHT COLOUR - TEXT --*/
+.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+  color:#dbd6c9;
+}
+
+/*-- LIGHT COLOUR - BACKGROUNDS --*/
+.intro-box, .episode-box, .listen a:hover {
+  background-color:#dbd6c9;
+}
+
+/*-- LIGHT COLOUR - BORDERS --*/
+.listen a, .cta-box, .cta-box-hidden, .credits-box {
+    border:2px solid #dbd6c9;
+}
+
+/*-- BRIGHTEST ACCENT COLOUR --*/
+
+.episode-box:hover {
+  background-color:#f1ede3;
+}
+
+.credits-box a:hover {
+  color:#f1ede3;
+}
+
+/*-- FOOTER COLOUR --*/
+
+.footer {
+  background-color:#8c5a4b;
+}

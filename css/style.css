@@ -25,51 +25,6 @@ a {
 	display:none;
 }
 
-/*-- COLOURS --*/
-
-/*-- PINK BACKGROUND COLOUR --*/
-
-body, .logo, .mode {
-  background: #bf8776;
-}
-
-/*-- NIGHT BUTTON --*/
-
-.mode {
-  color:#36333c;
-  border:2px solid #36333c;
-}
-
-/*-- PINK TEXT --*/
-a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hover, .footer {
-  color:#bf8776;
-}
-
-/*-- LIGHT COLOUR - TEXT --*/
-.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
-  color:#dbd6c9;
-}
-
-/*-- LIGHT COLOUR - BACKGROUNDS --*/
-.intro-box, .episode-box, .listen a:hover, .footer {
-  background-color:#dbd6c9;
-}
-
-/*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .cta-box, .cta-box-hidden, .credits-box {
-    border:2px solid #dbd6c9;
-}
-
-/*-- BRIGHTEST ACCENT COLOUR --*/
-
-.episode-box:hover {
-  background-color:#f1ede3;
-}
-
-.credits-box a:hover {
-  color:#f1ede3;
-}
-
 /*-- HEADER --*/
 
 .header {
