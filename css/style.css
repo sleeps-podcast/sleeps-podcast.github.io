@@ -30,7 +30,7 @@ a {
 /*-- BACKGROUND COLOUR --*/
 
 body, .logo {
-  background: rgb(186,130,115);
+  background: #bf8776;
 }
 
 /*-- BACKGROUND GRADIENT 
@@ -47,17 +47,17 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box:hover, .footer {
 
 /*-- LIGHT COLOUR - TEXT --*/
 .header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a, .category {
-  color:#f5c8a9;
+  color:#d0cab9;
 }
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.episode-box, .listen a:hover {
-  background-color:#f5c8a9;
+.intro-box, .episode-box, .listen a:hover {
+  background-color:#d0cab9;
 }
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box {
-    border:2px solid #f5c8a9;
+    border:2px solid #d0cab9;
 }
 
 /*-- HEADER --*/
@@ -140,7 +140,6 @@ img.logo {
 /*-- INTRO BOX --*/
 
 .intro-box {
-  background-color:#f5c8a9;
   width:33%;
   overflow:hidden;
   height:400px;
