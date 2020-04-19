@@ -6,6 +6,20 @@
     display:none;
   }
 
+.cta-box-hidden {
+  background-color:transparent;
+  width:100%;
+  overflow:hidden;
+  height:400px;
+  margin:0;
+  padding:0 30px;
+  border-radius:10px;
+  display: inline;
+  vertical-align: middle;
+  text-align:center;
+
+}
+
 .logo {
   height:80px;
   width:auto;
@@ -70,7 +84,7 @@ img.logo {
 }
 
 .intro-box h1 {
-  font-size:16px;
+  font-size:14px;
 }
 
 
@@ -126,10 +140,10 @@ img.logo {
 /*-- JOB TITLE --*/
 
 .episode-box h3 {
-  font-size:13px;
+  font-size:11px;
 }
 
-.cta-box p {
+.cta-box-hidden p {
   font-size:28px;
 }
 

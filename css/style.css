@@ -49,12 +49,12 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
 }
 
 /*-- MAIN PINK COLOUR - TEXT --*/
-.bar, .listen a, .cta-box p, .credits-box, .credits-box h1, .credits-box a, .category {
+.bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a, .category {
   color:#a65e6a;
 }
 
 /*-- MAIN COLOUR - ELEMENT BORDERS --*/
-.listen a, .cta-box, .credits-box {
+.listen a, .cta-box, .cta-box-hidden, .credits-box {
     border:2px solid #a65e6a;
 }
 
@@ -113,7 +113,7 @@ img.logo {
 
 /*-- CTA --*/
 
-.cta-box {
+.cta-box, .cta-box-hidden {
   background-color:transparent;
   width:33%;
   overflow:hidden;
@@ -126,10 +126,14 @@ img.logo {
   text-align:center;
 }
 
-.cta-box p {
+.cta-box p, .cta-box-hidden p {
   font-weight:500;
   font-size:26px;
   line-height:1.15;
+}
+
+.cta-box-hidden {
+  display:none;
 }
 
 /*-- INTRO BOX --*/
