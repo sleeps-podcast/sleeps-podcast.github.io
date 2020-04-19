@@ -75,8 +75,7 @@ img.logo {
 /*-- EPISODE BOXES CONTAINER --*/
 
 .episodes {
-  border-spacing: 15px;
-  margin:0;
+  border-spacing: 0px 10px;
   padding:0 4vw 6vw;
 }
 
@@ -85,15 +84,12 @@ img.logo {
 .episode-box {
   display: table-cell;
   width:20%;
-  height:400px;
   border-radius:10px;
-  padding:3vw;
+  padding:7vw;
   margin:0;
-  height:400px;
+  height:370px;
   color:rgba(0,0,0,1);
-
-
-    background-color:#f8aab6;
+  background-color:#a65e6a;
   background-position: bottom right;
   background-size:190px;
   background-repeat:no-repeat;
@@ -101,17 +97,15 @@ img.logo {
 }
 
 .episode-box:hover {
+  cursor:auto;
   display: table-cell;
   width:20%;
   height:400px;
   border-radius:10px;
-  padding:3vw;
+  padding:7vw;
   margin:0;
-  height:400px;
-  color:rgba(0,0,0,1);
-
-
-    background-color:#f8aab6;
+  height:370px;
+  background-color:#a65e6a;
   background-position: bottom right;
   background-size:190px;
   background-repeat:no-repeat;
@@ -189,16 +183,12 @@ img.logo {
 }
 
 .credits-box a, .category {
-  font-size:18px;}
+  font-size:15px;}
 
 .column {
   -ms-flex: 100%;
   flex: 100%;
   max-width: 100%;
-}
-
-  .episode-box {
-  padding:7vw;
 }
 
 .episode-box h1 {
