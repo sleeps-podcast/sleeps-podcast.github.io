@@ -46,18 +46,22 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
 }
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a, .category {
-  color:#d0cab9;
+.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+  color:#dbd6c9;
+}
+
+.credits-box a:hover {
+  color:white;
 }
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
 .intro-box, .episode-box, .listen a:hover, .footer {
-  background-color:#d0cab9;
+  background-color:#dbd6c9;
 }
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box {
-    border:2px solid #d0cab9;
+    border:2px solid #dbd6c9;
 }
 
 .episode-box:hover {
@@ -276,28 +280,28 @@ img.logo {
   display: table-cell;
   vertical-align: middle;
   text-align:left;
+  line-height:1;
 }
 
 .credits-box h1 {
-  font-weight:700;
-  font-size:10px;
-  letter-spacing:.2;
-  margin:0 0 .5em;
+  font-weight:400;
+  font-size:9px;
+  letter-spacing:1;
+  text-transform:uppercase;
+  margin:0 0 5px;
   padding:0;
 }
 
-.credits-box a {
-  color:#f8aab6;
-  font-weight:700;
-  font-size:10px;
-  letter-spacing:.2;
-  line-height:1.4;
-  transition: .2s ease-in-out;
+.credits-list {
+  margin:0 0 20px;
 }
 
-.credits-box a:hover {
-  color:#ffecef;
-  padding-left:7px;
+.credits-box a {
+  font-weight:700;
+  font-size:12px;
+  letter-spacing:.2;
+  transition: .2s ease-in-out;
+  padding:5px 0;
 }
 
 /*-- SCROLLBAR --*/
