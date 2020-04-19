@@ -3,7 +3,7 @@
 /*-- BEIGE BACKGROUND COLOUR --*/
 
 body, .logo, .mode {
-  background: ##36333c;
+  background: #332f3a;
 }
 
 /*-- NIGHT BUTTON --*/
@@ -14,11 +14,11 @@ body, .logo, .mode {
 }
 
 #light-mode-button {
-  display:none;
+  display:initial;
 }
 
 #dark-mode-button {
-  display:initial;
+  display:none;
 }
 
 /*-- BEIGE TEXT --*/
@@ -33,7 +33,12 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
 .episode-box, .listen a:hover {
-  background-color:#dbd6c9;
+  background-color:#332f3a;
+}
+
+/*-- LIGHT COLOUR - BORDERS --*/
+.episode-box {
+    border:2px solid #bf8776;
 }
 
 /*-- LIGHT COLOUR - BORDERS --*/
