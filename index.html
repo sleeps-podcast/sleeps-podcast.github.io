@@ -3,18 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
   <link rel="stylesheet" type="text/css" href="css/mobile.css"/>
-  <link rel="stylesheet" type="text/css" href="css/colours.css"/>
-
-  <script>
-    function goBack() {
-      window.history.back();
-    }
-  </script>
-
-<script>
-	document.getElementById(Id).style.property = new style
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="css/colours.css"/>
+<script type="text/javascript">
+function swapStyleSheet(sheet){
+document.getElementById('pagestyle').setAttribute('href', sheet);
+}
 </script>
-
 
 </head>
 
@@ -28,7 +22,8 @@
 	<div class="listen">
 		<a target="_blank" href="https://soundcloud.com/sleepspodcast">Soundcloud</a>
 		<a target="_blank" href="https://podcasts.apple.com/ca/podcast/sleeps-podcast/id1504547968">Apple Podcasts</a>
-		<button class="mode" onclick="document.body.style.backgroundColor = '#36333c';">Dark Mode</button>
+		<button id="dark-mode-button" class="mode" onclick="swapStyleSheet('css/colours-dark.css')">Dark Mode</button>
+<button id="light-mode-button" class="mode" onclick="swapStyleSheet('css/colours.css')">Light Mode</button>
 	</div>
 
 </div>
