@@ -197,7 +197,7 @@ img.logo {
   color:rgba(0,0,0,0);
   background-size:210px;
   border:2px solid transparent;
-  background-size:70px;
+  background-size:74px;
   background-repeat:space;
   transition: .2s ease-in-out;
   background-position: bottom right;
@@ -283,14 +283,13 @@ img.logo {
   font-weight:700;
   font-size:12px;
   letter-spacing:.2;
-  line-height:1.3;
+  line-height:1.4;
   transition: .2s ease-in-out;
-  padding:5px;
 }
 
 .credits-box a:hover {
   color:#ffecef;
-  padding-left:10px;
+  padding-left:7px;
 }
 
 /*-- CREDITS --*/
@@ -302,7 +301,6 @@ img.logo {
   margin:0 0 .5em;
   padding:0;
   width:100%;
-  border-left:6px solid transparent;
 }
 
 /*-- SCROLLBAR --*/
