@@ -21,6 +21,10 @@ a {
   text-decoration:none;
 }
 
+.show {
+	display:none;
+}
+
 /*-- COLOURS --*/
 
 /*-- BACKGROUND COLOUR --*/
@@ -357,13 +361,21 @@ img.logo {
   font-size:30px;
 }
 
+.disappear {
+	display:none;
+}
+
+.show {
+	display:initial;
+}
+
 }
 
 /* ----------- MOBILE LAYOUT - 1 COLUMNS ----------- */
 
 @media screen and (max-width: 640px) {
 
-  .disappear {
+  .disappear, .show {
     display:none;
   }
 
