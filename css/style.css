@@ -39,12 +39,12 @@ a, .listen a:hover, .intro-box p, .episode-box:hover {
   color:#ffecef;
 }
 
-/*-- MAIN COLOUR - ELEMENT BACKGROUNDS --*/
+/*-- MAIN PINK COLOUR - ELEMENT BACKGROUNDS --*/
 .episode-box, .listen a:hover {
   background-color:#a65e6a;
 }
 
-/*-- MAIN COLOUR - TEXT --*/
+/*-- MAIN PINK COLOUR - TEXT --*/
 .bar, .listen a, .cta-box p, .credits-box, .credits-box h1, .credits-box a, .category {
   color:#a65e6a;
 }
