@@ -50,10 +50,6 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
   color:#dbd6c9;
 }
 
-.credits-box a:hover {
-  color:white;
-}
-
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
 .intro-box, .episode-box, .listen a:hover, .footer {
   background-color:#dbd6c9;
@@ -64,8 +60,14 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
     border:2px solid #dbd6c9;
 }
 
+/*-- BRIGHTEST ACCENT COLOUR --*/
+
 .episode-box:hover {
-  background-color:#f5c8a9;
+  background-color:#f1ede3;
+}
+
+.credits-box a:hover {
+  color:#f1ede3;
 }
 
 /*-- HEADER --*/
