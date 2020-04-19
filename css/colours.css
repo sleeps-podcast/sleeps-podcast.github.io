@@ -2,23 +2,27 @@
 
 /*-- BEIGE BACKGROUND COLOUR --*/
 
-body, .logo, .mode {
+body, .logo {
   background: #bf8776;
 }
 
 /*-- NIGHT BUTTON --*/
-
-.mode {
-  color:#36333c;
-  border:2px solid #36333c;
-}
 
 #light-mode-button {
   display:none;
 }
 
 #dark-mode-button {
+  background: #bf8776;
+  color:#36333c;
+  border:2px solid #36333c;
   display:initial;
+  width:100%;
+  padding-right:28px;
+  background-image:url('https://sleeps-podcast.github.io/images/icon-moon.png');
+  background-size:10px;
+  background-repeat:no-repeat;
+  background-position:90% 50%;
 }
 
 /*-- BEIGE TEXT --*/
