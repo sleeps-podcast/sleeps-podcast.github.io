@@ -29,14 +29,18 @@ a {
 
 /*-- BACKGROUND COLOUR --*/
 
-body, .logo {
+body, .logo, .mode {
   background: #bf8776;
 }
 
-.mode {
+.episode-box:hover {
   background-color: #36333c;
 }
 
+.mode {
+  color:#36333c;
+  border:2px solid #36333c;
+}
 
 
 /*-- BACKGROUND GRADIENT 
@@ -52,7 +56,7 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box:hover, .footer {
 }
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a, .category, .mode {
+.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a, .category {
   color:#d0cab9;
 }
 
@@ -62,7 +66,7 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box:hover, .footer {
 }
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .cta-box, .cta-box-hidden, .credits-box, .mode {
+.listen a, .cta-box, .cta-box-hidden, .credits-box {
     border:2px solid #d0cab9;
 }
 
@@ -226,7 +230,6 @@ img.logo {
 }
 
 .episode-box:hover {
-  background-color:#ffdac1;
   background-position: bottom right;
   background-size:190px;
   background-repeat:no-repeat;
