@@ -49,7 +49,7 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
 }
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.intro-box, .episode-box, .listen a:hover {
+.intro-box, .episode-box, .listen a:hover, .footer {
   background-color:#d0cab9;
 }
 
@@ -255,7 +255,6 @@ img.logo {
 
 .footer {
   font-weight:500;
-  background-color:rgba(0,0,0,.15);
   margin:0;
   padding:15px 0 0;
   bottom:0;
