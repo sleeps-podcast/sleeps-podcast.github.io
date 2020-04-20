@@ -23,7 +23,7 @@ img.logo {
   z-index:999999999;
 }
 
-/*-- LISTEN BUTTONS --*/
+/*-- BUTTONS --*/
 
 .nav-bar {
   height:70px;
@@ -35,6 +35,13 @@ img.logo {
   width:100%;
   z-index:99999999;
   text-align:center;
+}
+
+.buttons {
+  width:135px;
+  padding:8px 0;
+  display:inline-block;
+  margin:0 1vw;
 }
 
 .header {
