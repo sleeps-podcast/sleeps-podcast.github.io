@@ -49,10 +49,6 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 
 /*-- DAY BUTTON --*/
 
-#light-mode-button:hover {
-  box-shadow: 0px 0px 20px #ffd6d6;
-}
-
 #light-mode-button {
   font-weight:700;
   text-align:center;
@@ -68,6 +64,10 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
   border-radius:50px;
   transition: .2s ease-in-out;
   display:initial;
+}
+
+#light-mode-button:hover {
+  box-shadow: 0px 0px 20px #ffd6d6;
 }
 
 #dark-mode-button {
