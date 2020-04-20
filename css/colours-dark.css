@@ -1,5 +1,5 @@
 img.illustration {
-  filter:grayscale(100%);
+  filter:saturate(70%) brightness(30%) hue-rotate(240deg);
 }
 
 
