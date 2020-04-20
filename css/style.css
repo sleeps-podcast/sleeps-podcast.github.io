@@ -145,14 +145,13 @@ form {
 /*-- INTRO BOX - LINK TO STUDY --*/
 
 .intro-box a {
-
   font-weight:700;
   transition: .2s ease-in-out;
   border-bottom:2px solid transparent;
 }
 
 .intro-box a:hover {
-  border-bottom:2px solid #07101a;
+  border-bottom:2px solid #bf8776;
 }
 
 /*-- EPISODE BOXES CONTAINER --*/

@@ -47,6 +47,10 @@ a, .buttons:hover, .episode-box, .episode-box:hover, .footer {
   color:#332f3a;
 }
 
+.intro-box a:hover {
+  border-bottom:2px solid #332f3a;
+}
+
 .intro-box p, .intro-box h1 {
   color:#332f3a;
 }
