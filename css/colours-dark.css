@@ -31,23 +31,27 @@ body, .logo, .buttons {
 }
 
 /*-- DARK TEXT --*/
-a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hover, .footer {
+a, .listen a:hover, .episode-box, .episode-box:hover, .footer {
+  color:#332f3a;
+}
+
+.intro-box p, .intro-box h1 {
   color:#332f3a;
 }
 
 /*-- PALE COLOUR - TEXT --*/
 .header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
-  color:#dbd6c9;
+  color:#bf8776;
 }
 
-/*-- PALE COLOUR - BACKGROUNDS --*/
-.episode-box, .listen a:hover {
-  background-color:#dbd6c9;
+/*-- BEIGE BACKGROUNDS --*/
+.episode-box {
+  background-color:#bf8776;
 }
 
 /*-- PALE COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
-    border:2px solid #dbd6c9;
+    border:2px solid #bf8776;
 }
 
 /*-- BRIGHTEST ACCENT COLOUR --*/
