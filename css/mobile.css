@@ -41,6 +41,7 @@ img.logo-mobile {
   z-index:99999999;
   text-align:center;
   padding:3.5vw;
+  border-bottom:2px solid;
 }
 
 .buttons {
