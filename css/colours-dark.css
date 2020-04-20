@@ -9,15 +9,21 @@ body, .logo {
 /*-- NIGHT BUTTON --*/
 
 #light-mode-button {
-  color:#36333c;
-  border:2px solid #36333c;
+  background: transparent;
+  color:#ccb381;
+  border:2px solid #ccb381;
   display:initial;
-  width:100%;
   padding-right:28px;
-  background-image:url('https://sleeps-podcast.github.io/images/icon-sun.png');
+  background-image:url('icon-sun.png');
   background-size:10px;
   background-repeat:no-repeat;
   background-position:90% 50%;
+  font-weight:700;
+  text-align:center;
+  font-size:12px;
+  letter-spacing:.2pt;
+  border-radius:50px;
+  transition: .2s ease-in-out;
 }
 
 #dark-mode-button {

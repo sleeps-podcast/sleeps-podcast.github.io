@@ -8,21 +8,31 @@ body, .logo {
 
 /*-- NIGHT BUTTON --*/
 
-#light-mode-button {
-  display:none;
-}
-
 #dark-mode-button {
   background: #bf8776;
   color:#36333c;
   border:2px solid #36333c;
   display:initial;
-  width:100%;
   padding-right:28px;
-  background-image:url('https://sleeps-podcast.github.io/images/icon-moon.png');
+  background-image:url('icon-moon.png');
   background-size:10px;
   background-repeat:no-repeat;
   background-position:90% 50%;
+  font-weight:700;
+  text-align:center;
+  font-size:12px;
+  letter-spacing:.2pt;
+  border-radius:50px;
+  transition: .2s ease-in-out;
+}
+
+#light-mode-button {
+  display:none;
+}
+
+/*-- BEIGE BACKGROUND --*/
+.buttons {
+  background-color:#bf8776;
 }
 
 /*-- BEIGE TEXT --*/
@@ -31,7 +41,7 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
 }
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+.header, .bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
   color:#dbd6c9;
 }
 
@@ -41,7 +51,7 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
 }
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .cta-box, .cta-box-hidden, .credits-box {
+.listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
     border:2px solid #dbd6c9;
 }
 

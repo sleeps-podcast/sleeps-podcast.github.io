@@ -62,11 +62,6 @@ img.logo {
   transition: .2s ease-in-out;
 }
 
-.listen a:hover {
-	background-color:transparent;
-	color:white;
-}
-
 .header {
   font-size:8.5vw;
   padding:40vw 0 20vw;
