@@ -102,6 +102,10 @@ form {
   margin:0 0 0 1vw;
 }
 
+.buttons:hover {
+  cursor: pointer;
+}
+
 /*-- CTA --*/
 
 .cta-box {
@@ -159,11 +163,15 @@ form {
 .intro-box a {
   font-weight:700;
   transition: .2s ease-in-out;
-  border-bottom:2px solid transparent;
+  border-collapse:0;
+  border-bottom:1.5px solid transparent;
+  padding:0;
+  display:inline-block;
+  line-height:1.08;
 }
 
 .intro-box a:hover {
-  border-bottom:2px solid #bf8776;
+  border-bottom:1.5px solid;
 }
 
 /*-- EPISODE BOXES CONTAINER --*/
