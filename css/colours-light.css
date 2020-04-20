@@ -4,15 +4,15 @@
 /*-- DARK COLOUR - BACKGROUND --*/
 
 body, .nav-bar, .logo, .buttons, .ruler {
-  background: #ee8967 ;}
+  background: #b3aac1 ;}
 
 /*-- DARK COLOUR - TEXT --*/
 
 .intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box, .footer {
-  color: #ee8967 ;}
+  color: #b3aac1 ;}
 
 /* ILLUSTRATIONS - FILL */
-.st0{fill: #ee8967 ;}
+.st0{fill: #b3aac1 ;}
 
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
