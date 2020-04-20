@@ -14,15 +14,15 @@ body, .logo, .buttons, .ruler {
 
 /*-- LIGHT COLOUR - TEXT --*/
 .header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
-  color: #ffdcd6 ;}
+  color: #ffd6d6 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
 .episode-box, .buttons:hover, .footer {
-  background-color: #ffdcd6 ;}
+  background-color: #ffd6d6 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
-    border:2px solid #ffdcd6 ;}
+    border:2px solid #ffd6d6 ;}
 
 /*-- LIGHTEST ACCENT COLOUR --*/
 
