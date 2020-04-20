@@ -45,10 +45,9 @@ img.logo-mobile {
 }
 
 .buttons {
-  width:130px;
-  padding:8px 5px;
+  padding:8px 0;
   display:inline-block;
-  margin:0 10px;
+  margin:0 5px 0;
 }
 
 .header {
