@@ -38,7 +38,7 @@ img.link-out {
 
 /*-- DARK GREY BACKGROUNDS --*/
 
-body, .logo, .buttons {
+body, .logo, .buttons, .nav-bar {
   background: #332f3a;
 }
 
