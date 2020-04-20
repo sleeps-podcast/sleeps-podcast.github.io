@@ -3,11 +3,6 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2000 2000" style="enable-background:new 0 0 2000 2000;" xml:space="preserve">
 
-<style type="text/css">
-	<!--fill colour--> .st0{fill:#bf8776;}
-	<!--stroke colour--> .st1{fill:#f1ede3;}
-</style>
-
 <g id="fill">
 	<path class="st0" d="M1697.96,732.21c-2.56-23.13-22.16-41.12-45.97-41.12H855.23l-61.68-61.68H423.43l-61.68,61.68v102.81v904.71
 		h1336.5V737.35v-5.14H1697.96z"/>
