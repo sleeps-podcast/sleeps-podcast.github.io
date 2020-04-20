@@ -80,7 +80,7 @@ form {
 
 /*-- CTA --*/
 
-.cta-box, .cta-box-hidden {
+.cta-box {
   background-color:transparent;
   width:33%;
   overflow:hidden;
@@ -93,14 +93,10 @@ form {
   text-align:center;
 }
 
-.cta-box p, .cta-box-hidden p {
+.cta-box p {
   font-weight:500;
   font-size:26px;
   line-height:1.15;
-}
-
-.cta-box-hidden {
-  display:none;
 }
 
 /*-- INTRO BOX --*/
@@ -168,9 +164,6 @@ form {
   height:400px;
   border:2px solid transparent;
   transition: .2s ease-in-out;
-  background-position: bottom right;
-  background-size:190px;
-  background-repeat:no-repeat;
   border:2px solid transparent;
   position:relative;
 }

@@ -1,6 +1,8 @@
-img.illustration {
-  filter:saturate(70%) brightness(30%) hue-rotate(240deg);
-}
+/* ILLUSTRATIONS - FILL */
+.st0{fill:#332f3a;}
+
+/* ILLUSTRATIONS - STROKE */
+.st1{fill:#6e6878;}
 
 img.link-out {
   filter:saturate(0%) brightness(30%);
