@@ -172,7 +172,16 @@ form {
   background-size:190px;
   background-repeat:no-repeat;
   border:2px solid transparent;
+  position:relative;
 }
+
+.illustration {
+  width:190px;
+  padding:0;
+  margin:0;
+  position:absolute;
+  right:0;
+  bottom:0;}
 
 /*-- EPISODE TITLE --*/
 
