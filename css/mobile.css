@@ -26,21 +26,20 @@ img.logo {
 /*-- BUTTONS --*/
 
 .nav-bar {
-  height:70px;
+  height:67px;
   position:fixed;
-  top:initial;
-  bottom:0;
+  top:0;
   background-color:#bf8776;
   width:100%;
   z-index:99999999;
-  text-align:center;
+  text-align:right;
 }
 
 .buttons {
   width:135px;
   padding:8px 0;
   display:inline-block;
-  margin:0 1vw;
+  margin:0 0 0 1vw;
 }
 
 .header {
