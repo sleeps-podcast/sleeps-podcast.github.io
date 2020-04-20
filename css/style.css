@@ -224,6 +224,8 @@ form {
 
 .footer {
   font-weight:500;
+  font-size:12px;
+  letter-spacing:.2pt;
   margin:0;
   padding:15px 0 0;
   bottom:0;

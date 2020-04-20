@@ -1,28 +1,32 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .logo, .buttons, .ruler {
+body, .logo, .buttons, .ruler, .footer {
   background: #ee8967 ;}
 
 /*-- DARK COLOUR - TEXT --*/
 
-.intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box, .footer {
+.intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box {
   color: #ee8967 ;}
 
 /* ILLUSTRATIONS - FILL */
 .st0{fill: #ee8967 ;}
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+.header, .footer, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
   color: #ffd6d6 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.episode-box, .buttons:hover, .footer {
+.episode-box, .buttons:hover {
   background-color: #ffd6d6 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
     border:2px solid #ffd6d6 ;}
+
+/*-- LIGHT COLOUR - BORDERS --*/
+.footer {
+    border-top:2px solid #ffd6d6 ;}
 
 /*-- LIGHTEST ACCENT COLOUR --*/
 
