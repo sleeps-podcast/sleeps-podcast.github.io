@@ -106,6 +106,9 @@ form {
 /*-- INTRO BOX --*/
 
 .intro-box {
+  font-weight:400;
+  font-size:18px;
+  line-height:1.3;
   display: table-cell;
   width:20%;
   height:400px;
@@ -120,12 +123,6 @@ form {
   background-repeat:no-repeat;
   border:2px solid transparent;
   vertical-align:middle;
-}
-
-.intro-box p {
-  font-weight:400;
-  font-size:18px;
-  line-height:1.3;
 }
 
 .intro-box h1 {
