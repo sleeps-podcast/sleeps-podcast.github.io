@@ -1,22 +1,66 @@
+
+/*------------------------------- DARK COLOUR -------------------------------*/
+
+/*-- DARK COLOUR - BACKGROUND --*/
+
+body, .logo, .buttons, .ruler, .footer {
+  background: #332f3a ;}
+
+/*-- DARK COLOUR - TEXT --*/
+
+.intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box {
+  color: #332f3a ;}
+
 /* ILLUSTRATIONS - FILL */
-.st0{fill:#332f3a;}
+.st0{fill: #332f3a ;}
+
+/*------------------------------- LIGHT COLOUR -------------------------------*/
+
+/*-- LIGHT COLOUR - TEXT --*/
+.header, .footer, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+  color: #6e6878 ;}
+
+/*-- LIGHT COLOUR - BACKGROUNDS --*/
+.episode-box, .buttons:hover {
+  background-color: #6e6878 ;}
+
+/*-- LIGHT COLOUR - BORDERS --*/
+.listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
+    border:2px solid #6e6878 ;}
+
+/*-- LIGHT COLOUR - BORDERS --*/
+.footer {
+    border-top:2px solid #6e6878 ;}
+
+/*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
+
+/*-- LIGHTEST ACCENT COLOUR --*/
+
+.intro-box, .episode-box:hover {
+  background-color: white ;}
 
 /* ILLUSTRATIONS - STROKE */
-.st1{fill:#9e99a8;}
+.st1{fill: white ;}
 
-img.link-out {
-  filter:saturate(0%) brightness(30%);
+.credits-box a:hover {
+  color: white ;
 }
 
-/*-- NIGHT BUTTON --*/
+/*------------------------- BUTTONS IN NIGHT VERSION ONLY -------------------------*/
+
+/*-- DAY BUTTON --*/
+
+#light-mode-button:hover {
+  box-shadow: 0px 0px 30px #ffd6d6;
+}
 
 #light-mode-button {
   background: transparent;
-  color:#b4ffdd;
-  border:2px solid #b4ffdd;
+  color:#ffd6d6;
+  border:2px solid #ffd6d6;
   display:initial;
   padding-right:15px;
-  background-image:url('icon-sun.png');
+  background-image:url('images/svg/sleeps_sun_icon.png');
   background-size:10px;
   background-repeat:no-repeat;
   background-position:90% 50%;
@@ -28,60 +72,10 @@ img.link-out {
   transition: .2s ease-in-out;
 }
 
-#light-mode-button:hover {
-  box-shadow: 0px 0px 30px #b4ffdd;
-}
-
 #dark-mode-button {
   display:none;
 }
 
-/*-- DARK GREY BACKGROUNDS --*/
-
-body, .logo, .buttons, .nav-bar, .ruler {
-  background: #332f3a;
-}
-
-/*-- DARK TEXT --*/
-a, .buttons:hover, .episode-box, .episode-box:hover, .footer {
-  color:#332f3a;
-}
-
-.intro-box a:hover {
-  border-bottom:2px solid #332f3a;
-}
-
-.intro-box p, .intro-box h1 {
-  color:#332f3a;
-}
-
-/*-- PALE COLOUR - TEXT --*/
-.header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
-  color:#6e6878;
-}
-
-/*-- MEDIUM GREY BACKGROUNDS --*/
-.episode-box, .buttons:hover {
-  background-color:#6e6878;
-}
-
-/*-- PALE COLOUR - BORDERS --*/
-.listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
-    border:2px solid #6e6878;
-}
-
-/*-- SECONDARY ACCENT COLOUR --*/
-
-.intro-box, .episode-box:hover {
-  background-color:#9e99a8;
-}
-
-.credits-box a:hover {
-  color:#9e99a8;
-}
-
-/*-- FOOTER COLOUR --*/
-
-.footer {
-  background-color:#0e0e0f;
+img.link-out {
+  filter:saturate(0%) brightness(30%);
 }

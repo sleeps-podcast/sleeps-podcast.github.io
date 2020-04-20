@@ -1,4 +1,6 @@
 
+/*------------------------------- DARK COLOUR -------------------------------*/
+
 /*-- DARK COLOUR - BACKGROUND --*/
 
 body, .logo, .buttons, .ruler, .footer {
@@ -11,6 +13,8 @@ body, .logo, .buttons, .ruler, .footer {
 
 /* ILLUSTRATIONS - FILL */
 .st0{fill: #ee8967 ;}
+
+/*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
 .header, .footer, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
@@ -28,6 +32,8 @@ body, .logo, .buttons, .ruler, .footer {
 .footer {
     border-top:2px solid #ffd6d6 ;}
 
+/*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
+
 /*-- LIGHTEST ACCENT COLOUR --*/
 
 .intro-box, .episode-box:hover {
@@ -40,6 +46,8 @@ body, .logo, .buttons, .ruler, .footer {
   color: white ;
 }
 
+/*------------------------- BUTTONS IN DAY VERSION ONLY -------------------------*/
+
 /*-- NIGHT BUTTON --*/
 
 #dark-mode-button {
@@ -48,7 +56,7 @@ body, .logo, .buttons, .ruler, .footer {
   border:2px solid #36333c;
   display:initial;
   padding-right:15px;
-  background-image:url('icon-moon.png');
+  background-image:url('images/svg/sleeps_moon_icon.png');
   background-size:10px;
   background-repeat:no-repeat;
   background-position:90% 50%;
