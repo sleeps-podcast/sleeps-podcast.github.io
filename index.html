@@ -8,8 +8,9 @@
 function swapStyleSheet(sheet){
 document.getElementById('pagestyle').setAttribute('href', sheet);
 }
+</script>
 
-function swapStyleSheet(Sheet){
+<script type="text/javascript">
 const hours = new Date().getHours();
 const isDay = hours > 6 && hours < 20;
 
@@ -17,7 +18,6 @@ if(isDay){
     swapStyleSheet('colours-light.css');
 } else {
     swapStyleSheet('colours-dark.css');
-}
 }
 
 </script>
