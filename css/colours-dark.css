@@ -2,13 +2,16 @@ img.illustration {
   filter:saturate(70%) brightness(30%) hue-rotate(240deg);
 }
 
+img.link-out {
+  filter:saturate(0%) brightness(30%);
+}
 
 /*-- NIGHT BUTTON --*/
 
 #light-mode-button {
   background: transparent;
-  color:#ccb381;
-  border:2px solid #ccb381;
+  color:#b4ffdd;
+  border:2px solid #b4ffdd;
   display:initial;
   padding-right:15px;
   background-image:url('icon-sun.png');
@@ -60,7 +63,7 @@ a, .listen a:hover, .episode-box, .episode-box:hover, .footer {
 /*-- SECONDARY ACCENT COLOUR --*/
 
 .intro-box, .episode-box:hover {
-  background-color:#6e6878;
+  background-color:#9e99a8;
 }
 
 .credits-box a:hover {

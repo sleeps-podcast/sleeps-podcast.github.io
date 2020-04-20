@@ -183,6 +183,11 @@ form {
   right:0;
   bottom:0;}
 
+.link-out {
+    width:10px;
+    padding-bottom:5px;
+  }
+
 /*-- EPISODE TITLE --*/
 
 .episode-box h1 {
