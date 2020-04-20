@@ -1,14 +1,45 @@
 
+/*-- DARK COLOUR - BACKGROUND --*/
+
+body, .logo, .buttons, .ruler {
+  background: #ee8967 ;}
+
+/*-- DARK COLOUR - TEXT --*/
+
+.intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box, .footer {
+  color: #ee8967 ;}
+
 /* ILLUSTRATIONS - FILL */
-.st0{fill:#bf8776;}
+.st0{fill: #e88868 ;}
+
+/*-- LIGHT COLOUR - TEXT --*/
+.header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+  color: #ffe0d5 ;}
+
+/*-- LIGHT COLOUR - BACKGROUNDS --*/
+.episode-box, .buttons:hover, .footer {
+  background-color: #ffe0d5 ;}
+
+/*-- LIGHT COLOUR - BORDERS --*/
+.listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
+    border:2px solid #ffe0d5 ;}
+
+/*-- LIGHTEST ACCENT COLOUR --*/
+
+.intro-box, .episode-box:hover {
+  background-color: white ;}
 
 /* ILLUSTRATIONS - STROKE */
-.st1{fill:#f1ede3;}
+.st1{fill: white ;}
+
+.credits-box a:hover {
+  color: white ;
+}
 
 /*-- NIGHT BUTTON --*/
 
 #dark-mode-button {
-  background: #bf8776;
+  background: transparent;
   color:#36333c;
   border:2px solid #36333c;
   display:initial;
@@ -31,47 +62,4 @@
 
 #light-mode-button {
   display:none;
-}
-
-/*-- BEIGE BACKGROUND COLOUR --*/
-
-body, .logo, .buttons, .ruler {
-  background: #bf8776;
-}
-
-
-/*-- BEIGE TEXT --*/
-a, .buttons:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hover, .footer {
-  color:#bf8776;
-}
-
-/*-- PALE COLOUR - TEXT --*/
-.header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
-  color:#dbd6c9;
-}
-
-/*-- PALE COLOUR - BACKGROUNDS --*/
-.episode-box, .buttons:hover {
-  background-color:#dbd6c9;
-}
-
-/*-- PALE COLOUR - BORDERS --*/
-.listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
-    border:2px solid #dbd6c9;
-}
-
-/*-- SECONDARY ACCENT COLOUR --*/
-
-.intro-box, .episode-box:hover {
-  background-color:#f1ede3;
-}
-
-.credits-box a:hover {
-  color:#f1ede3;
-}
-
-/*-- FOOTER COLOUR --*/
-
-.footer {
-  background-color:#8c5a4b;
 }
