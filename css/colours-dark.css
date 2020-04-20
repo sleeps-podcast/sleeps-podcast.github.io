@@ -3,7 +3,7 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .logo, .buttons, .ruler, .footer {
+body, .nav-bar, .logo, .buttons, .ruler, .footer {
   background: #332f3a ;}
 
 /*-- DARK COLOUR - TEXT --*/
@@ -59,7 +59,6 @@ body, .logo, .buttons, .ruler, .footer {
   color:#ee8967;
   border:2px solid #ee8967;
   display:initial;
-  padding-right:15px;
   background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_sun_icon.svg');
   background-size:10px;
   background-repeat:no-repeat;
