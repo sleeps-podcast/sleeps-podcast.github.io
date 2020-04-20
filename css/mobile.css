@@ -24,12 +24,15 @@ img.logo {
 /*-- LISTEN BUTTONS --*/
 
 .nav-bar {
-  height:75px;
+  height:70px;
   position:fixed;
+  top:initial;
+  bottom:0;
   background-color:#bf8776;
   border-bottom:2px solid #dbd6c9;
   width:100%;
   z-index:99999999;
+  text-align:center;
 }
 
 .listen {
@@ -63,7 +66,7 @@ img.logo {
 }
 
 .intro-box p {
-  font-size:20px;
+  font-size:18px;
 }
 
 .intro-box h1 {
