@@ -75,6 +75,8 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
   display:none;
 }
 
-img.link-out {
+svg.linkout {
+  width:10px;
+  padding-bottom:5px;
   filter:saturate(0%) brightness(30%);
 }

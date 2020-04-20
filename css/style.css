@@ -32,6 +32,11 @@ a {
 
 /*-- ILLUSTRATIONS --*/
 
+svg.linkout {
+  width:10px;
+  padding-bottom:5px;
+}
+
 svg.illustrations {
   width:190px;
   padding:0;
@@ -184,11 +189,6 @@ form {
   border:2px solid transparent;
   position:relative;
 }
-
-.link-out {
-    width:10px;
-    padding-bottom:5px;
-  }
 
 /*-- EPISODE TITLE --*/
 
