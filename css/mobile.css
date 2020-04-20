@@ -7,14 +7,14 @@
 .mobile-only {display:initial;}
 
 .logo-mobile {
-  height:200px;
+  height:150px;
   width:auto;
   position:relative;
   top:initial;
   left:initial;
   z-index:initial;
   text-align:center;
-  margin:17vw 0 0;
+  margin:15vw 0 0;
 }
 
 img.logo-mobile {
@@ -43,8 +43,8 @@ img.logo-mobile {
 }
 
 .header {
-  font-size:8.5vw;
-  padding:50vw 0 40vw;
+  font-size:12vw;
+  padding:28vw 0 40vw;
 }
 
 /*-- INTRO BOX --*/
