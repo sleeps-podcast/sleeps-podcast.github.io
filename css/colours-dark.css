@@ -36,13 +36,13 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 /*-- LIGHTEST ACCENT COLOUR --*/
 
 .intro-box, .episode-box:hover {
-  background-color: #c1bacb ;}
+  background-color: #ffd6d6 ;}
 
 /* ILLUSTRATIONS - STROKE */
-.st1{fill: #c1bacb ;}
+.st1{fill: #ffd6d6 ;}
 
 .credits-box a:hover {
-  color: #c1bacb ;
+  color: #ffd6d6 ;
 }
 
 /*------------------------- BUTTONS IN NIGHT VERSION ONLY -------------------------*/
