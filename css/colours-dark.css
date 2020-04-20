@@ -1,6 +1,6 @@
 /*-- COLOURS --*/
 
-/*-- BEIGE BACKGROUND COLOUR --*/
+/*-- DARK BACKGROUND COLOUR --*/
 
 body, .logo, .buttons {
   background: #332f3a;
@@ -35,17 +35,17 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
   color:#332f3a;
 }
 
-/*-- LIGHT COLOUR - TEXT --*/
+/*-- PALE COLOUR - TEXT --*/
 .header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
   color:#dbd6c9;
 }
 
-/*-- LIGHT COLOUR - BACKGROUNDS --*/
+/*-- PALE COLOUR - BACKGROUNDS --*/
 .episode-box, .listen a:hover {
   background-color:#dbd6c9;
 }
 
-/*-- LIGHT COLOUR - BORDERS --*/
+/*-- PALE COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
     border:2px solid #dbd6c9;
 }
