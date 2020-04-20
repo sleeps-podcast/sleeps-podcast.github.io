@@ -50,7 +50,7 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 /*-- DAY BUTTON --*/
 
 #light-mode-button:hover {
-  box-shadow: 0px 0px 20px #ee8967;
+  box-shadow: 0px 0px 20px #ffd6d6;
 }
 
 #light-mode-button {
@@ -59,8 +59,8 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
   font-size:12px;
   letter-spacing:.2pt;
   background: transparent;
-  color:#ee8967;
-  border:2px solid #ee8967;
+  color:#ffd6d6;
+  border:2px solid #ffd6d6;
   background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_sun_icon.svg');
   background-size:10px 10px;
   background-repeat:no-repeat;
