@@ -28,9 +28,8 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 .listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
     border:2px solid #6e6878 ;}
 
-/*-- LIGHT COLOUR - BORDERS --*/
-.footer {
-    border-top:2px solid #6e6878 ;}
+.nav-bar {
+    border-color:#6e6878 ;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 

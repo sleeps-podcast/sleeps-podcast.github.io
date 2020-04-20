@@ -155,4 +155,12 @@ img.logo-mobile {
   height:45px;
 }
 
+#light-mode-button:hover {
+  box-shadow: none;
+}
+
+#dark-mode-button:hover {
+  box-shadow: none;
+}
+
 }
