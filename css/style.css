@@ -61,7 +61,7 @@ svg.illustrations {
   text-align:center;
 }
 
-.logo {
+svg.logo {
   height:120px;
   width:auto;
   position:fixed;
@@ -69,10 +69,7 @@ svg.illustrations {
   left:7vw;
   z-index:999999;
   border-radius:50%;
-}
-
-img.logo {
-  padding:20px;
+  background-color:red;
 }
 
 /*-- BUTTONS --*/

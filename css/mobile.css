@@ -13,21 +13,12 @@
   opacity:.5;
 }
 
-.logo-mobile {
+svg.logo {
   height:120px;
   width:auto;
   position:relative;
-  top:initial;
-  left:initial;
-  z-index:initial;
-  text-align:center;
-  margin:15vw 0 0;
-}
-
-img.logo-mobile {
-  padding:0;
-  background-color:transparent;
-  z-index:initial;
+  top:20vw;
+  left:40%;
 }
 
 /*-- BUTTONS --*/
