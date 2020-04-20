@@ -10,19 +10,19 @@ body, .logo, .buttons, .ruler {
   color: #ee8967 ;}
 
 /* ILLUSTRATIONS - FILL */
-.st0{fill: #e88868 ;}
+.st0{fill: #ee8967 ;}
 
 /*-- LIGHT COLOUR - TEXT --*/
 .header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
-  color: #ffe0d5 ;}
+  color: #ffdcd6 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
 .episode-box, .buttons:hover, .footer {
-  background-color: #ffe0d5 ;}
+  background-color: #ffdcd6 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
-    border:2px solid #ffe0d5 ;}
+    border:2px solid #ffdcd6 ;}
 
 /*-- LIGHTEST ACCENT COLOUR --*/
 
