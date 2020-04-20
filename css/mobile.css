@@ -2,25 +2,25 @@
 
 @media screen and (max-width: 640px) {
 
-.cta-box {display:none;}
+.cta-box, .disappear {display:none;}
 
 .mobile-only {display:initial;}
 
-.logo {
-  height:80px;
+.logo-mobile {
+  height:200px;
   width:auto;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:999999999;
-  background-color:transparent;
-  border-radius:50%;
+  position:relative;
+  top:initial;
+  left:initial;
+  z-index:initial;
+  text-align:center;
+  margin:8vw 0 10vw;
 }
 
-img.logo {
-  padding:15px;
+img.logo-mobile {
+  padding:0;
   background-color:transparent;
-  z-index:999999999;
+  z-index:initial;
 }
 
 /*-- BUTTONS --*/
@@ -32,14 +32,14 @@ img.logo {
   background-color:#bf8776;
   width:100%;
   z-index:99999999;
-  text-align:right;
+  text-align:center;
 }
 
 .buttons {
   width:135px;
   padding:8px 0;
   display:inline-block;
-  margin:0 0 0 1vw;
+  margin:0 0 0 2vw;
 }
 
 .header {

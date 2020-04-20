@@ -14,9 +14,9 @@ document.getElementById('pagestyle').setAttribute('href', sheet);
 
 <body>
 
-<div class="logo">
+<span class="disappear"><div class="logo">
 <img class="logo" src="images/sleeps-logo.gif">
-</div>
+</div></span>
 
 <div class="nav-bar">
 	<button id="dark-mode-button" class="buttons" onclick="swapStyleSheet('css/colours-dark.css')">Lights Off</button>
@@ -53,7 +53,11 @@ document.getElementById('pagestyle').setAttribute('href', sheet);
 	<p><font style="font-weight:700;">Sleeps Podcast</font> &mdash; a podcast created by creative people for putting creative people to sleep.</p>
 </div>
 
-<span class="mobile-only"><div class="header" style="font-size:25px;padding:10vw;">Just choose a snooze and feel the stress of being, like, really, really smart begin to fade.<BR><BR><font style="font-size:20px;">&darr;</font></div></span>
+<span class="mobile-only"><div class="logo-mobile">
+<img class="logo-mobile" src="images/sleeps-logo.gif">
+</div>
+
+<div class="header" style="position:relative;font-size:25px;padding:10vw;">Just choose a snooze and feel the stress of being, like, really, really smart begin to fade.<BR><BR><font style="font-size:20px;">&darr;</font></div></span>
 
 <a target="_blank" href="#">
 	<div class="episode-box">
