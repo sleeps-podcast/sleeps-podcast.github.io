@@ -2,7 +2,7 @@
 
 /*-- BEIGE BACKGROUND COLOUR --*/
 
-body, .logo {
+body, .logo, .buttons {
   background: #bf8776;
 }
 
@@ -28,11 +28,6 @@ body, .logo {
 
 #light-mode-button {
   display:none;
-}
-
-/*-- BEIGE BACKGROUND --*/
-.buttons {
-  background-color:#bf8776;
 }
 
 /*-- BEIGE TEXT --*/

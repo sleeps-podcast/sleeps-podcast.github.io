@@ -2,7 +2,7 @@
 
 /*-- BEIGE BACKGROUND COLOUR --*/
 
-body, .logo {
+body, .logo, .buttons {
   background: #332f3a;
 }
 
@@ -30,28 +30,23 @@ body, .logo {
   display:none;
 }
 
-/*-- BEIGE TEXT --*/
+/*-- DARK TEXT --*/
 a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hover, .footer {
-  color:#bf8776;
+  color:#332f3a;
 }
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .bar, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+.header, .bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
   color:#dbd6c9;
 }
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
 .episode-box, .listen a:hover {
-  background-color:#332f3a;
+  background-color:#dbd6c9;
 }
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.episode-box {
-    border:2px solid #bf8776;
-}
-
-/*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .cta-box, .cta-box-hidden, .credits-box {
+.listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
     border:2px solid #dbd6c9;
 }
 
@@ -68,5 +63,5 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
 /*-- FOOTER COLOUR --*/
 
 .footer {
-  background-color:#8c5a4b;
+  background-color:#0e0e0f;
 }
