@@ -37,13 +37,13 @@ body, .logo, .buttons, .ruler, .footer {
 /*-- LIGHTEST ACCENT COLOUR --*/
 
 .intro-box, .episode-box:hover {
-  background-color: white ;}
+  background-color: #c1bacb ;}
 
 /* ILLUSTRATIONS - STROKE */
-.st1{fill: white ;}
+.st1{fill: #c1bacb ;}
 
 .credits-box a:hover {
-  color: white ;
+  color: #c1bacb ;
 }
 
 /*------------------------- BUTTONS IN NIGHT VERSION ONLY -------------------------*/
