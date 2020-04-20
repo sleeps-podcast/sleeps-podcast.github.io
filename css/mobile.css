@@ -35,27 +35,9 @@ img.logo {
   text-align:center;
 }
 
-.listen {
-  padding:5.8vw;
-  width:100%;
-}
-
-.listen a {
-  float:right;
-  font-weight:700;
-  text-align:center;
-  font-size:14px;
-  letter-spacing:.2pt;
-  padding:0;
-  margin-left:20px;
-  border-radius:0;
-  border:0;
-  transition: .2s ease-in-out;
-}
-
 .header {
   font-size:8.5vw;
-  padding:40vw 0 20vw;
+  padding:50vw 0 40vw;
 }
 
 /*-- INTRO BOX --*/
