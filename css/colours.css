@@ -25,6 +25,10 @@
   transition: .2s ease-in-out;
 }
 
+#dark-mode-button:hover {
+  box-shadow: 0px 0px 30px #332f3a;
+}
+
 #light-mode-button {
   display:none;
 }
@@ -37,7 +41,7 @@ body, .logo, .buttons {
 
 
 /*-- BEIGE TEXT --*/
-a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hover, .footer {
+a, .buttons:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hover, .footer {
   color:#bf8776;
 }
 
@@ -47,7 +51,7 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
 }
 
 /*-- PALE COLOUR - BACKGROUNDS --*/
-.episode-box, .listen a:hover {
+.episode-box, .buttons:hover {
   background-color:#dbd6c9;
 }
 
