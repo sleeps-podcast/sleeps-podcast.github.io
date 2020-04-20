@@ -51,16 +51,16 @@ body, .logo, .buttons, .ruler, .footer {
 /*-- DAY BUTTON --*/
 
 #light-mode-button:hover {
-  box-shadow: 0px 0px 30px #ffd6d6;
+  box-shadow: 0px 0px 30px #ee8967;
 }
 
 #light-mode-button {
   background: transparent;
-  color:#ffd6d6;
-  border:2px solid #ffd6d6;
+  color:#ee8967;
+  border:2px solid #ee8967;
   display:initial;
   padding-right:15px;
-  background-image:url('images/svg/sleeps_sun_icon.png');
+  background-image:url('images/svg/sleeps_sun_icon.svg');
   background-size:10px;
   background-repeat:no-repeat;
   background-position:90% 50%;
