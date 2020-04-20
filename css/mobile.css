@@ -132,6 +132,10 @@ img.logo {
   font-size:9px;
 }
 
+.credits-list {
+  line-height:1.2;
+}
+
 .credits-list a {
   font-size:20px;
 }
@@ -150,6 +154,7 @@ img.logo {
 
 .footer {
   font-size:3vw;
+  height:45px;
 }
 
 }
