@@ -299,9 +299,9 @@ form {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 23vw; /* IE10 */
+  flex: 23vw;
+  max-width: 23vw;
   padding: 0;
 }
 
