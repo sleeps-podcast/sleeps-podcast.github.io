@@ -21,6 +21,8 @@ a {
   text-decoration:none;
 }
 
+/*-- ILLUSTRATIONS --*/
+
 svg {
   width:190px;
   padding:0;
@@ -30,17 +32,11 @@ svg {
   bottom:0;}
 }
 
-
-
-.show {
-	display:none;
-}
-
 /*-- HEADER --*/
 
 .header {
   font-size:4.5vw;
-  font-weight:500;
+  font-weight:700;
   padding:14vw 0 10vw;
   margin:0;
   line-height:1.2;
@@ -85,7 +81,7 @@ form {
   border-radius:50px;
   transition: .2s ease-in-out;
   display:inline-block;
-  margin:0 0 0 1vw;
+  margin:0 0 0 2vw;
 
 }
 
