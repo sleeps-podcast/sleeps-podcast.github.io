@@ -51,7 +51,7 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 /*-- DAY BUTTON --*/
 
 #light-mode-button:hover {
-  box-shadow: 0px 0px 30px #ee8967;
+  box-shadow: 0px 0px 20px #ee8967;
 }
 
 #light-mode-button {

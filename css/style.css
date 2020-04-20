@@ -2,33 +2,33 @@
 
 * {
   box-sizing: border-box;
-}
+  }
 
-/*-- UNIVERSAL - STYLE --*/
+/*-- BODY --*/
 
 body {
-  background-image:url('images/bg.gif');
   font-family: 'DM Sans', 'Avenir', Helvetica Neue, sans-serif;
-  letter-spacing:0pt;
   overflow-x:hidden;
   margin:0;
   padding:0;
-}
+  }
 
-.mobile-only {display:none;}
+.mobile-only {
+  display:none;
+  }
 
 /*-- LINKS --*/
 
 a {
   text-decoration:none;
-}
+  }
 
 .ruler {
   height:2px;
   border-width:0;
   margin:2vw 0;
   opacity:.5;
-}
+  }
 
 /*-- ILLUSTRATIONS --*/
 
@@ -43,7 +43,7 @@ svg.illustrations {
 
 .down-arrow {
   display:none;
-}
+  }
 
 /*-- HEADER --*/
 
