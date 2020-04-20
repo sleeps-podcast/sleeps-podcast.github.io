@@ -32,6 +32,10 @@ svg {
   bottom:0;
   }
 
+.down-arrow {
+  display:none;
+}
+
 /*-- HEADER --*/
 
 .header {
@@ -293,8 +297,12 @@ form {
   font-size:35px;
 }
 
-.disappear {
+.right-arrow {
 	display:none;
+}
+
+.down-arrow {
+  display:initial;
 }
 
 .show {
