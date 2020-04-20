@@ -4,6 +4,8 @@
 
 .cta-box {display:none;}
 
+.mobile-only {display:initial;}
+
 .logo {
   height:80px;
   width:auto;
@@ -43,6 +45,7 @@ img.logo {
 /*-- INTRO BOX --*/
 
 .intro-box {
+  width:100%;
   height:350px;
   padding:7vw;
 }
