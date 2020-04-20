@@ -6,6 +6,13 @@
 
 .mobile-only {display:initial;}
 
+.ruler {
+  height:2px;
+  border-width:0;
+  margin:6vw 0;
+  opacity:.5;
+}
+
 .logo-mobile {
   height:120px;
   width:auto;

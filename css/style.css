@@ -23,6 +23,13 @@ a {
   text-decoration:none;
 }
 
+.ruler {
+  height:2px;
+  border-width:0;
+  margin:2vw 0;
+  opacity:.5;
+}
+
 /*-- ILLUSTRATIONS --*/
 
 svg {
