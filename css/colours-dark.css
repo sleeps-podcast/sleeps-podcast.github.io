@@ -41,23 +41,23 @@ a, .listen a:hover, .episode-box, .episode-box:hover, .footer {
 
 /*-- PALE COLOUR - TEXT --*/
 .header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
-  color:#bf8776;
+  color:#6e6878;
 }
 
 /*-- BEIGE BACKGROUNDS --*/
 .episode-box {
-  background-color:#bf8776;
+  background-color:#6e6878;
 }
 
 /*-- PALE COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
-    border:2px solid #bf8776;
+    border:2px solid #6e6878;
 }
 
-/*-- BRIGHTEST ACCENT COLOUR --*/
+/*-- SECONDARY ACCENT COLOUR --*/
 
 .intro-box, .episode-box:hover {
-  background-color:#f1ede3;
+  background-color:#6e6878;
 }
 
 .credits-box a:hover {

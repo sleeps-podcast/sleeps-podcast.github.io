@@ -50,7 +50,7 @@ a, .listen a:hover, .intro-box p, .intro-box h1, .episode-box, .episode-box:hove
     border:2px solid #dbd6c9;
 }
 
-/*-- BRIGHTEST ACCENT COLOUR --*/
+/*-- SECONDARY ACCENT COLOUR --*/
 
 .intro-box, .episode-box:hover {
   background-color:#f1ede3;
