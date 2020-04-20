@@ -56,7 +56,7 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
   border:2px solid #36333c;
   display:initial;
   background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_moon_icon.svg');
-  background-size:10px;
+  background-size:10px 10px;
   background-repeat:no-repeat;
   background-position:90% 50%;
   font-weight:700;
