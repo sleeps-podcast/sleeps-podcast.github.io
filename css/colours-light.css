@@ -3,12 +3,12 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, .logo, .buttons, .ruler, .footer {
+body, .nav-bar, .logo, .buttons, .ruler {
   background: #ee8967 ;}
 
 /*-- DARK COLOUR - TEXT --*/
 
-.intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box {
+.intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box, .footer {
   color: #ee8967 ;}
 
 /* ILLUSTRATIONS - FILL */
@@ -17,20 +17,16 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .footer, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+.header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
   color: #ffd6d6 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.episode-box, .buttons:hover {
+.episode-box, .buttons:hover, .footer {
   background-color: #ffd6d6 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
     border:2px solid #ffd6d6 ;}
-
-/*-- LIGHT COLOUR - BORDERS --*/
-.footer {
-    border-top:2px solid #ffd6d6 ;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
@@ -51,20 +47,20 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 /*-- NIGHT BUTTON --*/
 
 #dark-mode-button {
-  background: transparent;
-  color:#36333c;
-  border:2px solid #36333c;
-  display:initial;
-  background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_moon_icon.svg');
-  background-size:10px 10px;
-  background-repeat:no-repeat;
-  background-position:90% 50%;
   font-weight:700;
   text-align:center;
   font-size:12px;
   letter-spacing:.2pt;
+  background: transparent;
+  color:#36333c;
+  border:2px solid #36333c;
+  background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_moon_icon.svg');
+  background-size:10px 10px;
+  background-repeat:no-repeat;
+  background-position:90% 50%;
   border-radius:50px;
   transition: .2s ease-in-out;
+  display:initial;
 }
 
 #dark-mode-button:hover {

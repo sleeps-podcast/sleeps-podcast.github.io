@@ -55,20 +55,20 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 }
 
 #light-mode-button {
-  background: transparent;
-  color:#ee8967;
-  border:2px solid #ee8967;
-  display:initial;
-  background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_sun_icon.svg');
-  background-size:10px 10px;
-  background-repeat:no-repeat;
-  background-position:90% 50%;
   font-weight:700;
   text-align:center;
   font-size:12px;
   letter-spacing:.2pt;
+  background: transparent;
+  color:#ee8967;
+  border:2px solid #ee8967;
+  background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_sun_icon.svg');
+  background-size:10px 10px;
+  background-repeat:no-repeat;
+  background-position:90% 50%;
   border-radius:50px;
   transition: .2s ease-in-out;
+  display:initial;
 }
 
 #dark-mode-button {
