@@ -15,6 +15,12 @@ body {
   padding:0;
 }
 
+/*-- LINKS --*/
+
+a {
+  text-decoration:none;
+}
+
 svg {
   width:190px;
   padding:0;
@@ -24,11 +30,7 @@ svg {
   bottom:0;}
 }
 
-/*-- LINKS --*/
 
-a {
-  text-decoration:none;
-}
 
 .show {
 	display:none;
