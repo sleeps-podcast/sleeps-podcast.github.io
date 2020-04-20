@@ -69,7 +69,15 @@ svg.logo {
   left:7vw;
   z-index:999999;
   border-radius:50%;
-  background-color:#ffd6d6;
+}
+
+svg.logo-mobile {
+  height:200px;
+  position:relative;
+  top:initial;
+  left:initial;
+  display: block;
+  margin: 30vw auto 0;
 }
 
 /*-- BUTTONS --*/

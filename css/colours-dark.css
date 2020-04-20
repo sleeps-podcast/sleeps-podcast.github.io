@@ -1,9 +1,8 @@
-
 /*------------------------------- DARK COLOUR -------------------------------*/
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, .logo, .buttons, .ruler, .footer {
+body, .nav-bar, svg.logo, .buttons, .ruler, .footer {
   background: #332f3a ;}
 
 /*-- DARK COLOUR - TEXT --*/
@@ -43,6 +42,12 @@ body, .nav-bar, .logo, .buttons, .ruler, .footer {
 
 .credits-box a:hover {
   color: #ffd6d6 ;
+}
+
+/* LOGO LETTERS - FILL */
+
+.logo-letters {
+  fill: #ffd6d6 ;
 }
 
 /*------------------------- BUTTONS IN NIGHT VERSION ONLY -------------------------*/
