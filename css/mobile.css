@@ -44,6 +44,7 @@
 .intro-box {
   height:350px;
   padding:7vw;
+  margin:0;
 }
 
 .intro-box p {
@@ -65,9 +66,9 @@
 
 .episode-box {
   display: table-cell;
+  height:350px;
   padding:7vw;
   margin:0;
-  height:350px;
   color:rgba(0,0,0,1);
   background-color:#a65e6a;
   border:2px solid transparent;

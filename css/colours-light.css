@@ -7,7 +7,7 @@ body, .nav-bar, svg.logo, .buttons, .ruler {
 
 /*-- DARK COLOUR - TEXT --*/
 
-.intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box, .footer {
+.box-intro p, .box-intro h1, .box-episode:hover, a, .buttons:hover, .box-episode, .footer {
   color: #b3aac1 ;}
 
 /* ILLUSTRATIONS - FILL */
@@ -16,15 +16,15 @@ body, .nav-bar, svg.logo, .buttons, .ruler {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+.header, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .box-credits a {
   color: #ffd6d6 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.episode-box, .buttons:hover, .footer {
+.box-episode, .buttons:hover, .footer {
   background-color: #ffd6d6 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
+.listen a, .box-cta, .box-credits, .buttons {
     border:2px solid #ffd6d6 ;}
 
 .nav-bar {
@@ -34,13 +34,13 @@ body, .nav-bar, svg.logo, .buttons, .ruler {
 
 /*-- LIGHTEST ACCENT COLOUR --*/
 
-.intro-box, .episode-box:hover {
+.box-intro, .box-episode:hover {
   background-color: white ;}
 
 /* ILLUSTRATIONS - STROKE */
 .st1{fill: white ;}
 
-.credits-box a:hover {
+.box-credits a:hover {
   color: white ;
 }
 

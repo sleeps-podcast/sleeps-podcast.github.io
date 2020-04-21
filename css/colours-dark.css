@@ -2,12 +2,12 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, svg.logo, .buttons, .ruler, .footer {
+body, .nav-bar, svg.logo, .buttons, .ruler {
   background: #332f3a ;}
 
 /*-- DARK COLOUR - TEXT --*/
 
-.intro-box p, .intro-box h1, .episode-box:hover, a, .buttons:hover, .episode-box {
+.box-intro p, .box-intro h1, .box-episode:hover, a, .buttons:hover, .box-episode, .footer {
   color: #332f3a ;}
 
 /* ILLUSTRATIONS - FILL */
@@ -16,15 +16,15 @@ body, .nav-bar, svg.logo, .buttons, .ruler, .footer {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .footer, .nav-bar, .buttons, .listen a, .cta-box p, .cta-box-hidden p, .credits-box, .credits-box h1, .credits-box a {
+.header, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .box-credits a {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.episode-box, .buttons:hover {
+.box-episode, .buttons:hover, .footer {
   background-color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .cta-box, .cta-box-hidden, .credits-box, .buttons {
+.listen a, .box-cta, .box-credits, .buttons {
     border:2px solid #6e6878 ;}
 
 .nav-bar {
@@ -34,23 +34,21 @@ body, .nav-bar, svg.logo, .buttons, .ruler, .footer {
 
 /*-- LIGHTEST ACCENT COLOUR --*/
 
-.intro-box, .episode-box:hover {
+.box-intro, .box-episode:hover {
   background-color: #ffd6d6 ;}
 
 /* ILLUSTRATIONS - STROKE */
 .st1{fill: #ffd6d6 ;}
 
-.credits-box a:hover {
+.box-credits a:hover {
   color: #ffd6d6 ;
 }
-
-/* LOGO LETTERS - FILL */
 
 .logo-letters {
   fill: #ffd6d6 ;
 }
 
-/*------------------------- BUTTONS IN NIGHT VERSION ONLY -------------------------*/
+/*------------------------- BUTTONS IN DAY VERSION ONLY -------------------------*/
 
 /*-- DAY BUTTON --*/
 
