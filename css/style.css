@@ -239,20 +239,14 @@ ul.share-buttons{
   border:0;
 }
 
-ul.share-buttons img {
+svg.share-buttons {
   width:50px;
-  margin:5px;
+  margin:2vw;
   opacity:.5;
-  transition: .1s ease-in-out;
 }
 
-ul.share-buttons img:hover {
+svg.share-buttons:hover {
   opacity:1;
-}
-
-ul.share-buttons li{
-  display: inline;
-  border:0;
 }
 
 /*-- FOOTER --*/
