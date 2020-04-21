@@ -50,36 +50,68 @@ svg.illustrations {
   bottom:0;
 }
 
+/*-- HEADER --*/
+
 h1 {
   font-size:4.5vw;
-  font-weight:700;
   padding:9vw 0 10vw;
   margin:0;
   text-align:center;
 }
 
+/*-- EPISODE_TITLES --*/
+
 h2 {
-  font-weight:700;
-  font-size:28px;
+  font-size:2.2vw;
+  padding:0;
+  margin:0;
 }
+
+/*-- BODY_TEXT_BOLD --*/
 
 h3 {
-  font-weight:500;
   font-size:17px;
+  padding:0;
+  margin:0;
 }
 
+/*-- BODY_TEXT_UNBOLD --*/
+
+.unbold {
+  font-weight:400;
+  padding:0;
+  margin:0;
+}
+
+/*-- AUTHOR_TITLES --*/
+
+.box-episode h3 {
+  margin:1.2vw 0;
+}
+
+/*-- UPPERCASE_TITLES --*/
+
 h4 {
-  font-weight:500;
   font-size:10px;
   text-transform:uppercase;
   letter-spacing:1;
+  padding:0;
+  margin:0 0 1.2vw;
 }
 
-h5 {
-  font-weight:700;
-  font-size:12px;
-  line-height:1.2;
+/*-- UPPERCASE_TITLES_CREDITS --*/
+
+.box-credits h4 {
+  padding:0;
+  margin:0 0 .5vw;
 }
+
+.box-credits h5 {
+  padding:0;
+  margin:0 0 1.6vw;
+}
+
+/*-- LOGO --*/
 
 svg.logo {
   height:120px;
@@ -238,30 +270,27 @@ form {
 /* ----------- MIDDLE LAYOUT - 2 COLUMNS ----------- */
 
 @media screen and (max-width: 1080px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
 
-.box-episode h1 {
-  font-size:35px;
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
 }
 
-.box-intro {
-	font-size:20px;
+h2 {
+  font-size:3.5vw;
 }
 
-.right-arrow {
-	display:none;
+h3 {
+  font-size:2.2vw;
 }
 
-.down-arrow {
-  display:initial;
+h4 {
+  font-size:1.1vw;
 }
 
-.show {
-	display:initial;
+.desktop-only {
+  display:none;
 }
 
 .mode-buttons-container {
