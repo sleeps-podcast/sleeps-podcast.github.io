@@ -318,6 +318,10 @@ form {
   font-size:35px;
 }
 
+.intro-box {
+	font-size:20px;
+}
+
 .right-arrow {
 	display:none;
 }
