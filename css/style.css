@@ -12,6 +12,7 @@ body {
   margin:0;
   padding:0;
   letter-spacing:.2pt;
+  line-height:1.2;
 }
 
 a {
@@ -54,16 +55,12 @@ h1 {
   font-weight:700;
   padding:9vw 0 10vw;
   margin:0;
-  line-height:1.2;
   text-align:center;
 }
 
 h2 {
   font-weight:700;
   font-size:28px;
-  line-height:1.15;
-  padding:0;
-  margin:0 0 15px;
 }
 
 h3 {
@@ -81,9 +78,6 @@ h4 {
 h5 {
   font-weight:700;
   font-size:12px;
-  text-align:left;
-  margin:0;
-  padding:0;
   line-height:1.2;
 }
 
@@ -116,12 +110,8 @@ svg.logo-mobile {
   text-align:right;
 }
 
-form {
-  display:inline;
-}
-
-.buttons {
-  width:140px;
+.nav-buttons {
+  width:100px;
   font-weight:700;
   text-align:center;
   font-size:12px;
@@ -132,8 +122,12 @@ form {
   margin:0 0 0 1vw;
 }
 
-.buttons:hover {
+.nav-buttons:hover {
   cursor: pointer;
+}
+
+form {
+  display:inline;
 }
 
 /*-- BOXES CONTAINER --*/

@@ -2,12 +2,12 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, svg.logo, .buttons, .rule {
+body, .nav-bar, svg.logo, .nav-buttons, .rule {
   background: #332f3a ;}
 
 /*-- DARK COLOUR - TEXT --*/
 
-.box-intro, .box-episode:hover, a, .buttons:hover, .box-episode, .footer {
+.box-intro, .box-episode:hover, a, .nav-buttons:hover, .box-episode, .footer {
   color: #332f3a ;}
 
 /* ILLUSTRATIONS - FILL */
@@ -17,15 +17,15 @@ body, .nav-bar, svg.logo, .buttons, .rule {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .box-credits a {
+h1, .nav-bar, .nav-buttons, .listen a, .box-cta, .box-credits, .box-credits h1, .box-credits a {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.box-episode, .buttons:hover, .footer {
+.box-episode, .nav-buttons:hover, .footer {
   background-color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .box-cta, .box-credits, .buttons {
+.listen a, .box-cta, .box-credits, .nav-buttons {
   border:2px solid #6e6878 ;}
 
 .nav-bar {
@@ -36,17 +36,17 @@ h1, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .b
 /*-- LIGHTEST ACCENT COLOUR --*/
 
 .box-intro, .box-episode:hover {
-  background-color: #ffd6d6 ;}
+  background-color: #ffd5dd ;}
 
 /* ILLUSTRATIONS - STROKE */
 .st1{
-  fill: #ffd6d6 ;}
+  fill: #ffd5dd ;}
 
 .box-credits a:hover {
-  color: #ffd6d6 ;}
+  color: #ffd5dd ;}
 
 .logo-letters {
-  fill: #ffd6d6 ;}
+  fill: #ffd5dd ;}
 
 /*------------------------- BUTTONS IN DAY VERSION ONLY -------------------------*/
 
@@ -58,8 +58,8 @@ h1, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .b
   font-size:12px;
   letter-spacing:.2pt;
   background: transparent;
-  color:#ffdfe1;
-  border:2px solid #ffdfe1;
+  color:#ffd5dd;
+  border:2px solid #ffd5dd;
   background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_sun_icon.svg');
   background-size:10px 10px;
   background-repeat:no-repeat;
@@ -70,7 +70,7 @@ h1, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .b
 }
 
 #light-mode-button:hover {
-  box-shadow: 0px 0px 20px #ffdfe1;
+  box-shadow: 0px 0px 20px #ffd5dd;
 }
 
 #dark-mode-button {

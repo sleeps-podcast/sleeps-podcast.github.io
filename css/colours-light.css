@@ -2,12 +2,12 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, svg.logo, .buttons, .rule {
+body, .nav-bar, svg.logo, .nav-buttons, .rule {
   background: #b3aac1 ;}
 
 /*-- DARK COLOUR - TEXT --*/
 
-.box-intro, .box-episode:hover, a, .buttons:hover, .box-episode, .footer {
+.box-intro, .box-episode:hover, a, .nav-buttons:hover, .box-episode, .footer {
   color: #b3aac1 ;}
 
 /* ILLUSTRATIONS - FILL */
@@ -17,19 +17,19 @@ body, .nav-bar, svg.logo, .buttons, .rule {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .box-credits a {
-  color: #ffdfe1 ;}
+h1, .nav-bar, .nav-buttons, .listen a, .box-cta, .box-credits, .box-credits h1, .box-credits a {
+  color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.box-episode, .buttons:hover, .footer {
-  background-color: #ffdfe1 ;}
+.box-episode, .nav-buttons:hover, .footer {
+  background-color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .box-cta, .box-credits, .buttons {
-  border:2px solid #ffdfe1 ;}
+.listen a, .box-cta, .box-credits, .nav-buttons {
+  border:2px solid #ffd5dd ;}
 
 .nav-bar {
-  border-color:#ffdfe1 ;}
+  border-color:#ffd5dd ;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
