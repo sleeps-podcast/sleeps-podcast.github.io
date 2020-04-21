@@ -2,7 +2,7 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, svg.logo, .nav-buttons, .rule {
+body, .nav-bar, svg.logo, .nav-buttons, hr {
   background: #b3aac1 ;}
 
 /*-- DARK COLOUR - TEXT --*/
@@ -21,7 +21,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-cta, .box-credits, .box-credits h1, 
   color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.box-episode, .nav-buttons:hover, .footer {
+.box-episode, .nav-buttons:hover, .box-credits hr, .footer {
   background-color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
