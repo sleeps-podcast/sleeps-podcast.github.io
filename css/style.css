@@ -12,11 +12,12 @@ body {
   margin:0;
   padding:0;
   letter-spacing:.2pt;
-  line-height:1.2;
+  line-height:1.15;
 }
 
 a {
   text-decoration:none;
+  transition: .2s ease-in-out;
 }
 
 .desktop-only {
@@ -32,6 +33,63 @@ hr {
   border-width:0;
   margin:2vw 0;
   opacity:.5;
+}
+
+/*-- LOGO --*/
+
+svg.logo {
+  height:120px;
+  width:auto;
+  position:fixed;
+  top:5vw;
+  left:7vw;
+  z-index:999999;
+  border-radius:50%;
+}
+
+svg.logo-in-card {
+  height:15vw;
+  padding:0;
+  margin:0;
+}
+
+svg.logo-mobile {
+  height:200px;
+  position:relative;
+  top:initial;
+  left:initial;
+  display: block;
+  margin: 30vw auto 0;
+}
+
+/*-- BUTTONS --*/
+
+.nav-bar {
+  top:0;
+  width:100%;
+  margin:0;
+  padding:5vw 5vw 0 0;
+  text-align:right;
+}
+
+.nav-buttons {
+  width:100px;
+  font-weight:700;
+  text-align:center;
+  font-size:12px;
+  padding:5px 0;
+  border-radius:50px;
+  transition: .2s ease-in-out;
+  display:inline-block;
+  margin:0 0 0 1vw;
+}
+
+.nav-buttons:hover {
+  cursor: pointer;
+}
+
+form {
+  display:inline;
 }
 
 /*-- IMAGES --*/
@@ -99,81 +157,29 @@ h4 {
 
 /*-- UPPERCASE_TITLES_CREDITS --*/
 
-.box-credits h4 {
+.box-outline h4 {
   padding:0;
-  margin:0 0 1vw;
+  margin:0 0 1.5vw;
 }
 
 /*-- CREDITS_LINKS --*/
 
-.box-credits a {
+.box-outline a {
   font-size:13px;
   font-weight:500;
   padding:0;
-  margin:0;
   line-height:1.3;
 }
 
 /*-- CREDITS_DIVIDER --*/
 
-.box-credits hr {
-  margin:.7vw 0 2vw;
+.box-outline hr {
+  margin:18px 0;
 }
 
 i {
   color:rgba(0,0,0,.2);
   font-style:normal;
-}
-
-/*-- LOGO --*/
-
-svg.logo {
-  height:120px;
-  width:auto;
-  position:fixed;
-  top:5vw;
-  left:7vw;
-  z-index:999999;
-  border-radius:50%;
-}
-
-svg.logo-mobile {
-  height:200px;
-  position:relative;
-  top:initial;
-  left:initial;
-  display: block;
-  margin: 30vw auto 0;
-}
-
-/*-- BUTTONS --*/
-
-.nav-bar {
-  top:0;
-  width:100%;
-  margin:0;
-  padding:5vw 5vw 0 0;
-  text-align:right;
-}
-
-.nav-buttons {
-  width:100px;
-  font-weight:700;
-  text-align:center;
-  font-size:12px;
-  padding:5px 0;
-  border-radius:50px;
-  transition: .2s ease-in-out;
-  display:inline-block;
-  margin:0 0 0 1vw;
-}
-
-.nav-buttons:hover {
-  cursor: pointer;
-}
-
-form {
-  display:inline;
 }
 
 /*-- BOXES CONTAINER --*/
@@ -186,7 +192,7 @@ form {
 
 /*-- BOXES --*/
 
-.box-intro, .box-cta, .box-episode, .box-credits {
+.box-intro, .box-cta, .box-episode, .box-outline {
   display: table-cell;
   width:20%;
   height:400px;
@@ -197,7 +203,7 @@ form {
   transition: .2s ease-in-out;
 }
 
-.box-intro, .box-cta {
+.box-intro, .box-cta, .box-outline {
   vertical-align:middle;
 }
 
@@ -205,23 +211,14 @@ form {
   text-align:center;
 }
 
-.box-credits {
+.box-outline {
   line-height:0;
-}
-
-/*-- EPISODE TITLE --*/
-
-.box-cta p {
-  font-weight:500;
-  font-size:26px;
-  line-height:1.15;
 }
 
 /*-- INTRO BOX - LINK TO STUDY --*/
 
 .box-intro a {
   font-weight:700;
-  transition: .2s ease-in-out;
   border-collapse:0;
   border-bottom:1.5px solid transparent;
   padding:0;
@@ -233,29 +230,40 @@ form {
   border-bottom:1.5px solid;
 }
 
+/*-- SHARE BUTTONS --*/
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+  margin:3vw 0 0;
+  border:0;
+}
+
+ul.share-buttons img {
+  width:50px;
+  margin:5px;
+  opacity:.5;
+  transition: .1s ease-in-out;
+}
+
+ul.share-buttons img:hover {
+  opacity:1;
+}
+
+ul.share-buttons li{
+  display: inline;
+  border:0;
+}
+
 /*-- FOOTER --*/
 
 .footer {
-  font-weight:500;
-  font-size:12px;
+  bottom:0;
+  height:40px;
+  width:100%;
   margin:0;
   padding:15px 0 0;
-  bottom:0;
-  height:50px;
   text-align:center;
-  width:100%;
-}
-
-/*-- CREDITS BOX --*/
-
-
-.credits-list {
-  margin:0 0 20px;
-  line-height:1;
-}
-
-.box-credits a {
-  transition: .2s ease-in-out;
 }
 
 /*-- SCROLLBAR --*/
@@ -275,15 +283,17 @@ form {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 23vw; /* IE10 */
-  flex: 23vw;
-  max-width: 23vw;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
   padding: 0;
 }
 
 /* ----------- MIDDLE LAYOUT - 2 COLUMNS ----------- */
 
 @media screen and (max-width: 1080px) {
+
+.desktop-only {display:none;}
 
 .column {
   -ms-flex: 50%;
@@ -292,11 +302,11 @@ form {
 }
 
 h2 {
-  font-size:3.5vw;
+  font-size:5vw;
 }
 
 h3 {
-  font-size:2.2vw;
+  font-size:3vw;
 }
 
 h4 {
@@ -309,8 +319,8 @@ svg.illustrations {
 
 /*-- BOXES --*/
 
-.box-intro, .box-cta, .box-episode, .box-credits {
-  padding:4vw;
+.box-intro, .box-cta, .box-episode, .box-outline {
+  padding:5vw;
 }
 
 }

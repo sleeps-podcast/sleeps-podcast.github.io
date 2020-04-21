@@ -17,25 +17,28 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-cta, .box-credits, .box-credits h1, .box-credits a {
+h1, .nav-bar, .nav-buttons, .listen a, .box-cta, .box-outline, .box-outline a {
   color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.box-episode, .nav-buttons:hover, .box-credits hr, .footer {
+.box-episode, .nav-buttons:hover, .box-outline hr {
   background-color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .box-cta, .box-credits, .nav-buttons {
+.listen a, .box-cta, .box-outline, .nav-buttons {
   border:2px solid #ffd5dd ;}
 
 .nav-bar {
   border-color:#ffd5dd ;}
 
+.logo-letters-in-card {
+  fill: #ffd5dd ;}
+
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
-/*-- LIGHTEST ACCENT COLOUR --*/
+/*-- LIGHTEST ACCENT COLOUR - BACKGROUNDS --*/
 
-.box-intro, .box-episode:hover {
+.box-intro, .box-episode:hover, .footer  {
   background-color: white ;}
 
 /* ILLUSTRATIONS - STROKE */
