@@ -25,7 +25,7 @@ a {
   display:none;
 }
 
-.ruler {
+.rule {
   height:2px;
   border-width:0;
   margin:2vw 0;
@@ -109,40 +109,6 @@ form {
   cursor: pointer;
 }
 
-.box-cta p {
-  font-weight:500;
-  font-size:26px;
-  line-height:1.15;
-}
-
-/*-- INTRO BOX --*/
-
-.box-intro h1 {
-  font-weight:700;
-  font-size:12px;
-  letter-spacing:.2;
-  text-align:left;
-  line-height:1.5;
-  margin:0 0 1em;
-  padding:0;
-}
-
-/*-- INTRO BOX - LINK TO STUDY --*/
-
-.box-intro a {
-  font-weight:700;
-  transition: .2s ease-in-out;
-  border-collapse:0;
-  border-bottom:1.5px solid transparent;
-  padding:0;
-  display:inline-block;
-  line-height:1.08;
-}
-
-.box-intro a:hover {
-  border-bottom:1.5px solid;
-}
-
 /*-- BOXES CONTAINER --*/
 
 .boxes-container {
@@ -161,6 +127,7 @@ form {
   padding:2.5vw;
   margin:0;
   position:relative;
+  transition: .2s ease-in-out;
 }
 
 .box-intro, .box-cta {
@@ -198,6 +165,42 @@ form {
   font-size:10px;
   text-transform:uppercase;
   letter-spacing:1;
+}
+
+
+
+.box-cta p {
+  font-weight:500;
+  font-size:26px;
+  line-height:1.15;
+}
+
+/*-- INTRO BOX --*/
+
+.box-intro h1 {
+  font-weight:700;
+  font-size:12px;
+  letter-spacing:.2;
+  text-align:left;
+  line-height:1.5;
+  margin:0 0 1em;
+  padding:0;
+}
+
+/*-- INTRO BOX - LINK TO STUDY --*/
+
+.box-intro a {
+  font-weight:700;
+  transition: .2s ease-in-out;
+  border-collapse:0;
+  border-bottom:1.5px solid transparent;
+  padding:0;
+  display:inline-block;
+  line-height:1.08;
+}
+
+.box-intro a:hover {
+  border-bottom:1.5px solid;
 }
 
 /*-- FOOTER --*/

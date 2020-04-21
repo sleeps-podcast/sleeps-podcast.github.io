@@ -2,7 +2,7 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, svg.logo, .buttons, .ruler {
+body, .nav-bar, svg.logo, .buttons, .rule {
   background: #332f3a ;}
 
 /*-- DARK COLOUR - TEXT --*/
@@ -11,7 +11,8 @@ body, .nav-bar, svg.logo, .buttons, .ruler {
   color: #332f3a ;}
 
 /* ILLUSTRATIONS - FILL */
-.st0{fill: #332f3a ;}
+.st0{
+  fill: #332f3a ;}
 
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
@@ -25,10 +26,10 @@ body, .nav-bar, svg.logo, .buttons, .ruler {
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .box-cta, .box-credits, .buttons {
-    border:2px solid #6e6878 ;}
+  border:2px solid #6e6878 ;}
 
 .nav-bar {
-    border-color:#6e6878 ;}
+  border-color:#6e6878 ;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
@@ -38,15 +39,14 @@ body, .nav-bar, svg.logo, .buttons, .ruler {
   background-color: #ffd6d6 ;}
 
 /* ILLUSTRATIONS - STROKE */
-.st1{fill: #ffd6d6 ;}
+.st1{
+  fill: #ffd6d6 ;}
 
 .box-credits a:hover {
-  color: #ffd6d6 ;
-}
+  color: #ffd6d6 ;}
 
 .logo-letters {
-  fill: #ffd6d6 ;
-}
+  fill: #ffd6d6 ;}
 
 /*------------------------- BUTTONS IN DAY VERSION ONLY -------------------------*/
 
