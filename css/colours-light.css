@@ -7,7 +7,7 @@ body, .nav-bar, svg.logo, .buttons, .rule {
 
 /*-- DARK COLOUR - TEXT --*/
 
-.box-intro p, .box-intro h1, .box-episode:hover, a, .buttons:hover, .box-episode, .footer {
+.box-intro, .box-episode:hover, a, .buttons:hover, .box-episode, .footer {
   color: #b3aac1 ;}
 
 /* ILLUSTRATIONS - FILL */
@@ -17,19 +17,19 @@ body, .nav-bar, svg.logo, .buttons, .rule {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-.header, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .box-credits a {
-  color: #ffd6d6 ;}
+h1, .nav-bar, .buttons, .listen a, .box-cta p, .box-credits, .box-credits h1, .box-credits a {
+  color: #ffdfe1 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
 .box-episode, .buttons:hover, .footer {
-  background-color: #ffd6d6 ;}
+  background-color: #ffdfe1 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
 .listen a, .box-cta, .box-credits, .buttons {
-  border:2px solid #ffd6d6 ;}
+  border:2px solid #ffdfe1 ;}
 
 .nav-bar {
-  border-color:#ffd6d6 ;}
+  border-color:#ffdfe1 ;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
