@@ -192,7 +192,7 @@ i {
 
 /*-- BOXES --*/
 
-.box-intro, .box-cta, .box-episode, .box-outline {
+.box-intro, .box-episode, .box-outline {
   display: table-cell;
   width:20%;
   height:400px;
@@ -203,12 +203,8 @@ i {
   transition: .2s ease-in-out;
 }
 
-.box-intro, .box-cta, .box-outline {
+.box-intro, .box-outline {
   vertical-align:middle;
-}
-
-.box-cta {
-  text-align:center;
 }
 
 .box-outline {
@@ -295,26 +291,47 @@ svg.share-buttons:hover {
   max-width: 50%;
 }
 
+/*-- EPISODE_TITLES --*/
+
 h2 {
-  font-size:5vw;
+  font-size:4vw;
 }
 
+/*-- AUTHOR_TITLES --*/
+
 h3 {
-  font-size:3vw;
+  font-size:2.5vw;
 }
+
+.box-intro h3 {
+  font-size:2.2vw;
+}
+
+/*-- UPPERCASE_TITLES --*/
 
 h4 {
   font-size:1.1vw;
 }
 
 svg.illustrations {
-  width:20vw;
+  width:18vw;
 }
 
 /*-- BOXES --*/
 
-.box-intro, .box-cta, .box-episode, .box-outline {
+.box-intro, .box-episode, .box-outline {
   padding:5vw;
+}
+
+}
+
+@media screen and (max-width: 810px) {
+
+/*-- BOXES --*/
+
+.box-intro, .box-episode, .box-outline {
+  padding:5vw;
+  height:350px;
 }
 
 }

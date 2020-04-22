@@ -14,10 +14,13 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 .st0{
   fill: #332f3a ;}
 
+.st0-share{fill:#332f3a;}
+.st2-share{fill:#332f3a;}
+
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-cta, .box-outline, .box-outline a {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
@@ -25,7 +28,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-cta, .box-outline, .box-outline a {
   background-color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .box-cta, .box-outline, .nav-buttons {
+.listen a, .box-outline, .nav-buttons {
   border:2px solid #6e6878 ;}
 
 .nav-bar {
@@ -33,6 +36,8 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-cta, .box-outline, .box-outline a {
 
 .logo-letters-in-card {
   fill: #6e6878 ;}
+
+.st1-share{fill:#6e6878;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
