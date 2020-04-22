@@ -19,6 +19,10 @@
   border-bottom:2px solid;
 }
 
+.nav-buttons {
+  width:88px;
+}
+
 /*-- LOGO --*/
 
 svg.logo-mobile {
