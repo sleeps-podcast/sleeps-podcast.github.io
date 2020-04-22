@@ -15,6 +15,12 @@ svg.share-buttons {
   max-width: 50%;
 }
 
+/*-- PAGE_HEADER --*/
+
+h1 {
+  font-size:7.5vw;
+}
+
 /*-- EPISODE_TITLES --*/
 
 h2 {
@@ -120,7 +126,7 @@ svg.logo-mobile {
 .box-intro-mobile {
   width:100%;
   border-radius:0;
-  padding:5vw 10vw;
+  padding:5vw 20vw;
   margin:0;
   text-align:center;
 }
