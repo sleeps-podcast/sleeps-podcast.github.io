@@ -173,7 +173,7 @@ svg.logo-mobile {
 /*-- BOXES --*/
 
 .box-episode, .box-outline {
-  height:300px;
+  height:330px;
   padding:10vw 5vw;
 }
 
@@ -200,27 +200,7 @@ h4 {
 /*-- IMAGES --*/
 
 svg.illustrations {
-  width:60vw;
-}
-
-/*-- COLUMNS --*/
-
-.column {
-  -ms-flex: 100%;
-  flex: 100%;
-  max-width: 100%;
-}
-
-/*-- FOOTER --*/
-
-.footer h4 {
-  font-size:2.2vw;
-}
-
-/*-- REMOVE_HOVER_EFFECTS --*/
-
-#light-mode-button:hover, #dark-mode-button:hover {
-  box-shadow: none;
+  width:50vw;
 }
 
 }
