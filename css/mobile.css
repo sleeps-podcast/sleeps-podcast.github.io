@@ -37,7 +37,7 @@ h3 {
   font-size:2.5vw;
 }
 
-.box-intro h3 {
+.box-outline h3 {
   font-size:2.2vw;
 }
 
@@ -57,7 +57,7 @@ svg.share-buttons {
 
 /*-- BOXES --*/
 
-.box-intro, .box-episode, .box-outline {
+.box-episode, .box-outline {
   padding:5vw;
 }
 
@@ -67,7 +67,7 @@ svg.share-buttons {
 
 /*-- BOXES --*/
 
-.box-intro, .box-episode, .box-outline {
+.box-episode, .box-outline {
   padding:5vw;
   height:350px;
 }
@@ -100,8 +100,12 @@ svg.share-buttons {
   width:10vw;
 }
 
+.box-outline h2 {
+  font-size:8vw;
+}
+
 .box-outline h3 {
-  margin-bottom:7vw;
+  font-size:20px;
 }
 
 /*-- NAV_BAR --*/
@@ -131,43 +135,6 @@ svg.logo-mobile {
   left:initial;
   display: block;
   margin: 20vw auto 0;
-}
-
-/*-- INTRO_CONTAINER --*/
-
-.box-intro-mobile {
-  width:100%;
-  border-radius:0;
-  padding:5vw 17vw;
-  margin:0;
-  text-align:center;
-}
-
-/*-- INTRO_HEADER --*/
-
-.box-intro-mobile h1 {
-  font-size:7.5vw;
-  padding:0;
-  margin:5vw 0 10vw;
-}
-
-/*-- INTRO_TEXT --*/
-
-.box-intro-mobile h3 {
-  font-size:18px;
-  line-height:1.5;
-  padding:0;
-  margin:0 0 2vw;
-}
-
-.box-intro-mobile a {
-  color:black;
-  font-weight:700;
-  border-collapse:0;
-  border-bottom:2px solid;
-  padding:0;
-  display:inline-block;
-  line-height:1.3;
 }
 
 /*-- BOXES --*/
@@ -266,18 +233,6 @@ svg.illustrations {
 
 svg.logo-mobile {
   margin: 25vw auto 0;
-}
-
-/*-- INTRO_HEADER --*/
-
-.box-intro-mobile h1 {
-  font-size:7.5vw;
-}
-
-/*-- INTRO_TEXT --*/
-
-.box-intro-mobile h3 {
-  line-height:1.2;
 }
 
 /*-- BOXES --*/
