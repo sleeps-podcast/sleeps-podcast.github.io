@@ -183,17 +183,13 @@ i {
   transition: .2s ease-in-out;
 }
 
-.box-intro h3 {
+.box-outline h3 {
   font-weight:400;
   font-size:13px;
 }
 
 .box-intro, .box-outline {
   vertical-align:middle;
-}
-
-.box-outline {
-  line-height:0;
 }
 
 .box-outline h3 {
