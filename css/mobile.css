@@ -126,7 +126,7 @@ svg.logo-mobile {
 .box-intro-mobile {
   width:100%;
   border-radius:0;
-  padding:5vw 20vw;
+  padding:5vw 17vw;
   margin:0;
   text-align:center;
 }
@@ -295,7 +295,7 @@ svg.illustrations {
 }
 
 svg.share-buttons {
-  width:10vw;
+  width:15vw;
 }
 
 }
