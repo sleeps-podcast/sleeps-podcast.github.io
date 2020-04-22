@@ -196,6 +196,10 @@ i {
   line-height:0;
 }
 
+.box-outline h3 {
+  margin-bottom:3vw;
+}
+
 /*-- INTRO BOX - LINK TO STUDY --*/
 
 .box-intro a {
@@ -213,16 +217,10 @@ i {
 
 /*-- SHARE BUTTONS --*/
 
-ul.share-buttons{
-  list-style: none;
-  padding: 0;
-  margin:3vw 0 0;
-  border:0;
-}
 
 svg.share-buttons {
   width:50px;
-  margin:2vw;
+  margin:1vw;
   opacity:.5;
 }
 
