@@ -47,21 +47,6 @@ svg.logo {
   border-radius:50%;
 }
 
-svg.logo-in-card {
-  height:15vw;
-  padding:0;
-  margin:0;
-}
-
-svg.logo-mobile {
-  height:200px;
-  position:relative;
-  top:initial;
-  left:initial;
-  display: block;
-  margin: 30vw auto 0;
-}
-
 /*-- BUTTONS --*/
 
 .nav-bar {
@@ -282,8 +267,6 @@ svg.share-buttons:hover {
 /* ----------- MIDDLE LAYOUT - 2 COLUMNS ----------- */
 
 @media screen and (max-width: 1080px) {
-
-.desktop-only {display:none;}
 
 .column {
   -ms-flex: 50%;

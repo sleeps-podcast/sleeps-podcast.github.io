@@ -20,11 +20,11 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a, .box-intro-mobile h3, .box-intro-mobile a {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.box-episode, .nav-buttons:hover, .footer {
+.box-episode, .nav-buttons:hover, .box-outline hr {
   background-color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
@@ -41,7 +41,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a {
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
-/*-- LIGHTEST ACCENT COLOUR --*/
+/*-- LIGHTEST ACCENT COLOUR - BACKGROUNDS --*/
 
 .box-intro, .box-episode:hover {
   background-color: #ffd5dd ;}

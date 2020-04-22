@@ -20,7 +20,7 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a, .box-intro-mobile h3, .box-intro-mobile a {
   color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
@@ -38,7 +38,6 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a {
   fill: #ffd5dd ;}
 
 .st1-share{fill:#ffd5dd;}
-
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 

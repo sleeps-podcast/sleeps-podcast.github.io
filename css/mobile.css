@@ -2,18 +2,10 @@
 
 @media screen and (max-width: 640px) {
 
-.cta-box, .disappear, .desktop-only, svg.logo {display:none;}
-
+.desktop-only {display:none;}
 .mobile-only {display:initial;}
 
-.ruler {
-  height:2px;
-  border-width:0;
-  margin:6vw 0;
-  opacity:.5;
-}
-
-/*-- BUTTONS --*/
+/*-- NAV_BAR --*/
 
 .nav-bar {
   height:65px;
@@ -27,101 +19,88 @@
   border-bottom:2px solid;
 }
 
-.buttons {
-  width:90px;
-  padding:8px 0;
-  display:inline-block;
-  margin:0 2px 0;
+/*-- LOGO --*/
+
+svg.logo-mobile {
+  height:170px;
+  position:relative;
+  top:initial;
+  left:initial;
+  display: block;
+  margin: 20vw auto 0;
 }
 
-.header {
-  font-size:12vw;
-  padding:28vw 0 10vw;
-}
+/*-- INTRO_CONTAINER --*/
 
-/*-- INTRO BOX --*/
-
-.intro-box {
-  height:350px;
-  padding:7vw;
+.box-intro-mobile {
+  width:100%;
+  border-radius:0;
+  padding:5vw 10vw;
   margin:0;
+  text-align:center;
 }
 
-.intro-box p {
+/*-- INTRO_HEADER --*/
+
+.box-intro-mobile h1 {
+  font-size:7.5vw;
+  padding:0;
+  margin:5vw 0 10vw;
+}
+
+/*-- INTRO_TEXT --*/
+
+.box-intro-mobile h3 {
   font-size:18px;
+  line-height:1.5;
+  padding:0;
+  margin:0 0 2vw;
 }
 
-.intro-box h1 {
-  font-size:14px;
-}
-
-/*-- EPISODE BOXES CONTAINER --*/
-
-.episodes {
-  border-spacing: 0px 10px;
-  padding:0 4vw 6vw;
-}
-
-/*-- EPISODE BOX --*/
-
-.episode-box {
-  display: table-cell;
-  height:350px;
-  padding:7vw;
-  margin:0;
-  color:rgba(0,0,0,1);
-  background-color:#a65e6a;
-  border:2px solid transparent;
-}
-
-.episode-box:hover {
-  cursor:auto;
-  display: table-cell;
-  height:400px;
-  padding:7vw;
-  margin:0;
-  height:350px;
-  background-color:#a65e6a;
-  border:2px solid transparent;
-}
-
-/*-- EPISODE TITLE --*/
-
-.episode-box h1 {
-  font-size:28px;
-}
-
-/*-- EPISODE AUTHOR --*/
-
-.episode-box h2 {
-  font-size:22px;
-}
-
-/*-- JOB TITLE --*/
-
-.episode-box h3 {
-  font-size:11px;
-}
-
-/*-- CREDITS BOX --*/
-
-.credits-box {
-  padding-top:7vw;
-  padding-bottom:7vw;
+.box-intro-mobile a {
+  color:black;
+  font-weight:700;
+  border-collapse:0;
+  border-bottom:2px solid;
+  padding:0;
+  display:inline-block;
   line-height:1.3;
 }
 
-.credits-box h1 {
-  font-size:9px;
+/*-- BOXES --*/
+
+.box-episode, .box-outline {
+  height:350px;
+  padding:5vw;
 }
 
-.credits-list {
-  line-height:1.2;
+/*-- EPISODE_TITLES --*/
+
+h2 {
+  font-size:8vw;
 }
 
-.credits-list a {
-  font-size:20px;
+/*-- AUTHOR_TITLES --*/
+
+h3 {
+  font-size:4vw;
+  padding:2vw 0;
 }
+
+/*-- UPPERCASE_TITLES --*/
+
+h4 {
+  font-size:12px;
+  margin:0;
+}
+
+/*-- IMAGES --*/
+
+svg.illustrations {
+  width:40vw;
+}
+
+/*-- COLUMNS --*/
 
 .column {
   -ms-flex: 100%;
@@ -129,22 +108,15 @@
   max-width: 100%;
 }
 
-.episode-box h1 {
-  font-size:9vw;
-}
-
 /*-- FOOTER --*/
 
-.footer {
-  font-size:3vw;
-  height:45px;
+.footer h4 {
+  font-size:2.2vw;
 }
 
-#light-mode-button:hover {
-  box-shadow: none;
-}
+/*-- REMOVE_HOVER_EFFECTS --*/
 
-#dark-mode-button:hover {
+#light-mode-button:hover, #dark-mode-button:hover {
   box-shadow: none;
 }
 
