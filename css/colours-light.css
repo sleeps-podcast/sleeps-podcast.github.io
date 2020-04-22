@@ -47,7 +47,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
 .logo-letters, .st1{
   fill: white ;}
 
-.box-outline a {
+.box-outline a, .box-outline a:hover {
   color: white ;}
 
 /*------------------------- BUTTON IN DAY VERSION ONLY -------------------------*/

@@ -50,6 +50,10 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
 .box-outline a, #light-mode-button {
   color: #ffa4c0 ;}
 
+.box-outline a:hover {
+  color:white;
+}
+
 /*------------------------- BUTTON IN NIGHT VERSION ONLY -------------------------*/
 
 /*-- DAY BUTTON --*/

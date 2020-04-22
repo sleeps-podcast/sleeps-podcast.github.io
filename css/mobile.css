@@ -244,6 +244,14 @@ svg.illustrations {
 
 @media screen and (max-width: 500px) {
 
+/*-- BOXES CONTAINER --*/
+
+.boxes-container {
+  border-spacing: 1.5vw;
+  margin:0 0 6vw;
+  padding:0 4vw 0;
+}
+
 /*-- NAV_BAR --*/
 
 .nav-bar {
