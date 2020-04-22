@@ -175,6 +175,7 @@ svg.logo-mobile {
 .box-episode, .box-outline {
   height:330px;
   padding:8vw;
+  margin:5vw initial;
 }
 
 /*-- EPISODE_TITLES --*/
