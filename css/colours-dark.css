@@ -7,7 +7,7 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 
 /*-- DARK COLOUR - TEXT --*/
 
-.box-intro, .box-episode:hover, a, .nav-buttons:hover, .box-episode, .footer {
+.box-episode:hover, a, .nav-buttons:hover, .box-episode, .footer {
   color: #332f3a ;}
 
 /* ILLUSTRATIONS - FILL */
@@ -20,7 +20,7 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a, .box-intro-mobile h3, .box-intro-mobile a {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
@@ -34,29 +34,23 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a, .box-intro-
 .nav-bar {
   border-color:#6e6878 ;}
 
-.logo-letters-in-card {
-  fill: #6e6878 ;}
-
 .st1-share{fill:#6e6878;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
 /*-- LIGHTEST ACCENT COLOUR - BACKGROUNDS --*/
 
-.box-intro, .box-episode:hover {
-  background-color: #ffd5dd ;}
+.box-episode:hover {
+  background-color: #ffa4c0 ;}
 
 /* ILLUSTRATIONS - STROKE */
-.st1{
-  fill: #ffd5dd ;}
+.logo-letters, .st1{
+  fill: #ffa4c0 ;}
 
-.box-outline a:hover {
-  color: #ffd5dd ;}
+.box-outline a, #light-mode-button {
+  color: #ffa4c0 ;}
 
-.logo-letters {
-  fill: #ffd5dd ;}
-
-/*------------------------- BUTTONS IN DAY VERSION ONLY -------------------------*/
+/*------------------------- BUTTON IN NIGHT VERSION ONLY -------------------------*/
 
 /*-- DAY BUTTON --*/
 
@@ -66,8 +60,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a, .box-intro-
   font-size:12px;
   letter-spacing:.2pt;
   background: transparent;
-  color:#ffd5dd;
-  border:2px solid #ffd5dd;
+  border:2px solid #ffa4c0;
   background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_sun_icon.svg');
   background-size:10px 10px;
   background-repeat:no-repeat;
@@ -78,7 +71,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a, .box-intro-
 }
 
 #light-mode-button:hover {
-  box-shadow: 0px 0px 20px #ffd5dd;
+  box-shadow: 0px 0px 20px #ffa4c0;
 }
 
 #dark-mode-button {

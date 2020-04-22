@@ -7,7 +7,7 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 
 /*-- DARK COLOUR - TEXT --*/
 
-.box-intro, .box-episode:hover, a, .nav-buttons:hover, .box-episode, .footer {
+.box-episode:hover, a, .nav-buttons:hover, .box-episode, .footer {
   color: #b3aac1 ;}
 
 /* ILLUSTRATIONS - FILL */
@@ -20,7 +20,7 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a, .box-intro-mobile h3, .box-intro-mobile a {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
   color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
@@ -34,29 +34,23 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-outline a, .box-intro-
 .nav-bar {
   border-color:#ffd5dd ;}
 
-.logo-letters-in-card {
-  fill: #ffd5dd ;}
-
 .st1-share{fill:#ffd5dd;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
 /*-- LIGHTEST ACCENT COLOUR - BACKGROUNDS --*/
 
-.box-intro, .box-episode:hover, .footer  {
+.box-episode:hover, .footer  {
   background-color: white ;}
 
 /* ILLUSTRATIONS - STROKE */
-.st1{
+.logo-letters, .st1{
   fill: white ;}
 
-.box-outline a:hover {
+.box-outline a {
   color: white ;}
 
-.logo-letters {
-  fill: white ;}
-
-/*------------------------- BUTTONS IN DAY VERSION ONLY -------------------------*/
+/*------------------------- BUTTON IN DAY VERSION ONLY -------------------------*/
 
 /*-- NIGHT BUTTON --*/
 
