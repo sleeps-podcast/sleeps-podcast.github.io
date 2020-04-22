@@ -1,9 +1,90 @@
-/* ----------- MOBILE LAYOUT - 1 COLUMNS ----------- */
+/* ----------- MIDDLE LAYOUT - 2 COLUMNS ----------- */
+
+@media screen and (max-width: 1080px) {
+
+.share-buttons-3-lines {display:none;}
+.share-buttons-2-lines {display:initial;}
+
+svg.share-buttons {
+  width:7vw;
+}
+
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+}
+
+/*-- EPISODE_TITLES --*/
+
+h2 {
+  font-size:4vw;
+}
+
+/*-- AUTHOR_TITLES --*/
+
+h3 {
+  font-size:2.5vw;
+}
+
+.box-intro h3 {
+  font-size:2.2vw;
+}
+
+/*-- UPPERCASE_TITLES --*/
+
+h4 {
+  font-size:1.1vw;
+}
+
+svg.illustrations {
+  width:18vw;
+}
+
+/*-- BOXES --*/
+
+.box-intro, .box-episode, .box-outline {
+  padding:5vw;
+}
+
+}
+
+@media screen and (max-width: 810px) {
+
+/*-- BOXES --*/
+
+.box-intro, .box-episode, .box-outline {
+  padding:5vw;
+  height:350px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- NARROW LAYOUT - 1 COLUMNS ----------- */
 
 @media screen and (max-width: 640px) {
 
 .desktop-only {display:none;}
 .mobile-only {display:initial;}
+
+svg.share-buttons {
+  width:10vw;
+}
 
 /*-- NAV_BAR --*/
 
@@ -141,8 +222,7 @@ svg.illustrations {
 
 
 
-
-/* ----------- MOBILE LAYOUT - 1 COLUMNS ----------- */
+/* ----------- MIDDLE LAYOUT - 2 COLUMNS ----------- */
 
 @media screen and (max-width: 500px) {
 
@@ -175,7 +255,7 @@ svg.logo-mobile {
 .box-episode, .box-outline {
   height:330px;
   padding:8vw;
-  margin:5vw initial;
+  margin:0 initial 5vw;
 }
 
 /*-- EPISODE_TITLES --*/

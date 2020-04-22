@@ -24,7 +24,7 @@ a {
   display:initial;
 }
 
-.mobile-only {
+.mobile-only, .middle-only {
   display:none;
 }
 
@@ -119,7 +119,7 @@ h3 {
 }
 
 .box-episode h3 {
-  margin:1vw 0;
+  margin:2vw 0;
 }
 
 /*-- UNBOLD --*/
@@ -219,14 +219,17 @@ i {
 
 
 svg.share-buttons {
-  width:50px;
-  margin:1vw;
+  width:4.5vw;
+  margin:10px;
   opacity:.5;
 }
 
 svg.share-buttons:hover {
   opacity:1;
 }
+
+.share-buttons-3-lines {display:initial;}
+.share-buttons-2-lines {display:none;}
 
 /*-- FOOTER --*/
 
@@ -260,59 +263,4 @@ svg.share-buttons:hover {
   flex: 25%;
   max-width: 25%;
   padding: 0;
-}
-
-/* ----------- MIDDLE LAYOUT - 2 COLUMNS ----------- */
-
-@media screen and (max-width: 1080px) {
-
-.column {
-  -ms-flex: 50%;
-  flex: 50%;
-  max-width: 50%;
-}
-
-/*-- EPISODE_TITLES --*/
-
-h2 {
-  font-size:4vw;
-}
-
-/*-- AUTHOR_TITLES --*/
-
-h3 {
-  font-size:2.5vw;
-}
-
-.box-intro h3 {
-  font-size:2.2vw;
-}
-
-/*-- UPPERCASE_TITLES --*/
-
-h4 {
-  font-size:1.1vw;
-}
-
-svg.illustrations {
-  width:18vw;
-}
-
-/*-- BOXES --*/
-
-.box-intro, .box-episode, .box-outline {
-  padding:5vw;
-}
-
-}
-
-@media screen and (max-width: 810px) {
-
-/*-- BOXES --*/
-
-.box-intro, .box-episode, .box-outline {
-  padding:5vw;
-  height:350px;
-}
-
 }
