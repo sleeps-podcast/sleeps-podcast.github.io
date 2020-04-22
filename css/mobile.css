@@ -125,3 +125,102 @@ svg.illustrations {
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- MOBILE LAYOUT - 1 COLUMNS ----------- */
+
+@media screen and (max-width: 500px) {
+
+/*-- NAV_BAR --*/
+
+.nav-bar {
+  height:58px;
+}
+
+/*-- LOGO --*/
+
+svg.logo-mobile {
+  margin: 25vw auto 0;
+}
+
+/*-- INTRO_HEADER --*/
+
+.box-intro-mobile h1 {
+  font-size:8vw;
+}
+
+/*-- INTRO_TEXT --*/
+
+.box-intro-mobile h3 {
+  line-height:1.2;
+}
+
+/*-- BOXES --*/
+
+.box-episode, .box-outline {
+  height:300px;
+  padding:10vw 5vw;
+}
+
+/*-- EPISODE_TITLES --*/
+
+h2 {
+  font-size:10vw;
+}
+
+/*-- AUTHOR_TITLES --*/
+
+h3 {
+  font-size:7vw;
+  padding:2vw 0;
+}
+
+/*-- UPPERCASE_TITLES --*/
+
+h4 {
+  font-size:13px;
+  margin:0;
+}
+
+/*-- IMAGES --*/
+
+svg.illustrations {
+  width:60vw;
+}
+
+/*-- COLUMNS --*/
+
+.column {
+  -ms-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
+}
+
+/*-- FOOTER --*/
+
+.footer h4 {
+  font-size:2.2vw;
+}
+
+/*-- REMOVE_HOVER_EFFECTS --*/
+
+#light-mode-button:hover, #dark-mode-button:hover {
+  box-shadow: none;
+}
+
+}
