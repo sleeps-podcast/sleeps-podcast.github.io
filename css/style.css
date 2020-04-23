@@ -12,7 +12,7 @@ body {
   margin:0;
   padding:0;
   letter-spacing:.2pt;
-  line-height:1.15;
+  line-height:1;
 }
 
 a {
@@ -104,6 +104,7 @@ h3 {
   font-size:1.3vw;
   padding:0;
   margin:0;
+  line-height:1;
 }
 
 .box-episode h3 {
@@ -165,6 +166,7 @@ hr.credits {
 .box-outline h3 {
   font-weight:400;
   font-size:13px;
+  line-height:1.3;
 }
 
 .box-credits {
