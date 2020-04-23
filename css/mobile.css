@@ -1,4 +1,4 @@
-/* ----------- MIDDLE LAYOUT - 2 COLUMNS ----------- */
+/* ----------- MIDDLE LAYOUT ----------- */
 
 @media screen and (max-width: 1080px) {
 
@@ -101,7 +101,7 @@ svg.logo-mobile {
 
 .box-episode, .box-outline {
   height:350px;
-  padding:5vw;
+  padding:8vw;
 }
 
 /*-- PAGE_HEADER --*/
@@ -123,10 +123,6 @@ h3 {
   padding:2vw 0;
 }
 
-.box-outline {
-  padding:7vw ;
-}
-
 .box-outline h3, .box-outline a {
   font-size:18px;
   line-height:1.4;
@@ -142,7 +138,8 @@ h4 {
 /*-- IMAGES --*/
 
 svg.illustrations {
-  width:25vw;
+  width:28vw;
+  padding:0 3vw 3vw 0;
 }
 
 /*-- COLUMNS --*/
