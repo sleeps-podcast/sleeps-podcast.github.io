@@ -69,7 +69,7 @@ svg.share-buttons {
   background-color:#bf8776;
   width:100%;
   z-index:99999999;
-  text-align:right;
+  text-align:center;
   padding:2vw;
   border-bottom:2px solid;
 }
