@@ -24,7 +24,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.box-episode, .nav-buttons:hover, .box-outline hr {
+.box-episode, .nav-buttons:hover, .box-outline hr, .footer {
   background-color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
