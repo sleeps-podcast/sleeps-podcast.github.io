@@ -1,6 +1,6 @@
 /* ----------- MIDDLE LAYOUT ----------- */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1110px) {
 
 /*-- PAGE_HEADER --*/
 
@@ -25,7 +25,7 @@ h3 {
 }
 
 .box-episode, .box-outline, .box-credits {
-  height:360px;
+  height:400px;
 }
 
 svg.illustrations {
