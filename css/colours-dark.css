@@ -20,7 +20,7 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
@@ -28,7 +28,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
   background-color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .box-outline, .nav-buttons {
+.listen a, .box-outline,.box-credits, .nav-buttons {
   border:2px solid #6e6878 ;}
 
 .nav-bar {
@@ -47,10 +47,10 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
 .logo-letters, .st1{
   fill: #ffa4c0 ;}
 
-.box-outline a, #light-mode-button {
+.box-outline a, .box-credits a, #light-mode-button {
   color: #ffa4c0 ;}
 
-.box-outline a:hover {
+.box-outline a:hover, .box-credits a:hover {
   color:white;
 }
 

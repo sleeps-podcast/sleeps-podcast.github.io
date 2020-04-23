@@ -20,7 +20,7 @@ body, .nav-bar, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
   color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
@@ -28,7 +28,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
   background-color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .box-outline, .nav-buttons {
+.listen a, .box-outline, .box-credits, .nav-buttons {
   border:2px solid #ffd5dd ;}
 
 .nav-bar {
@@ -47,7 +47,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline {
 .logo-letters, .st1{
   fill: white ;}
 
-.box-outline a, .box-outline a:hover {
+.box-outline a, .box-credits a, .box-credits a:hover, .box-outline a:hover {
   color: white ;}
 
 /*------------------------- BUTTON IN DAY VERSION ONLY -------------------------*/

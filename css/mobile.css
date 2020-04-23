@@ -2,49 +2,30 @@
 
 @media screen and (max-width: 1080px) {
 
-.share-buttons-3-lines {display:none;}
-.share-buttons-2-lines {display:initial;}
-
-svg.share-buttons {
-  width:7vw;
-}
-
-.box-outline h3 {
-  margin-bottom:4vw;
-}
-
-.column {
-  -ms-flex: 50%;
-  flex: 50%;
-  max-width: 50%;
-}
-
 /*-- PAGE_HEADER --*/
 
 h1 {
-  font-size:7.5vw;
+  font-size:5vw;
 }
 
 /*-- EPISODE_TITLES --*/
 
 h2 {
-  font-size:4vw;
+  font-size:2.2vw;
 }
 
 /*-- AUTHOR_TITLES --*/
 
 h3 {
-  font-size:2.5vw;
+  font-size:1.6vw;
 }
 
 .box-outline h3 {
-  font-size:2.2vw;
+  font-size:1.2vw;
 }
 
-/*-- UPPERCASE_TITLES --*/
-
-h4 {
-  font-size:1.1vw;
+.box-episode, .box-outline, .box-credits {
+  height:360px;
 }
 
 svg.illustrations {
@@ -55,43 +36,14 @@ svg.share-buttons {
   opacity:1;
 }
 
-/*-- BOXES --*/
-
-.box-episode, .box-outline {
-  padding:5vw;
 }
-
-}
-
-@media screen and (max-width: 810px) {
-
-/*-- BOXES --*/
-
-.box-episode, .box-outline {
-  padding:5vw;
-  height:350px;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 /* ----------- NARROW LAYOUT - 1 COLUMNS ----------- */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 860px) {
 
 .desktop-only {display:none;}
 .mobile-only {display:initial;}
@@ -117,8 +69,8 @@ svg.share-buttons {
   background-color:#bf8776;
   width:100%;
   z-index:99999999;
-  text-align:center;
-  padding:3.5vw;
+  text-align:right;
+  padding:2vw;
   border-bottom:2px solid;
 }
 
@@ -139,22 +91,45 @@ svg.logo-mobile {
 
 /*-- BOXES --*/
 
+/*-- BOXES CONTAINER --*/
+
+.boxes-container {
+  border-spacing: 1.5vw;
+  margin:0 0 6vw;
+  padding:0 1.5vw;
+}
+
 .box-episode, .box-outline {
   height:350px;
   padding:5vw;
 }
 
+/*-- PAGE_HEADER --*/
+
+h1 {
+  font-size:6vw;
+}
+
 /*-- EPISODE_TITLES --*/
 
-h2 {
-  font-size:8vw;
+h2, .box-outline h2 {
+  font-size:5vw;
 }
 
 /*-- AUTHOR_TITLES --*/
 
 h3 {
-  font-size:4vw;
+  font-size:3vw;
   padding:2vw 0;
+}
+
+.box-outline {
+  padding:7vw ;
+}
+
+.box-outline h3, .box-outline a {
+  font-size:18px;
+  line-height:1.4;
 }
 
 /*-- UPPERCASE_TITLES --*/
@@ -167,7 +142,7 @@ h4 {
 /*-- IMAGES --*/
 
 svg.illustrations {
-  width:40vw;
+  width:25vw;
 }
 
 /*-- COLUMNS --*/
