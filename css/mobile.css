@@ -2,6 +2,15 @@
 
 @media screen and (max-width: 1110px) {
 
+
+.box-mobile {
+  text-align:center;
+  padding:0 14vw 10vw;  
+  margin:0;
+  position:relative;
+  transition: .2s ease-in-out;
+}
+
 /*-- PAGE_HEADER --*/
 
 h1 {
