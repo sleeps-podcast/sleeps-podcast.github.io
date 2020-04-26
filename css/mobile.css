@@ -12,6 +12,15 @@
   transition: .2s ease-in-out;
 }
 
+.box-mobile h4{
+  font-size:2vw;
+}
+
+.box-mobile h5 {
+  font-size:3vw;
+  margin:20px 0 20px;
+}
+
 /*-- PAGE_HEADER --*/
 
 h1 {
