@@ -1,21 +1,15 @@
 /*------------------------------- DARK COLOUR -------------------------------*/
 
 /*-- DARK COLOUR - BACKGROUND --*/
-
 body, .nav-bar, #light-mode-button, svg.logo, .nav-buttons, hr {
   background: #332f3a ;}
 
 /*-- DARK COLOUR - TEXT --*/
-
 .box-episode:hover, a, .nav-buttons:hover, .box-episode, .footer {
   color: #332f3a ;}
 
 /* ILLUSTRATIONS - FILL */
-.st0{
-  fill: #332f3a ;}
-
-.st0-share{fill:#332f3a;}
-.st2-share{fill:#332f3a;}
+.st0, .st0-share, .st2-share {fill:#332f3a;}
 
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
@@ -24,17 +18,17 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.box-episode, .nav-buttons:hover, .box-outline hr{
+.box-episode, .nav-buttons:hover, .box-outline hr {
   background-color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
-.listen a, .box-outline,.box-credits, .nav-buttons {
+.listen a, .box-outline, .box-credits, .nav-buttons {
   border:2px solid #6e6878 ;}
 
 .nav-bar {
-  border-color:#6e6878 ;}
+  border-color: #6e6878 ;}
 
-.st1-share{fill:#6e6878;}
+.spotify, .apple, .instagram, .st1-share{fill: #6e6878 ;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
@@ -44,7 +38,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
   background-color: #ffa4c0 ;}
 
 /* ILLUSTRATIONS - STROKE */
-.logo-letters, .st1, .spotify, .apple, .instagram{
+.logo-letters, .st1 {
   fill: #ffa4c0 ;}
 
 .box-outline a, .box-credits a, #light-mode-button {

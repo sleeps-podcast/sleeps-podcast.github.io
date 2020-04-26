@@ -1,21 +1,15 @@
 /*------------------------------- DARK COLOUR -------------------------------*/
 
 /*-- DARK COLOUR - BACKGROUND --*/
-
 body, .nav-bar, #dark-mode-button, svg.logo, .nav-buttons, hr {
   background: #b3aac1 ;}
 
 /*-- DARK COLOUR - TEXT --*/
-
 .box-episode:hover, a, .nav-buttons:hover, .box-episode, .footer {
   color: #b3aac1 ;}
 
 /* ILLUSTRATIONS - FILL */
-.st0{
-  fill: #b3aac1 ;}
-
-.st0-share{fill:#b3aac1;}
-.st2-share{fill:#b3aac1;}
+.st0, .st0-share, .st2-share {fill: #b3aac1 ;}
 
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
