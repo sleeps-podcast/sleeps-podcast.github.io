@@ -153,7 +153,7 @@ h4 {
 /*-- IMAGES --*/
 
 svg.illustrations {
-  width:28vw;
+  width:38vw;
   padding:0 3vw 3vw 0;
 }
 
@@ -168,7 +168,7 @@ svg.illustrations {
 /*-- BOXES --*/
 
 .box-episode, .box-outline {
-  height:350px;
+  height:320px;
   padding:8vw;
   border:0;
 }
