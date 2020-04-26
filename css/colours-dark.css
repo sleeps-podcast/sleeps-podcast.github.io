@@ -2,7 +2,7 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, svg.logo, .nav-buttons, hr {
+body, .nav-bar, #light-mode-button, svg.logo, .nav-buttons, hr {
   background: #332f3a ;}
 
 /*-- DARK COLOUR - TEXT --*/
@@ -24,7 +24,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
-.box-episode, .nav-buttons:hover, .box-outline hr, .footer {
+.box-episode, .nav-buttons:hover, .box-outline hr{
   background-color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BORDERS --*/
@@ -44,7 +44,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
   background-color: #ffa4c0 ;}
 
 /* ILLUSTRATIONS - STROKE */
-.logo-letters, .st1{
+.logo-letters, .st1, .spotify, .apple, .instagram{
   fill: #ffa4c0 ;}
 
 .box-outline a, .box-credits a, #light-mode-button {
@@ -59,19 +59,8 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
 /*-- DAY BUTTON --*/
 
 #light-mode-button {
-  font-weight:700;
-  text-align:center;
-  font-size:12px;
-  letter-spacing:.2pt;
-  background: transparent;
   border:2px solid #ffa4c0;
   background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_sun_icon.svg');
-  background-size:10px 10px;
-  background-repeat:no-repeat;
-  background-position:90% 50%;
-  border-radius:50px;
-  transition: .2s ease-in-out;
-  display:initial;
 }
 
 #light-mode-button:hover {

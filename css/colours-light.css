@@ -2,7 +2,7 @@
 
 /*-- DARK COLOUR - BACKGROUND --*/
 
-body, .nav-bar, svg.logo, .nav-buttons, hr {
+body, .nav-bar, #dark-mode-button, svg.logo, .nav-buttons, hr {
   background: #b3aac1 ;}
 
 /*-- DARK COLOUR - TEXT --*/
@@ -34,7 +34,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
 .nav-bar {
   border-color:#ffd5dd ;}
 
-.st1-share{fill:#ffd5dd;}
+.st1-share, .spotify, .apple, .instagram{fill:#ffd5dd;}
 
 /*---------------------------- BRIGHT ACCENT COLOUR ----------------------------*/
 
@@ -44,7 +44,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
   background-color: white ;}
 
 /* ILLUSTRATIONS - STROKE */
-.logo-letters, .st1{
+.logo-letters, .st1 {
   fill: white ;}
 
 .box-outline a, .box-credits a, .box-credits a:hover, .box-outline a:hover {
@@ -55,20 +55,9 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
 /*-- NIGHT BUTTON --*/
 
 #dark-mode-button {
-  font-weight:700;
-  text-align:center;
-  font-size:12px;
-  letter-spacing:.2pt;
-  background: transparent;
   color:#36333c;
   border:2px solid #36333c;
   background-image:url('https://sleeps-podcast.github.io/images/svg/sleeps_moon_icon.svg');
-  background-size:10px 10px;
-  background-repeat:no-repeat;
-  background-position:90% 50%;
-  border-radius:50px;
-  transition: .2s ease-in-out;
-  display:initial;
 }
 
 #dark-mode-button:hover {

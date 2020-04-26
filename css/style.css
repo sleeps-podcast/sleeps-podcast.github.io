@@ -50,24 +50,31 @@ svg.logo {
   text-align:right;
 }
 
+svg.listen-buttons {
+  height:30px;
+  margin:0 5px;
+  padding:0;
+  transition: .2s ease-in-out;
+}
+
+svg.listen-buttons:hover {
+}
+
 .nav-buttons {
   width:100px;
-  font-weight:700;
+  height:30px;
   text-align:center;
+  font-weight:700;
   font-size:12px;
-  padding:5px 0;
+  letter-spacing:.2pt;
   border-radius:50px;
   transition: .2s ease-in-out;
-  display:inline-block;
-  margin:0 0 0 1vw;
+  transform:translateY(-35%);
+  margin-left:5px;
 }
 
 .nav-buttons:hover {
   cursor: pointer;
-}
-
-form {
-  display:inline;
 }
 
 /*-- IMAGES --*/
