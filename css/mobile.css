@@ -21,7 +21,8 @@ h3 {
 }
 
 .box-outline h3 {
-  font-size:1.2vw;
+  font-size:1.4vw;
+  line-height:1.6vw;
 }
 
 .box-episode, .box-outline, .box-credits {
