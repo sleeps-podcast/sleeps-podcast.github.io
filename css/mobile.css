@@ -1,6 +1,6 @@
 /* ----------- MOBILE LAYOUT - 1 COLUMN ----------- */
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 480px) {
 
 .desktop-only {display:none;}
 .mobile-only {display:initial;}
@@ -69,7 +69,7 @@ h4 {
 /*-- IMAGES --*/
 
 svg.illustrations {
-  width:42vw;
+  width:45vw;
   padding:0 3vw 3vw 0;
 }
 
