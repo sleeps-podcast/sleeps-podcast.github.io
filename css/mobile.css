@@ -1,24 +1,12 @@
-/* ----------- MIDDLE LAYOUT ----------- */
 
-@media screen and (max-width: 1110px) {
+/* ----------- MIDDLE LAYOUT - 2 COLUMNS ----------- */
 
+@media screen and (max-width: 900px) {
 
-.box-mobile {
-  font-size:14px;
-  text-align:center;
-  padding:0 6vw 10vw;  
-  margin:0;
-  position:relative;
-  transition: .2s ease-in-out;
-}
-
-.box-mobile h4{
-  font-size:3vw;
-}
-
-.box-mobile h5 {
-  font-size:4vw;
-  margin:10px 0;
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
 }
 
 /*-- PAGE_HEADER --*/
@@ -30,31 +18,49 @@ h1 {
 /*-- EPISODE_TITLES --*/
 
 h2 {
-  font-size:2.2vw;
+  font-size:4vw;
 }
 
 /*-- AUTHOR_TITLES --*/
 
 h3 {
-  font-size:1.6vw;
+  font-size:2.5vw;
 }
 
-.box-outline {
-  border:0;
+/*-- UPPERCASE_TITLES --*/
+
+h4 {
+  font-size:1.3vw;
 }
+
+/*-- INTRO_BOX_TITLE --*/
 
 .box-outline h3 {
   font-size:1.4vw;
   line-height:1.6vw;
 }
 
-.box-episode, .box-outline, .box-credits {
-  height:400px;
+/*-- INTRO_BOX_TEXT --*/
+
+.box-outline h3 {
+  font-size:2vw;
+  line-height:2.5vw;
 }
 
-svg.illustrations {
-  width:18vw;
+/*-- BOXES --*/
+
+.box-episode, .box-outline, .box-credits {
+  height:400px;
+  padding:4vw;
 }
+
+/*-- ILLUSTRATIONS --*/
+
+svg.illustrations {
+  width:20vw;
+}
+
+/*-- SHARE_BUTTONS --*/
 
 svg.share-buttons {
   opacity:1;
@@ -65,29 +71,34 @@ svg.share-buttons {
 
 
 
-/* ----------- NARROW LAYOUT - 1 COLUMNS ----------- */
 
-@media screen and (max-width: 860px) {
+
+
+
+
+
+
+
+
+
+
+/* ----------- MOBILE LAYOUT - 1 COLUMN ----------- */
+
+@media screen and (max-width: 505px) {
 
 .desktop-only {display:none;}
 .mobile-only {display:initial;}
 
-svg.share-buttons {
-  width:8vw;
-}
-
-.box-outline h2 {
-  font-size:8vw;
-}
-
-.box-outline h3 {
-  font-size:20px;
+.column {
+  -ms-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
 }
 
 /*-- NAV_BAR --*/
 
 .nav-bar {
-  height:65px;
+  height:60px;
   position:fixed;
   top:0;
   background-color:#bf8776;
@@ -113,21 +124,6 @@ svg.logo-mobile {
   margin: 20vw auto 0;
 }
 
-/*-- BOXES --*/
-
-/*-- BOXES CONTAINER --*/
-
-.boxes-container {
-  border-spacing: 1.5vw;
-  margin:0 0 6vw;
-  padding:0 1.5vw;
-}
-
-.box-episode, .box-outline {
-  height:350px;
-  padding:8vw;
-}
-
 /*-- PAGE_HEADER --*/
 
 h1 {
@@ -136,20 +132,15 @@ h1 {
 
 /*-- EPISODE_TITLES --*/
 
-h2, .box-outline h2 {
-  font-size:5vw;
+h2 {
+  font-size:8vw;
 }
 
 /*-- AUTHOR_TITLES --*/
 
 h3 {
-  font-size:3vw;
+  font-size:5vw;
   padding:2vw 0;
-}
-
-.box-outline h3, .box-outline a {
-  font-size:16px;
-  line-height:1.3;
 }
 
 /*-- UPPERCASE_TITLES --*/
@@ -166,18 +157,49 @@ svg.illustrations {
   padding:0 3vw 3vw 0;
 }
 
-/*-- COLUMNS --*/
+/*-- BOXES CONTAINER --*/
 
-.column {
-  -ms-flex: 100%;
-  flex: 100%;
-  max-width: 100%;
+.boxes-container {
+  border-spacing: 1.5vw;
+  margin:0 0 6vw;
+  padding:0 1.5vw;
 }
 
-/*-- FOOTER --*/
+/*-- BOXES --*/
 
-.footer h4 {
-  font-size:2.2vw;
+.box-episode, .box-outline {
+  height:350px;
+  padding:8vw;
+  border:0;
+}
+
+/*-- MOBILE_ONLY_BOXES --*/
+
+.box-mobile {
+  font-size:14px;
+  text-align:center;
+  padding:0 6vw 10vw;  
+  margin:0;
+  position:relative;
+  transition: .2s ease-in-out;
+}
+
+/*-- INTRO_BOX_TEXT --*/
+
+.box-outline h3, .box-outline a {
+  font-size:16px;
+  line-height:1.3;
+}
+
+/*-- CREDITS_BOX_TEXT --*/
+
+.box-mobile h4{
+  font-size:3vw;
+}
+
+.box-mobile h5 {
+  font-size:4vw;
+  margin:10px 0;
 }
 
 /*-- REMOVE_HOVER_EFFECTS --*/
@@ -186,87 +208,10 @@ svg.illustrations {
   box-shadow: none;
 }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----------- MOBILE LAYOUT - 1 COLUMN ----------- */
-
-@media screen and (max-width: 500px) {
-
-/*-- BOXES CONTAINER --*/
-
-.boxes-container {
-  border-spacing: 1.5vw;
-  margin:0 0 6vw;
-  padding:0 4vw 0;
-}
-
-/*-- NAV_BAR --*/
-
-.nav-bar {
-  height:50px;
-}
-
-.nav-buttons {
-  padding:6px 0;
-}
-
-/*-- LOGO --*/
-
-svg.logo-mobile {
-  margin: 25vw auto 0;
-}
-
-/*-- BOXES --*/
-
-.box-episode, .box-outline {
-  height:330px;
-  padding:8vw;
-  margin:0 initial 5vw;
-}
-
-/*-- EPISODE_TITLES --*/
-
-h2 {
-  font-size:10vw;
-}
-
-/*-- AUTHOR_TITLES --*/
-
-h3 {
-  font-size:7vw;
-  padding:2vw 0;
-}
-
-/*-- UPPERCASE_TITLES --*/
-
-h4 {
-  font-size:12px;
-  margin:0;
-}
-
-/*-- IMAGES --*/
-
-svg.illustrations {
-  width:50vw;
-}
+/*-- SHARE_BUTTONS --*/
 
 svg.share-buttons {
-  width:15vw;
+  width:10vw;
 }
 
 }
