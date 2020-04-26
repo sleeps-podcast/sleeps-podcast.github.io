@@ -14,7 +14,7 @@ body, .nav-bar, #dark-mode-button, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits, .box-mobile {
   color: #ffd5dd ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
@@ -41,7 +41,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits {
 .logo-letters, .st1 {
   fill: white ;}
 
-.box-outline a, .box-credits a, .box-credits a:hover, .box-outline a:hover {
+.box-outline a, .box-credits a, .box-mobile a, .box-credits a:hover, .box-outline a:hover {
   color: white ;}
 
 /*------------------------- BUTTON IN DAY VERSION ONLY -------------------------*/
