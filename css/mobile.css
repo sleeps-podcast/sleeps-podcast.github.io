@@ -78,7 +78,7 @@ svg.illustrations {
 .boxes-container {
   border-spacing: 1.5vw;
   margin:0 0 6vw;
-  padding:0 1.5vw;
+  padding:0 0;
 }
 
 /*-- BOXES --*/
