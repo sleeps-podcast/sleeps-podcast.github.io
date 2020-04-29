@@ -97,6 +97,19 @@ h1 {
   text-align:center;
 }
 
+.ig-header {
+  color:white;
+  font-size:2vw;
+  font-weight:500;
+  padding:0 0 8vw;
+  margin:0;
+  text-align:center;
+}
+
+.ig-header a {
+  color:white;
+}
+
 /*-- EPISODE_TITLES --*/
 
 h2 {

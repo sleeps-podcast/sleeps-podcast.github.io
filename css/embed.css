@@ -1,0 +1,240 @@
+﻿@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap');
+@font-face{font-family:'fontawesome-5-juicer';src:url("https://static.juicer.io/fonts/fontawesome-5-juicer.eot?33583011");src:url("https://static.juicer.io/fonts/fontawesome-5-juicer.eot?33583011#iefix") format("embedded-opentype"),url("https://static.juicer.io/fonts/fontawesome-5-juicer.woff2?33583011") format("woff2"),url("https://static.juicer.io/fonts/fontawesome-5-juicer.woff?33583011") format("woff"),url("https://static.juicer.io/fonts/fontawesome-5-juicer.ttf?33583011") format("truetype"),url("https://static.juicer.io/fonts/fontawesome-5-juicer.svg?33583011#fontawesome-5-juicer") format("svg");font-weight:normal;font-style:normal}
+
+body {
+	background-color:#332f3a;
+}
+
+.ig-feed {
+	padding:4vw;
+}
+
+h1 {
+	text-align:center;
+	margin-bottom:8vw;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.j-sprite,.juicer-feed h1.referral a:after,.juicer-feed li.feed-item.j-twitter .j-retweet:before,.juicer-feed .j-meta .j-twitter-intents a,.j-gallery .j-image:after,.j-gallery-nav .j-gallery-arrow,.j-overlay .j-close{background-image:url(//assets.juicer.io/embed-retina-s1ef173355c-294ed2256c0ec9bb2a7d8c5130d53300d631c1a8f3f5cdc2b76ad5c4a22f9ee2.png)}
+}
+.j-loading-container{width:100%;position:absolute;z-index:99;height:100%;background:rgba(242,242,242,0.6);top:0}
+.j-loading-container .j-loading{position:fixed;left:58.5%}
+@media all and (max-width: 1000px){.j-loading-container .j-loading{left:50%}
+}
+.source-form .j-loading{margin:35px auto 0}
+.j-loading{-moz-animation:loader 2s infinite ease;-webkit-animation:loader 2s infinite ease;animation:loader 2s infinite ease;width:30px;height:30px;border:4px solid #0b6e27;margin:0 auto;font-size:0;color:transparent}
+.j-loading:before{-moz-animation:loader-inner 2s infinite ease-in;-webkit-animation:loader-inner 2s infinite ease-in;animation:loader-inner 2s infinite ease-in;vertical-align:top;display:inline-block;width:100%;background-color:#0b6e27;content:''}
+@-moz-keyframes loader{0%{transform:rotate(0deg)}
+25%{transform:rotate(180deg)}
+50%{transform:rotate(180deg)}
+75%{transform:rotate(360deg)}
+100%{transform:rotate(360deg)}
+}
+@-webkit-keyframes loader{0%{transform:rotate(0deg)}
+25%{transform:rotate(180deg)}
+50%{transform:rotate(180deg)}
+75%{transform:rotate(360deg)}
+100%{transform:rotate(360deg)}
+}
+@keyframes loader{0%{transform:rotate(0deg)}
+25%{transform:rotate(180deg)}
+50%{transform:rotate(180deg)}
+75%{transform:rotate(360deg)}
+100%{transform:rotate(360deg)}
+}
+@-moz-keyframes loader-inner{0%{height:0%}
+25%{height:0%}
+50%{height:100%}
+75%{height:100%}
+100%{height:0%}
+}
+@-webkit-keyframes loader-inner{0%{height:0%}
+25%{height:0%}
+50%{height:100%}
+75%{height:100%}
+100%{height:0%}
+}
+@keyframes loader-inner{0%{height:0%}
+25%{height:0%}
+50%{height:100%}
+75%{height:100%}
+100%{height:0%}
+}
+.juicer-feed{*
+	zoom:1;
+	-moz-transition:opacity 0.2s ease-in-out;
+	-o-transition:opacity 0.2s ease-in-out;
+	-webkit-transition:opacity 0.2s ease-in-out;
+	transition:opacity 0.2s ease-in-out;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	font-family:'DM Sans', 'Avenir', Helvetica Neue, sans-serif;
+	font-weight:500;
+	-webkit-overflow-scrolling:touch;
+	width:100%;
+	position:relative;
+	margin:0 auto !important;
+	overflow-y:auto;
+	overflow-x:hidden;
+	padding:0;
+}
+
+.juicer-feed:after{content:"";display:table;clear:both}
+.juicer-feed .j-stacker{display:table;table-layout:fixed;width:100%}
+.juicer-feed .j-stacker>*{display:table-cell !important;vertical-align:top;float:none !important}
+.juicer-feed *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.juicer-feed.loaded{visibility:visible;opacity:1}
+.juicer-feed .j-loading-wrapper,.juicer-feed .j-paginate{margin:50px auto}
+.juicer-feed .j-paginate{-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;display:inline-block;border:2px solid #0b6e27;font-size:12px;font-weight:bold;letter-spacing:0.5px;color:#0b6e27;text-align:center;padding:12px 0 10px;cursor:pointer;background-color:transparent;width:150px;display:block;text-transform:uppercase}
+.juicer-feed .j-paginate:hover{background:#0b6e27;color:#F2F2F2}
+.juicer-feed a{text-decoration:none !important;border-bottom:none}
+.juicer-feed h1.referral{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:15px;font-weight:bold;margin:0 auto 30px;text-align:center;display:block;white-space:nowrap}
+.juicer-feed h1.referral a{color:#f05a4b;display:inline-block}
+.juicer-feed h1.referral a:after{height:25px;width:14px;background-position:100% -168px;content:'';display:inline-block;vertical-align:middle;margin-left:10px;position:relative;top:-1px}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.juicer-feed h1.referral a:after{background-position:100% -336px;-moz-background-size:18px auto;-o-background-size:18px auto;-webkit-background-size:18px auto;background-size:18px auto;background-position:100% -168px}
+}
+.juicer-feed .emoji{width:1.5em !important;height:1.5em !important;margin-bottom:0 !important;margin-bottom:-0.25em !important;display:inline-block}
+.juicer-feed.photos-only li.words{display:none}
+.juicer-feed.white li.feed-item,.juicer-feed.user li.feed-item,.juicer-feed.image-grid li.feed-item,.juicer-feed.hip li.feed-item,.juicer-feed.gray li.feed-item,.juicer-feed.modern li.feed-item,.juicer-feed.polaroid li.feed-item{opacity:0}
+.juicer-feed li.feed-item.juicer-ad>a>img{background-color:white}
+.juicer-feed.hover-images .feed-item.j-twitter .j-retweet:before{height:13px;width:18px;background-position:0 -636px}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.juicer-feed.hover-images .feed-item.j-twitter .j-retweet:before{background-position:0 -1272px;-moz-background-size:18px auto;-o-background-size:18px auto;-webkit-background-size:18px auto;background-size:18px auto;background-position:0 -636px}
+}
+.juicer-feed.white li.feed-item,.juicer-feed.user li.feed-item,.juicer-feed.juicer-widget li.feed-item,.juicer-feed.colors li.feed-item,.juicer-feed.gray li.feed-item,.juicer-feed.modern li.feed-item,.juicer-feed.polaroid li.feed-item{
+	padding:10px;background:white;color:#3A3A3A;margin-bottom:5%;border-color:#e5e5e5;border-style:solid;border-width:0;white-space:normal;float:none;overflow-wrap:break-word;word-wrap:break-word;word-break:break-word;-ms-hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;hyphens:auto}
+.juicer-feed.white li.feed-item.juicer,.juicer-feed.user li.feed-item.juicer,.juicer-feed.juicer-widget li.feed-item.juicer,.juicer-feed.colors li.feed-item.juicer,.juicer-feed.gray li.feed-item.juicer,.juicer-feed.modern li.feed-item.juicer,.juicer-feed.polaroid li.feed-item.juicer{background:#0b6e27;color:white}
+.juicer-feed.white li.feed-item.juicer a,.juicer-feed.user li.feed-item.juicer a,.juicer-feed.juicer-widget li.feed-item.juicer a,.juicer-feed.colors li.feed-item.juicer a,.juicer-feed.gray li.feed-item.juicer a,.juicer-feed.modern li.feed-item.juicer a,.juicer-feed.polaroid li.feed-item.juicer a{color:white;text-decoration:underline !important}
+.juicer-feed.white li.feed-item.juicer a:hover,.juicer-feed.user li.feed-item.juicer a:hover,.juicer-feed.juicer-widget li.feed-item.juicer a:hover,.juicer-feed.colors li.feed-item.juicer a:hover,.juicer-feed.gray li.feed-item.juicer a:hover,.juicer-feed.modern li.feed-item.juicer a:hover,.juicer-feed.polaroid li.feed-item.juicer a:hover{color:white}
+.juicer-feed.white li.feed-item .j-message a,.juicer-feed.white li.feed-item .j-edit a,.juicer-feed.user li.feed-item .j-message a,.juicer-feed.user li.feed-item .j-edit a,.juicer-feed.juicer-widget li.feed-item .j-message a,.juicer-feed.juicer-widget li.feed-item .j-edit a,.juicer-feed.colors li.feed-item .j-message a,.juicer-feed.colors li.feed-item .j-edit a,.juicer-feed.gray li.feed-item .j-message a,.juicer-feed.gray li.feed-item .j-edit a,.juicer-feed.modern li.feed-item .j-message a,.juicer-feed.modern li.feed-item .j-edit a,.juicer-feed.polaroid li.feed-item .j-message a,.juicer-feed.polaroid li.feed-item .j-edit a{font-weight:bold}
+.juicer-feed.white img,.juicer-feed.white .video-wrapper,.juicer-feed.white .vine-wrapper,.juicer-feed.white .instagram-wrapper,.juicer-feed.white .twitter-wrapper,.juicer-feed.user img,.juicer-feed.user .video-wrapper,.juicer-feed.user .vine-wrapper,.juicer-feed.user .instagram-wrapper,.juicer-feed.user .twitter-wrapper,.juicer-feed.juicer-widget img,.juicer-feed.juicer-widget .video-wrapper,.juicer-feed.juicer-widget .vine-wrapper,.juicer-feed.juicer-widget .instagram-wrapper,.juicer-feed.juicer-widget .twitter-wrapper,.juicer-feed.colors img,.juicer-feed.colors .video-wrapper,.juicer-feed.colors .vine-wrapper,.juicer-feed.colors .instagram-wrapper,.juicer-feed.colors .twitter-wrapper,.juicer-feed.gray img,.juicer-feed.gray .video-wrapper,.juicer-feed.gray .vine-wrapper,.juicer-feed.gray .instagram-wrapper,.juicer-feed.gray .twitter-wrapper,.juicer-feed.modern img,.juicer-feed.modern .video-wrapper,.juicer-feed.modern .vine-wrapper,.juicer-feed.modern .instagram-wrapper,.juicer-feed.modern .twitter-wrapper,.juicer-feed.polaroid img,.juicer-feed.polaroid .video-wrapper,.juicer-feed.polaroid .vine-wrapper,.juicer-feed.polaroid .instagram-wrapper,.juicer-feed.polaroid .twitter-wrapper{width:100%;margin-bottom:10px}
+.juicer-feed.white img iframe,.juicer-feed.white img video,.juicer-feed.white img embed,.juicer-feed.white .video-wrapper iframe,.juicer-feed.white .video-wrapper video,.juicer-feed.white .video-wrapper embed,.juicer-feed.white .vine-wrapper iframe,.juicer-feed.white .vine-wrapper video,.juicer-feed.white .vine-wrapper embed,.juicer-feed.white .instagram-wrapper iframe,.juicer-feed.white .instagram-wrapper video,.juicer-feed.white .instagram-wrapper embed,.juicer-feed.white .twitter-wrapper iframe,.juicer-feed.white .twitter-wrapper video,.juicer-feed.white .twitter-wrapper embed,.juicer-feed.user img iframe,.juicer-feed.user img video,.juicer-feed.user img embed,.juicer-feed.user .video-wrapper iframe,.juicer-feed.user .video-wrapper video,.juicer-feed.user .video-wrapper embed,.juicer-feed.user .vine-wrapper iframe,.juicer-feed.user .vine-wrapper video,.juicer-feed.user .vine-wrapper embed,.juicer-feed.user .instagram-wrapper iframe,.juicer-feed.user .instagram-wrapper video,.juicer-feed.user .instagram-wrapper embed,.juicer-feed.user .twitter-wrapper iframe,.juicer-feed.user .twitter-wrapper video,.juicer-feed.user .twitter-wrapper embed,.juicer-feed.juicer-widget img iframe,.juicer-feed.juicer-widget img video,.juicer-feed.juicer-widget img embed,.juicer-feed.juicer-widget .video-wrapper iframe,.juicer-feed.juicer-widget .video-wrapper video,.juicer-feed.juicer-widget .video-wrapper embed,.juicer-feed.juicer-widget .vine-wrapper iframe,.juicer-feed.juicer-widget .vine-wrapper video,.juicer-feed.juicer-widget .vine-wrapper embed,.juicer-feed.juicer-widget .instagram-wrapper iframe,.juicer-feed.juicer-widget .instagram-wrapper video,.juicer-feed.juicer-widget .instagram-wrapper embed,.juicer-feed.juicer-widget .twitter-wrapper iframe,.juicer-feed.juicer-widget .twitter-wrapper video,.juicer-feed.juicer-widget .twitter-wrapper embed,.juicer-feed.colors img iframe,.juicer-feed.colors img video,.juicer-feed.colors img embed,.juicer-feed.colors .video-wrapper iframe,.juicer-feed.colors .video-wrapper video,.juicer-feed.colors .video-wrapper embed,.juicer-feed.colors .vine-wrapper iframe,.juicer-feed.colors .vine-wrapper video,.juicer-feed.colors .vine-wrapper embed,.juicer-feed.colors .instagram-wrapper iframe,.juicer-feed.colors .instagram-wrapper video,.juicer-feed.colors .instagram-wrapper embed,.juicer-feed.colors .twitter-wrapper iframe,.juicer-feed.colors .twitter-wrapper video,.juicer-feed.colors .twitter-wrapper embed,.juicer-feed.gray img iframe,.juicer-feed.gray img video,.juicer-feed.gray img embed,.juicer-feed.gray .video-wrapper iframe,.juicer-feed.gray .video-wrapper video,.juicer-feed.gray .video-wrapper embed,.juicer-feed.gray .vine-wrapper iframe,.juicer-feed.gray .vine-wrapper video,.juicer-feed.gray .vine-wrapper embed,.juicer-feed.gray .instagram-wrapper iframe,.juicer-feed.gray .instagram-wrapper video,.juicer-feed.gray .instagram-wrapper embed,.juicer-feed.gray .twitter-wrapper iframe,.juicer-feed.gray .twitter-wrapper video,.juicer-feed.gray .twitter-wrapper embed,.juicer-feed.modern img iframe,.juicer-feed.modern img video,.juicer-feed.modern img embed,.juicer-feed.modern .video-wrapper iframe,.juicer-feed.modern .video-wrapper video,.juicer-feed.modern .video-wrapper embed,.juicer-feed.modern .vine-wrapper iframe,.juicer-feed.modern .vine-wrapper video,.juicer-feed.modern .vine-wrapper embed,.juicer-feed.modern .instagram-wrapper iframe,.juicer-feed.modern .instagram-wrapper video,.juicer-feed.modern .instagram-wrapper embed,.juicer-feed.modern .twitter-wrapper iframe,.juicer-feed.modern .twitter-wrapper video,.juicer-feed.modern .twitter-wrapper embed,.juicer-feed.polaroid img iframe,.juicer-feed.polaroid img video,.juicer-feed.polaroid img embed,.juicer-feed.polaroid .video-wrapper iframe,.juicer-feed.polaroid .video-wrapper video,.juicer-feed.polaroid .video-wrapper embed,.juicer-feed.polaroid .vine-wrapper iframe,.juicer-feed.polaroid .vine-wrapper video,.juicer-feed.polaroid .vine-wrapper embed,.juicer-feed.polaroid .instagram-wrapper iframe,.juicer-feed.polaroid .instagram-wrapper video,.juicer-feed.polaroid .instagram-wrapper embed,.juicer-feed.polaroid .twitter-wrapper iframe,.juicer-feed.polaroid .twitter-wrapper video,.juicer-feed.polaroid .twitter-wrapper embed{height:100% !important}
+.juicer-feed.white .j-meta ul,.juicer-feed.user .j-meta ul,.juicer-feed.juicer-widget .j-meta ul,.juicer-feed.colors .j-meta ul,.juicer-feed.gray .j-meta ul,.juicer-feed.modern .j-meta ul,.juicer-feed.polaroid .j-meta ul{margin:0;padding:0}
+.juicer-feed.colors .j-meta a.j-social.j-instagram,.juicer-feed.colored-icons .j-meta a.j-social.j-instagram{color:#3F729B}
+.juicer-feed li.feed-item{position:relative;width:100%;text-align:left;margin:0;list-style-type:none;display:block}
+.juicer-feed li.feed-item:before{content:''}
+.juicer-feed li.feed-item:hover ul.actions{visibility:visible;opacity:1}
+.juicer-feed li.feed-item.j-video a.j-image{position:relative;display:block}
+.juicer-feed li.feed-item.j-video a.j-image:before{font-size:2.5rem;font-family:'fontawesome-5-juicer';-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);text-shadow:0px 0px 4px #999;content:'\f04b';color:white;position:absolute;left:50%;top:50%;z-index:3}
+.juicer-feed li.feed-item.j-video a.j-image.playing:before{opacity:0;content:'\f04c'}
+.juicer-feed li.feed-item.j-video a.j-image.playing:hover:before{opacity:1}
+@media all and (max-width: 500px){.juicer-feed li.feed-item.j-video a.j-image.playing:before{display:none}
+}
+.juicer-feed li.feed-item.j-twitter .j-poster img{-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;border-color:white;margin:0 11px 0 0;height:30px}
+.juicer-feed ul.actions{visibility:hidden;opacity:0;position:absolute;top:0;right:0;font-weight:bold;z-index:4}
+.juicer-feed ul.actions li{padding:10px 15px;cursor:pointer;background:rgba(119,124,133,0.7);color:white;display:inline-block;margin-left:1px;font-size:12px}
+.juicer-feed ul.actions li:hover{background:#777c85}
+.juicer-feed ul.actions li.primary{background:rgba(245,122,116,0.7)}
+.juicer-feed ul.actions li.primary:hover{background:#f57a74}
+.juicer-feed .empty{padding:150px 0;text-align:center}
+.juicer-feed .empty h2{font-size:1.5rem;font-weight:bold}
+.juicer-feed .empty a{color:#0b6e27;text-decoration:underline !important}
+.juicer-feed .empty a:hover{color:#095e21}
+.juicer-feed .empty a.j-button{color:#fff;text-decoration:none !important}
+.juicer-feed a{-moz-transition:color 0.2s ease-in-out;-o-transition:color 0.2s ease-in-out;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out;color:#3A3A3A}
+.juicer-feed a:hover{color:#0b6e27}
+.juicer-feed hr{display:none}
+.juicer-feed .j-title{font-weight:bold}
+.juicer-feed.j-mobile li.feed-item.j-video a.j-image.playing:before{display:none}
+@media all and (max-width: 500px){.juicer-feed ul.j-filters li{width:33.333%}
+}
+.juicer-feed .j-meta{margin-top:25px}
+.juicer-feed .j-meta a{color:#bababa}
+.juicer-feed .j-meta a:hover{color:#353535}
+.juicer-feed .j-meta a.j-social:hover{color:#bababa}
+.juicer-feed .j-meta ul{display:inline-block;width:auto !important;padding:0;margin:0;font-size:1em;line-height:1em;float:none}
+.juicer-feed .j-meta li{display:inline-block;margin:0 10px 0 0;padding:0;background-image:none;border:none;font-size:1em;font-weight:normal;height:auto;width:auto}
+.juicer-feed .j-meta li:last-of-type{margin-right:0}
+.juicer-feed .j-meta nav,.juicer-feed .j-meta .j-twitter-date{display:inline-block;float:right}
+.juicer-feed .j-meta nav{border:none;background:transparent;position:relative;width:auto;height:auto}
+.juicer-feed .j-meta .j-twitter-date{font-weight:bold;color:#bababa;font-size:12px;position:relative;top:2px}
+.juicer-feed .j-meta a{background:transparent;width:auto;height:auto;float:none}
+.juicer-feed .j-meta a span{display:none}
+
+.juicer-feed .j-meta a:before{margin-right:5px}
+.juicer-feed .j-meta a.comments:before{content:'\f086';font-family:'fontawesome-5-juicer'}
+.juicer-feed .j-meta a.likes:before{content:'\f164';font-family:'fontawesome-5-juicer'}
+.juicer-feed .j-meta a.retweets:before{content:'\f079';font-family:'fontawesome-5-juicer'}
+.juicer-feed .j-meta a.repins:before{content:'\f08d';font-family:'fontawesome-5-juicer'}
+.juicer-feed .j-meta a.views:before{content:'\f06e';font-family:'fontawesome-5-juicer'}
+.juicer-feed .j-meta a.heart:before{content:'\f004';font-family:'fontawesome-5-juicer'}
+.juicer-feed .video-wrapper,.juicer-feed .vine-wrapper,.juicer-feed .instagram-wrapper,.juicer-feed .twitter-wrapper{position:relative}
+.juicer-feed .video-wrapper iframe,.juicer-feed .video-wrapper video,.juicer-feed .video-wrapper embed,.juicer-feed .vine-wrapper iframe,.juicer-feed .vine-wrapper video,.juicer-feed .vine-wrapper embed,.juicer-feed .instagram-wrapper iframe,.juicer-feed .instagram-wrapper video,.juicer-feed .instagram-wrapper embed,.juicer-feed .twitter-wrapper iframe,.juicer-feed .twitter-wrapper video,.juicer-feed .twitter-wrapper embed{position:absolute;top:0;left:0;width:100%;height:100%;background:#000}
+.juicer-feed .video-wrapper{padding-bottom:56.25%}
+.juicer-feed .vine-wrapper,.juicer-feed .instagram-wrapper,.juicer-feed .twitter-wrapper{padding-bottom:100%}
+.juicer-feed video::-internal-media-controls-download-button{display:none}
+.juicer-feed video::-webkit-media-controls-enclosure{overflow:hidden}
+.juicer-feed video::-webkit-media-controls-panel{width:calc(100% + 30px)}
+.juicer-feed.juicer-widget.j-modern{overflow:visible;max-height:100% !important}
+.juicer-feed.juicer-widget.j-modern .flip-container{-moz-perspective:1000;-webkit-perspective:1000;perspective:1000}
+.juicer-feed.juicer-widget.j-modern .flip-container.flip .flipper{-moz-transform:rotateY(180deg);-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+.juicer-feed.juicer-widget.j-modern .flipper{*zoom:1;-moz-transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;transition:0.6s;position:relative}
+.juicer-feed.juicer-widget.j-modern .flipper:after{content:"\0020";display:block;height:0;clear:both;overflow:hidden;visibility:hidden}
+.juicer-feed.juicer-widget.j-modern .front,.juicer-feed.juicer-widget.j-modern .back{-moz-backface-visibility:hidden;-webkit-backface-visibility:hidden;backface-visibility:hidden;overflow:hidden}
+.juicer-feed.juicer-widget.j-modern .front{-moz-transform:rotateY(0deg);-webkit-transform:rotateY(0deg);transform:rotateY(0deg);position:relative;z-index:2}
+.juicer-feed.juicer-widget.j-modern .back{-moz-transform:rotateY(180deg);-webkit-transform:rotateY(180deg);transform:rotateY(180deg);position:absolute;left:0;top:0}
+.juicer-feed.juicer-widget.j-modern .flip .front{position:absolute;top:0;left:0}
+.juicer-feed.juicer-widget.j-modern .flip .back{position:relative}
+.juicer-feed.gray li.feed-item{background:#C6C8CA;color:#464648}
+.juicer-feed.gray a{color:#55C1BD}
+.juicer-feed.gray .j-meta a{color:#464648}
+.juicer-feed.gray .j-meta a:hover{color:#55C1BD}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.juicer-feed.image-grid li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-reply,.juicer-feed.slider li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-reply,.juicer-feed.hip li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-reply{background-position:0 -888px;-moz-background-size:18px auto;-o-background-size:18px auto;-webkit-background-size:18px auto;background-size:18px auto;background-position:0 -444px}
+}
+.juicer-feed.image-grid li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-retweet,.juicer-feed.slider li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-retweet,.juicer-feed.hip li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-retweet{height:13px;width:18px;background-position:0 -636px}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.juicer-feed.image-grid li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-retweet,.juicer-feed.slider li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-retweet,.juicer-feed.hip li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-retweet{background-position:0 -1272px;-moz-background-size:18px auto;-o-background-size:18px auto;-webkit-background-size:18px auto;background-size:18px auto;background-position:0 -636px}
+}
+.juicer-feed.image-grid li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-like,.juicer-feed.slider li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-like,.juicer-feed.hip li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-like{height:13px;width:15px;background-position:0 -312px}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.juicer-feed.image-grid li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-like,.juicer-feed.slider li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-like,.juicer-feed.hip li.feed-item.j-twitter .j-meta .j-twitter-intents a.j-twitter-like{background-position:0 -624px;-moz-background-size:18px auto;-o-background-size:18px auto;-webkit-background-size:18px auto;background-size:18px auto;background-position:0 -312px}
+}
+
+@media all and (max-width: 500px){.juicer-feed.classic li.feed-item img{position:relative;top:6px}
+}
+
+.juicer-feed.modern li.feed-item{
+	padding:0}
+.juicer-feed.modern li.feed-item.words .j-message{
+	font-size:18px;line-height:30px;padding-bottom:10px}
+
+.juicer-feed.modern li.feed-item.j-twitter .j-image{
+	margin:20px -20px 0 -20px;display:block}
+.juicer-feed.modern .j-poster{
+	padding:14px 10px 12px;height:auto;margin:0;height:56px}
+.juicer-feed.modern .j-poster img,.juicer-feed.modern .j-poster h3{
+	margin-bottom:0}
+.juicer-feed.modern .j-poster img{
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	border-color:white;
+	margin:0 11px 0 0;height:30px}
+.juicer-feed.modern .j-poster h3{
+	margin:6px 0 0 0}
+.juicer-feed.modern .j-poster h3,.juicer-feed.modern .j-poster .j-date{
+	font-size:12px}
+.juicer-feed.modern .j-poster .j-date{
+	margin-top:7px}
+.juicer-feed.modern .j-image img{
+	margin-bottom:0}
+
+/*TEXT*/
+
+.juicer-feed.modern .j-text{
+	font-size:12px;padding:15px 15px 20px 20px}
+
+.juicer-feed.modern .j-message{
+	color:#6e6878;line-height:15px}
+
+.j-poster{overflow:hidden;*zoom:1;margin:0 0 10px 0;height:30px}
+.j-poster img{float:left;width:30px !important;margin:0 7px 0 0;padding:0}
+.j-poster a{color:#3A3A3A}
+.j-poster a:hover{color:#0b6e27}
+.j-poster h3,.j-poster .twitter-poster{float:left;margin:4px 0 0 0;padding:0;font-size:14px;font-weight:bold;max-width:67%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;clear:none;color:#3A3A3A;line-height:20px}
+.j-poster .j-date{float:right;font-size:14px;margin-top:4px;color:#a0a0a0}
+.j-poster .j-twitter-poster{float:left;font-size:12px;line-height:1.3;margin:1px 0 0 0;text-align:left}
+.j-poster .j-twitter-poster .j-twitter-display-name{font-weight:bold}
+.j-poster .j-twitter-post-icon{float:right;line-height:1;font-size:0}
+.j-poster .j-twitter-post-icon:before{font-family:'fontawesome-5-juicer';font-size:30px}
+.j-gallery .j-image{position:relative;display:block}
+.j-gallery .j-image:after{height:14px;width:14px;background-position:0 -134px;-webkit-filter:drop-shadow(0px 0px 3px #a9a9a9);filter:drop-shadow(0px 0px 3px #a9a9a9);content:'';position:absolute;top:10px;right:10px}

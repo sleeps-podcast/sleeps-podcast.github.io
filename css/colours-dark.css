@@ -14,7 +14,7 @@ body, .nav-bar, #light-mode-button, svg.logo, .nav-buttons, hr {
 /*------------------------------- LIGHT COLOUR -------------------------------*/
 
 /*-- LIGHT COLOUR - TEXT --*/
-h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits, .box-mobile {
+h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits, .box-mobile, .ig-header {
   color: #6e6878 ;}
 
 /*-- LIGHT COLOUR - BACKGROUNDS --*/
@@ -41,7 +41,7 @@ h1, .nav-bar, .nav-buttons, .listen a, .box-outline, .box-credits, .box-mobile {
 .logo-letters, .st1 {
   fill: #ffa4c0 ;}
 
-.box-outline a, .box-credits a, .box-mobile a, #light-mode-button {
+.box-outline a, .box-credits a, .box-mobile a, #light-mode-button, .ig-header a {
   color: #ffa4c0 ;}
 
 .box-outline a:hover, .box-credits a:hover {
